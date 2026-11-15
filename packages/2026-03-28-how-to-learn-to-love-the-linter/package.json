@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "slidev2pptx src/slides.md --output lib/2026-03-28-how-to-learn-to-love-the-linter.pptx",
-		"dev": "slidev src/slides.md"
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2026-03-28-how-to-learn-to-love-the-linter.pptx",
+		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

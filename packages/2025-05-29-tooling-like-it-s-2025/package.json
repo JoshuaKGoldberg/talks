@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "slidev2pptx src/slides.md --output lib/2025-05-29-tooling-like-it-s-2025.pptx",
-		"dev": "slidev src/slides.md"
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2025-05-29-tooling-like-it-s-2025.pptx",
+		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

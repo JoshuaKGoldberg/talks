@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "slidev2pptx src/slides.md --output lib/2023-10-13-building-a-design-system-mid-flight.pptx",
-		"dev": "slidev src/slides.md"
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2023-10-13-building-a-design-system-mid-flight.pptx",
+		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "slidev2pptx src/slides.md --output lib/2023-12-08-type-system-react.pptx",
-		"dev": "slidev src/slides.md"
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2023-12-08-type-system-react.pptx",
+		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

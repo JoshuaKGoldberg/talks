@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "slidev2pptx src/slides.md --output lib/2024-04-09-understanding-typescript-fixing-the-billion-dollar-mistake-and-other-concepts.pptx",
-		"dev": "slidev src/slides.md"
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2024-04-09-understanding-typescript-fixing-the-billion-dollar-mistake-and-other-concepts.pptx",
+		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

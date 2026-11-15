@@ -41,6 +41,13 @@ pnpm --filter 2026-05-21-what-s-new-in-typescript-6-0 build
 pnpm --filter 2026-05-21-what-s-new-in-typescript-6-0 dev
 ```
 
+### Fonts
+
+Each talk's `src/style.css` declares the fonts its slides use.
+Only openly licensed fonts are committed in its `src/fonts/`; the rest, like Microsoft's, can't be redistributed.
+Each talk's `build` and `dev` scripts first run [`scripts/fonts.ts`](../scripts/fonts.ts), which copies those fonts in from wherever they're installed on your machine, including inside Microsoft PowerPoint.
+Fonts it can't find are listed, and the deck draws with fallbacks for them.
+
 ## Formatting
 
 [Prettier](https://prettier.io) is used to format code.
