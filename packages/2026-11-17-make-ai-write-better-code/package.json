@@ -1,0 +1,25 @@
+{
+	"name": "2026-11-17-make-ai-write-better-code",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Make AI Write Better Code\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2026-11-17-make-ai-write-better-code"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2026-11-17-make-ai-write-better-code.pptx",
+		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
+	},
+	"devDependencies": {
+		"@fontsource-variable/league-spartan": "5.3.0",
+		"shiki": "4.6.0"
+	}
+}

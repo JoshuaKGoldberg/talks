@@ -2,7 +2,7 @@
 
 Slides for From Takedown to TypeScript, a talk given at:
 
-- [CascadiaJS 2021](https://2021.cascadiajs.com/speakers/josh-goldberg): November 3, 2021 ([video](https://www.youtube.com/watch?v=UhUFW-sYJwk))
+- CascadiaJS 2021: November 3, 2021 ([video](https://www.youtube.com/watch?v=UhUFW-sYJwk))
 
 ## Usage
 

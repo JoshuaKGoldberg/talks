@@ -2,7 +2,7 @@
 
 Slides for Accessible Accessibility, a talk given at:
 
-- [DeveloperWeek 2022](https://hopin.com/events/developerweek-2022): February 7, 2022
+- DeveloperWeek 2022: February 7, 2022
 
 ## Usage
 

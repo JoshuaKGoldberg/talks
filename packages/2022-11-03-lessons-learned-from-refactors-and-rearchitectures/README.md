@@ -2,7 +2,7 @@
 
 Slides for Lessons Learned from Refactors and Rearchitectures, a talk given at:
 
-- [LeadDev Berlin 2022](https://leaddev.com/leaddev-berlin/agenda), Berlin, Germany: November 3, 2022 ([video](https://leaddev.com/leaddev-berlin/videos))
+- [LeadDev Berlin 2022](https://leaddev.com/leaddev-berlin/agenda), Berlin, Germany: November 3, 2022
 
 ## Usage
 

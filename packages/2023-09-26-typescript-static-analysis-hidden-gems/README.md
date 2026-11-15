@@ -2,7 +2,7 @@
 
 Slides for TypeScript Static Analysis Hidden Gems, a talk given at:
 
-- [JSDay IE 2023](https://www.jsday.ie), Dublin, Ireland: September 26, 2023 ([video](https://www.youtube.com/watch?v=qxAwVwgEmZU))
+- JSDay IE 2023, Dublin, Ireland: September 26, 2023 ([video](https://www.youtube.com/watch?v=qxAwVwgEmZU))
 
 ## Usage
 

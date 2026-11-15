@@ -257,6 +257,15 @@ importers:
 
   packages/2026-05-21-what-s-new-in-typescript-6-0: {}
 
+  packages/2026-11-17-make-ai-write-better-code:
+    devDependencies:
+      '@fontsource-variable/league-spartan':
+        specifier: 5.3.0
+        version: 5.3.0
+      shiki:
+        specifier: 4.6.0
+        version: 4.6.0
+
 packages:
 
   '@altano/repository-tools@2.1.3':
@@ -797,6 +806,9 @@ packages:
 
   '@floating-ui/utils@0.2.12':
     resolution: {integrity: sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==}
+
+  '@fontsource-variable/league-spartan@5.3.0':
+    resolution: {integrity: sha512-dn7OVujDOZ6//Bs0TEhi7QTZvwOJ8YNdNfviT29AC219TKaimMpWtyMGTCdN7IB3ho6HxQj7VEbolHah2tER3g==}
 
   '@hono/node-server@2.1.8':
     resolution: {integrity: sha512-jdf7FHh6A1lzjpHHQUgxsg2GeER2vMetnAOfeActzcoli6jamlK+NAwL6Dsr5Fl3BS3tYUQzCdtZjU8Qxv7bEA==}
@@ -5460,6 +5472,8 @@ snapshots:
       '@floating-ui/utils': 0.2.12
 
   '@floating-ui/utils@0.2.12': {}
+
+  '@fontsource-variable/league-spartan@5.3.0': {}
 
   '@hono/node-server@2.1.8(hono@4.13.18)':
     dependencies:

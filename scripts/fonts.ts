@@ -21,10 +21,10 @@ const SOURCES = [
 ];
 
 const fonts = path.resolve(process.argv[2] ?? ".", "src/fonts");
-const styles = await fs.readFile(
-	path.join(path.dirname(fonts), "style.css"),
-	"utf8",
-);
+// Decks written in Slidev, rather than converted, may load their fonts some other way.
+const styles = await fs
+	.readFile(path.join(path.dirname(fonts), "style.css"), "utf8")
+	.catch(() => "");
 const wanted = [
 	...new Set(
 		[...styles.matchAll(/url\("\.\/fonts\/([^"]+)"\)/g)].map(
@@ -33,7 +33,10 @@ const wanted = [
 	),
 ];
 
-await fs.mkdir(fonts, { recursive: true });
+if (wanted.length) {
+	await fs.mkdir(fonts, { recursive: true });
+}
+
 const missing: string[] = [];
 for (const name of wanted) {
 	const target = path.join(fonts, name);

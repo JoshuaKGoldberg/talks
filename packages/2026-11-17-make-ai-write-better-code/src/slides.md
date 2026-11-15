@@ -1,0 +1,3118 @@
+---
+theme: none
+title: Make AI Write Better Code
+info: Josh Goldberg's talk at React Summit US 2026 on guardrailing AI coding agents with skills, static analysis, tests, and review.
+author: Josh Goldberg
+colorSchema: dark
+transition: fade
+highlighter: shiki
+lineNumbers: false
+twoslash: true
+contextMenu: dev
+download: false
+drawings:
+  persist: false
+  presenterOnly: true
+fonts:
+  sans: League Spartan Variable
+  mono: ui-monospace
+  provider: none
+layout: cover
+---
+
+# Make AI Write Better Code
+
+<div class="cover-footer">
+  <img alt="QR code linking to hi.joshuakgoldberg.com" src="/images/qr-hi-joshuakgoldberg.png" />
+  <div>
+    <div class="cover-name">Josh Goldberg</div>
+    <div class="cover-handle">@ JoshuaKGoldberg .com</div>
+  </div>
+  <img alt="QR code linking to hi.joshuakgoldberg.com" src="/images/qr-hi-joshuakgoldberg.png" />
+</div>
+
+<style>
+.cover-footer {
+  align-items: end;
+  bottom: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  left: 4rem;
+  position: absolute;
+  right: 4rem;
+}
+
+.cover-footer img {
+  width: 8.5rem;
+}
+
+.cover-name {
+  color: var(--jg-fg-strong);
+  font-size: var(--jg-size-large);
+  font-weight: var(--jg-weight-bold);
+}
+
+.cover-handle {
+  color: var(--jg-link);
+  font-size: var(--jg-size-medium);
+  font-weight: var(--jg-weight-medium);
+  margin-top: 0.75rem;
+}
+</style>
+
+<!--
+Hi everyone, last talk of the day! We feeling good?
+
+Thanks to Ken for that talk. He's right: you can build anything now. This talk is about how to build it *well*.
+-->
+
+---
+layout: default
+---
+
+<div class="intro">
+  <div>
+    <h1>👋</h1>
+    <h2>Frontend @ Sentry</h2>
+    <div class="projects-area">
+      <ul class="projects">
+        <li><img alt="" src="/images/bingo.png" />Bingo</li>
+        <li><img alt="" src="/images/create-typescript-app.png" />create-typescript-app</li>
+        <li><img alt="" src="/images/emoji-blast.png" />emoji-blast</li>
+        <li><img alt="" src="/images/eslint.png" />ESLint</li>
+        <li><img alt="" src="/images/mocha.png" />Mocha</li>
+        <li><img alt="" src="/images/octoguide.png" />OctoGuide</li>
+        <li><img alt="" src="/images/typescript-eslint.png" />typescript-eslint</li>
+      </ul>
+      <div class="intro-cats" v-click="3">
+        <img alt="A tuxedo cat in a Halloween bow tie, perched on a dresser" src="/images/cat-bow-tie.jpg" />
+        <img alt="A black cat sitting on a table, sticking out its tongue" src="/images/cat-tongue.jpg" />
+      </div>
+    </div>
+  </div>
+  <div class="intro-images">
+    <img alt="Josh Goldberg" class="intro-photo" src="/images/josh.png" />
+    <img alt="Learning TypeScript book cover" class="intro-book" src="/images/learning-typescript.png" v-click />
+    <img alt="SquiggleConf, the devtools conference: May 7th, 2027 in Boston, Massachusetts" class="intro-squiggleconf" src="/images/squiggleconf.jpg" v-click />
+  </div>
+</div>
+
+<style>
+.intro {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.intro h1 {
+  font-size: var(--jg-size-title);
+}
+
+.intro h2 {
+  margin: 0.75rem 0 1.5rem;
+}
+
+.projects {
+  gap: 0.6rem;
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  align-items: center;
+  display: flex;
+  font-weight: var(--jg-weight-medium);
+  gap: 1rem;
+}
+
+.projects img {
+  height: 2rem;
+  object-fit: contain;
+  width: 2rem;
+}
+
+.intro-images {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-areas: "book photo" "squiggle squiggle";
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.intro-photo {
+  border-radius: 100%;
+  box-shadow: 0 0 2rem var(--jg-subtle);
+  grid-area: photo;
+  width: 11rem;
+}
+
+.intro-book {
+  grid-area: book;
+  width: 9rem;
+}
+
+.intro-squiggleconf {
+  grid-area: squiggle;
+  width: 26.5rem;
+}
+
+.intro-images .slidev-vclick-target {
+  transition: none;
+}
+
+.projects-area {
+  position: relative;
+}
+
+.intro-cats {
+  background: var(--jg-bg-top);
+  display: flex;
+  gap: 0.75rem;
+  inset: 0 auto 0 0;
+  position: absolute;
+}
+
+.intro-cats.slidev-vclick-target {
+  transition: none;
+}
+
+.intro-cats img {
+  height: 100%;
+  object-fit: cover;
+  width: 12rem;
+}
+</style>
+
+<!--
+I'm a senior frontend developer at Sentry, which provides best-in-class application monitoring software. I'm also an open source maintainer on dev tooling around JavaScript and TypeScript.
+
+Who here uses typescript-eslint? ESLint? Who here has sworn at either of them?
+
+[click] I'm also the author of the O'Reilly Learning TypeScript book
+
+[click] and a co-organizer of SquiggleConf, a conference for excellent dev tooling. I love dev tooling.
+
+[click] And, most importantly, I have cats.
+
+https://learningtypescript.com
+-->
+
+---
+layout: full
+---
+
+<GitHubSquares />
+
+<!--
+I've been working in open source for a little over a decade. Green squares are an overhyped metric, but it is cool to see your own activity on them. If you squint hard you can spot the four years I was a full time independent open source maintainer. I specialize in dev tooling that detects issues automatically and, when possible, fixes them for you.
+-->
+
+---
+layout: center
+clicks: 2
+---
+
+<WordMorph :steps="[
+  'Is traditional software verification still needed with AI?',
+  '*YES,* traditional software verification is still needed with AI.',
+  'Traditional software verification is *more useful than ever* with AI.',
+]" />
+
+<!--
+Is traditional software verification still needed with AI?
+
+[click] Yes, traditional software verification is still needed with AI.
+
+[click] In fact, traditional software verification is more useful than ever with AI.
+-->
+
+---
+layout: center
+---
+
+## "The Bug Acquisition Funnel"
+
+<BugFunnel bottom="Some (never none)" top="Many bugs" />
+
+<!--
+I first drew this when I was convincing a team to adopt TypeScript, back in 2019.
+
+Think of all the possible strategies you can take to reduce bugs in your end product as parts of a long process that starts from your application existing in the first place, stretches through the development process, and ends with it in your users' hands. In product terms, we'd call this an acquisition funnel. I like to call it the "bug acquisition funnel".
+
+Each stage catches some of the bugs the stages before it missed. And it's not drawn to scale.
+
+A coworker put it nicely: nobody sets out to write a bug. Bugs are just out there, waiting to slip through. Every decision you make, and every check you automate, filters more of them out before they reach users.
+
+It is incredibly rare for a software application to completely catch and fix all its bugs, so this funnel assumes some are left over even with all the steps.
+-->
+
+---
+layout: center
+clicks: 4
+---
+
+<BugFunnel development />
+
+<!--
+Today we're going to talk about the four parts of the funnel that happen while code is being written. These are the same four parts whether a human or an agent is writing it.
+
+[click] Design thought: what should it be? That's where the spec comes from.
+
+[click] Static analysis: is it written right?
+
+[click] Dynamic analysis: does it match the spec?
+
+[click] Peer review: is the spec correct?
+
+Why this order? It's the order they happen in as you write code, and the earlier a stage catches a bug, the cheaper it usually is to fix. Design thought catches a bad idea while it's still a plan. Static analysis catches mistakes seconds after a change. Tests take minutes. Review takes hours or days. And anything that gets past all four reaches production, where hopefully your telemetry catches it before your users do. We'll peek at that in part three.
+
+That's doubly true with agents: the earlier a check runs, the sooner the agent can fix its own mistake, before you ever see it.
+
+Are we ready?
+-->
+
+---
+layout: center
+---
+
+<img alt="SpongeBob excitedly saying: I'm ready!" class="spongebob" src="/images/spongebob.gif" />
+
+<style>
+.spongebob {
+  width: 30rem;
+}
+</style>
+
+<!--
+I'm ready!
+
+“I’m Ready”: https://giphy.com/gifs/spongebob-season-4-spongebob-squarepants-l1Aswx03WbLDf9kYw
+-->
+
+---
+layout: center
+---
+
+<BugFunnel current="Design Thought" />
+
+<!--
+Part one of four: design thought. What should it be?
+-->
+
+---
+layout: section
+---
+
+<div class="eyebrow">1/4 Design Thought</div>
+
+# Knowing Your S#!7
+
+<p class="muted">Decide what it should be before anything writes it</p>
+
+<div class="eyebrow">1/2</div>
+
+<!--
+Step one is knowing what you're doing.
+-->
+
+---
+layout: statement
+---
+
+# The better you know a tool, the more effective you are with it.
+
+<!--
+The better you know a tool, the more effective you are with it. That goes for AI too, so let's take a quick look at what it's actually doing.
+-->
+
+---
+layout: default
+---
+
+## Under the Hood: Guesswork
+
+<div class="cards principles">
+  <div v-click>
+    <h3>A model guesses the next token</h3>
+    <p>It predicts likely text, based on patterns in its training data.</p>
+  </div>
+  <div v-click>
+    <h3>A reply is one guess after another</h3>
+    <p>Each token it picks becomes context for guessing the next.</p>
+  </div>
+  <div v-click>
+    <h3>An agent guesses in a loop</h3>
+    <p>Pick a tool, read the result, repeat, until it guesses it's done.</p>
+  </div>
+</div>
+
+<p class="guess-punchline" v-click><strong>Likely</strong> isn't the same as <strong>correct</strong>.</p>
+
+<style>
+.guess-punchline {
+  font-size: var(--jg-size-subtitle);
+  margin-top: 1.25rem !important;
+  text-align: center;
+}
+</style>
+
+<!--
+[click] At its core, a large language model does one thing: given all the text so far, it guesses the next token. A token is roughly a word, or a piece of one. Those guesses come from patterns in its training data: what usually comes next in text like this. Training makes the guesses really, really good. They're still guesses.
+
+[click] A reply is that guess, over and over. Each token it picks gets added to the text, and it guesses the next one from there. There's a little randomness in which likely token it picks, which is why the same prompt can give you different answers.
+
+[click] An agent puts that in a loop. The model guesses which tool to call: read a file, run a command, edit some code. The harness runs it and adds the result to the context. Then the model guesses again, until it guesses it's done.
+
+[click] Every step is a guess at what's likely. Likely isn't the same as correct.
+-->
+
+---
+layout: statement
+---
+
+# There is no substitute for human discretion.
+
+<p v-click>If you don't design it, a guesswork machine will.</p>
+
+<!--
+There is no substitute for human discretion.
+
+[click] If you don't design it, a guesswork machine will. And its guesses lean toward whatever was most common in its training data, not what's right for your app.
+-->
+
+---
+layout: default
+---
+
+## An Incomplete List of Recent Best-In-Class Model Outputs
+
+<ul>
+  <li v-click>Class components (like it's 2016)</li>
+  <li v-click>O(N<sup>3</sup>) loops on hot paths</li>
+  <li v-click>Copies of the design system</li>
+  <li v-click>Blatant accessibility issues</li>
+  <li v-click>Sexual innuendo</li>
+  <li v-click>Six near-identical copies of a large component</li>
+  <li v-click>More emdashes, load-bearing phrases, and honest truths than you could possibly imagine</li>
+</ul>
+
+<!--
+Don't believe me? Here's an incomplete list of things I've gotten from AI models in the last month, best-in-class ones included.
+
+[click] Class components, like it's 2016. There's a lot of old React in the training data.
+
+[click] O(N cubed) loops on hot paths.
+
+[click] Copies of the design system, instead of using the design system.
+
+[click] Blatant accessibility issues.
+
+[click] Sexual innuendo. I won't show that one.
+
+[click] Six near-identical copies of a large component.
+
+[click] And more emdashes, load-bearing phrases, and honest truths than you could possibly imagine.
+
+None of these would have failed a build. Most of them would have passed a quick skim.
+-->
+
+---
+layout: center
+---
+
+<img alt="RuPaul in drag angrily asking: what the hell?" class="reaction" src="/images/rupaul-what-the-hell.gif" />
+
+<!--
+What the hell.
+
+“Ru Paul What The Hell”: https://giphy.com/gifs/paramountplus-rupaul-paramount-plus-pcoa9GfYAkJvS7exrl
+-->
+
+---
+layout: default
+---
+
+## Precise Prompting
+
+<div class="cards principles">
+  <div v-click>
+    <h3>Know the task ahead of time</h3>
+    <p>Have it write a plan first. Read the plan before any code exists.</p>
+  </div>
+  <div v-click>
+    <h3>Context up appropriately</h3>
+    <p>Name the files, docs, and existing patterns to follow.</p>
+  </div>
+  <div v-click>
+    <h3>Review everything</h3>
+    <p>Once you merge it, every line is yours.</p>
+  </div>
+</div>
+
+<!--
+[click] Know the task ahead of time. If you can't describe what done looks like, the model can't either. I have it write a plan first, and I read the plan before any code exists. That plan is the spec.
+
+[click] Context up appropriately. Point it at the files, the docs, and the existing code it should follow.
+
+[click] Review everything. Once you merge it, it's your code.
+-->
+
+---
+layout: default
+---
+
+## Example: Vague vs. Precise
+
+<div class="prompts">
+<div>
+
+<p class="muted">Vague</p>
+
+```md
+Add favorites to the talk list.
+```
+
+</div>
+<div v-click>
+
+<p class="muted">Precise</p>
+
+```md
+Add a favorite toggle to each TalkCard.
+- Persist favorites with the existing useStoredState
+  hook in src/hooks/useStoredState.ts.
+- Use the design system's ToggleButton.
+- Add a unit test for toggling, and an end-to-end
+  test for favorites surviving a reload.
+- Don't change any other components.
+```
+
+</div>
+</div>
+
+<style>
+.prompts {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1.6fr;
+}
+</style>
+
+<!--
+Here's what that looks like.
+
+A vague prompt leaves every decision to the model: where state lives, which components to use, whether there are tests.
+
+[click] A precise prompt makes those decisions up front. It names the existing hook and the design system component, so you don't get a seventh copy of either. It says what the tests should cover. And it scopes the change.
+
+That's most of a spec, in seven lines. When it comes to LLMs, you get out what you put in.
+-->
+
+---
+layout: default
+---
+
+## Protip: Issue Tracker Context
+
+<p class="big">Your issue tracker already holds most of the spec.</p>
+
+<div class="cards context-sources" v-click>
+  <div>
+    <h3>The issue</h3>
+    <p>What should change, and why</p>
+  </div>
+  <div>
+    <h3>Error monitoring</h3>
+    <p>What actually broke, and where</p>
+  </div>
+  <div>
+    <h3>Team chat</h3>
+    <p>What the team already decided</p>
+  </div>
+</div>
+
+<div v-click>
+
+```md
+Fix ENG-1234. Before planning, read the issue, the error
+report it links to, and the chat thread in its comments.
+```
+
+</div>
+
+<style>
+.context-sources {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1.5rem 0;
+}
+
+.context-sources h3 {
+  color: var(--jg-squiggle);
+  margin-bottom: 0.25rem;
+}
+</style>
+
+<!--
+You don't have to write all that context from scratch. Your issue tracker already holds most of the spec.
+
+[click] The issue says what should change and why, and usually links to everything else. A linked error report from your monitoring tool has what actually broke: the error, the stack trace, the release, how many users hit it. And the team chat thread is where the team already decided how it should work.
+
+[click] So point the agent at all of it. Most of these tools have MCP servers, so the agent can read the issue and follow its links itself. If not, paste them in. Either way, that's precise prompting you don't have to retype.
+-->
+
+---
+layout: default
+---
+
+## Protip: Practice Coding by Hand
+
+<p class="big" v-click>At least once a week, take on a real code task <strong>without AI</strong>.</p>
+
+<div class="cards reasons" v-click>
+  <div>
+    <h3>Context</h3>
+    <p>You stay current on how your codebase actually works.</p>
+  </div>
+  <div>
+    <h3>Judgment</h3>
+    <p>You can only review well what you can still write.</p>
+  </div>
+</div>
+
+<style>
+.reasons {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2.5rem;
+}
+
+.reasons h3 {
+  color: var(--jg-squiggle);
+  margin-bottom: 0.25rem;
+}
+</style>
+
+<!--
+None of that works if you've stopped knowing your codebase.
+
+[click] So at least once a week, take on a real code task without AI. Not a toy. A real ticket.
+
+[click] Two reasons. Context: you stay current on how the code actually works, which is what lets you write those precise prompts. And judgment: you can only review well what you can still write yourself.
+
+Sometimes it's also just faster to do the task yourself.
+-->
+
+---
+layout: section
+---
+
+<div class="eyebrow">1/4 Design Thought</div>
+
+# Skills
+
+<p class="muted">Is this another buzzword we have to memorize now?</p>
+
+<div class="eyebrow">2/2</div>
+
+<!--
+The other half of design thought is skills: teaching your agent how to research, design, and write code the way your stack expects.
+-->
+
+---
+layout: default
+---
+
+## What's a Skill?
+
+<p>A skill is a set of instructions an agent loads when a task calls for it.</p>
+
+<div class="skill-anatomy">
+
+```md
+---
+name: sentry-react-best-practices
+description: Sentry and React performance ...
+---
+
+# Sentry React Best Practices
+
+## When to Apply
+...
+```
+
+<div>
+  <p v-click><strong>Name and description:</strong> always in context, so the agent knows the skill exists</p>
+  <p v-click><strong>Body:</strong> loaded only when the task calls for it</p>
+  <p v-click><strong>Extra files:</strong> scripts and references, read on demand</p>
+</div>
+
+</div>
+
+<p class="source">An open format: agentskills.io</p>
+
+<style>
+.skill-anatomy {
+  align-items: center;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1.2fr 1fr;
+}
+
+.skill-anatomy p {
+  font-size: var(--jg-size-medium);
+  margin-bottom: 1rem;
+}
+</style>
+
+<!--
+A skill is a folder with a SKILL.md file in it.
+
+[click] The name and description are always in the agent's context, so it knows the skill exists.
+
+[click] The body only gets loaded when a task calls for it. So you can have lots of skills without filling up the context window.
+
+[click] And a skill can bundle extra files, like scripts and reference docs, that are only read when needed.
+
+It's an open format now, so the same skill works across many agents.
+
+Links:
+
+- https://agentskills.io/specification
+-->
+
+---
+layout: default
+---
+
+## Where Should Context Go?
+
+<div class="cards context-grid">
+  <div v-click>
+    <h3><code>AGENTS.md</code></h3>
+    <p class="muted">Always true</p>
+    <p>Your stack, commands, and conventions</p>
+  </div>
+  <div v-click>
+    <h3>Skills</h3>
+    <p class="muted">Sometimes needed</p>
+    <p>How to do a specific task</p>
+  </div>
+  <div v-click>
+    <h3>CI checks</h3>
+    <p class="muted">Always enforced</p>
+    <p>Linting, type checking, tests, and more</p>
+  </div>
+</div>
+
+
+<style>
+.context-grid {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem 0;
+}
+
+.context-grid h3 code {
+  padding-inline: 0;
+}
+</style>
+
+<!--
+So where does context go?
+
+[click] AGENTS.md is for things that are always true about your project: the stack, the commands, the conventions. It's loaded at the start of every session. One gotcha: Claude Code skips it if your project also has a CLAUDE.md, so have that file import it, like Sentry's does.
+
+[click] Skills are for things that are sometimes needed: how to do a specific task.
+
+[click] And anything that has to happen every time goes in CI checks: linting, type checking, tests, and more. The agent can ignore an instruction. It can't talk its way past a failing check.
+
+Always-true facts go in AGENTS.md. Task-specific procedures go in skills. Rules go in CI.
+
+Links:
+
+- https://agents.md
+- https://code.claude.com/docs/en/memory#agents-md
+- https://github.com/getsentry/sentry/blob/master/CLAUDE.md
+-->
+
+---
+layout: default
+---
+
+## Example: A Skill for Research
+
+```md
+---
+name: research
+description: Researches a task before planning it: code to reuse, current
+  docs, and how this codebase solved similar problems before.
+---
+
+1. Find code that already does part of the task: components, hooks,
+   and utilities. Plan to reuse them instead of writing new copies.
+2. Read the current docs for every library involved. Your training
+   data is older than you think.
+3. Find how this codebase built similar features, and follow that.
+4. Report what you found, with links, and any open questions.
+```
+
+<!--
+Design starts with research. Before an agent plans anything, it should know what's already there.
+
+Find code that already does part of the task, so you don't get yet another copy of the design system. Read the current docs, because the model's training data is older than you think: that's where class components come from. Find how the codebase built similar features before, and follow that. Then report back, with links and open questions.
+
+That report becomes the context for the plan.
+-->
+
+---
+layout: default
+---
+
+## Example: A Skill for Design
+
+```md
+---
+name: design-plan
+description: Writes up a design for a change before any code exists,
+  then stops for review.
+---
+
+Before writing code, write up:
+- Which existing components, hooks, and design system pieces it uses
+- Every state: loading, empty, error, and success
+- Accessibility: keyboard, focus, and screen reader behavior
+- What's out of scope
+
+Then stop. Don't write code until I approve the design.
+```
+
+<!--
+Then design. Remember "have it write a plan first"? This skill makes that happen every time, and covers the parts agents skip when they're left to guess.
+
+Which existing pieces it'll use, so it builds on your design system instead of copying it. Every state, not just the happy path. Accessibility up front, not after an audit. And what's out of scope.
+
+Then it stops. Reading a one-page design is a lot faster than reading a thousand-line diff that went the wrong way.
+
+For visual design, Anthropic's frontend-design skill is a good one. It steers agents away from the generic look that AI-generated pages tend to have.
+
+Links:
+
+- https://github.com/anthropics/skills/tree/main/skills/frontend-design
+-->
+
+---
+layout: default
+---
+
+## Example: A Skill for Framework Best Practices
+
+```md
+---
+name: react-best-practices
+description: Modern React patterns to follow when writing, reviewing,
+  or refactoring React code.
+---
+
+- Derive state during render, not in effects.
+- Put interaction logic in event handlers, not effects.
+- Run independent requests in parallel, not one after another.
+- Import modules directly, not through barrel files.
+```
+
+<!--
+And know your framework. Models have seen a lot of old React, and plenty of patterns that were fine once and aren't now.
+
+A best practices skill keeps it current. Derive state during render instead of syncing it in an effect: we'll see that one again in part two, as a lint rule. Put interaction logic in event handlers, not effects. Run independent requests in parallel. And import directly instead of through barrel files.
+
+Check whether your framework, or the community around it, publishes skills like these. If not, write your own from the docs you already trust.
+-->
+
+---
+layout: default
+---
+
+## Where to Find Skills
+
+<div class="cards skill-sources">
+  <div v-click>
+    <h3>Your team's</h3>
+    <p>Sentry shares ours, like <code>code-review</code>.</p>
+    <p class="muted">github.com/getsentry/skills</p>
+  </div>
+  <div v-click>
+    <h3>Other people's</h3>
+    <p>Anthropic's examples are a good place to start.</p>
+    <p class="muted">github.com/anthropics/skills</p>
+  </div>
+  <div v-click>
+    <h3>Your own</h3>
+    <p>Like <code>research</code>, or distilled from your past work.</p>
+    <p class="muted">More on that in part four</p>
+  </div>
+</div>
+
+<p class="big" v-click>Read a skill before you install it. Your agent may follow anything in it.</p>
+
+<style>
+.skill-sources {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 1.5rem;
+}
+
+.skill-sources h3 {
+  color: var(--jg-squiggle);
+  margin-bottom: 0.5rem;
+}
+
+.skill-sources p {
+  font-size: var(--jg-size-small);
+  margin: 0 0 0.4rem;
+}
+
+.skill-sources code {
+  white-space: nowrap;
+}
+</style>
+
+<!--
+You might be wondering: where do skills come from?
+
+[click] Your team's. Sentry keeps a shared skills repo, with skills like code-review, find-bugs, and iterate-pr. A couple of mine are in there too; we'll see them in part four.
+
+[click] Other people's. Anthropic's skills repo is a good set of examples to learn from and adapt.
+
+[click] And your own. Those research and design skills from a few slides back are about a dozen lines each: copy them. We'll talk about distilling your own past work into skills in part four.
+
+[click] One warning: read a skill before you install it. Your agent may follow any instruction in it, and run any script it bundles. Treat it like any other dependency. Sentry even has a skill-scanner skill for checking skills for prompt injection and other risks.
+
+All of these are linked at the end.
+
+Links:
+
+- https://github.com/getsentry/skills
+- https://github.com/anthropics/skills
+- https://agentskills.io
+-->
+
+---
+layout: default
+---
+
+<div class="eyebrow">1/4 Design Thought</div>
+
+## Recap: What Should It Be?
+
+<div class="recap">
+  <span class="muted">You</span>
+  <span class="muted">So your agent…</span>
+  <strong>Prompt precisely</strong>
+  <span>builds what you meant, not the most common guess</span>
+  <strong>Practice coding by hand</strong>
+  <span>gets reviewed by someone who knows the code</span>
+  <strong>Facts in <code>AGENTS.md</code></strong>
+  <span>knows your project's stack and conventions</span>
+  <strong>Research and design with skills</strong>
+  <span>plans from your codebase and current docs</span>
+</div>
+
+<!--
+Quick recap of part one. On the left, what you do. On the right, how that makes your agent write better code.
+
+(Pause a beat for people to read, then move on.)
+-->
+
+---
+layout: center
+---
+
+<BugFunnel current="Static Analysis" />
+
+<!--
+Part two of four: static analysis. Is it written right?
+-->
+
+---
+layout: default
+---
+
+## Static Analysis
+
+<p class="big">Tooling that scrutinizes code without running it.</p>
+
+<p class="muted">(in contrast with "dynamic analysis": e.g. testing)</p>
+
+<!--
+Static analysis is tooling that scrutinizes code without running it. That's in contrast with dynamic analysis, like testing, which we'll get to after this.
+
+Why does this matter so much with agents? Static analysis runs in seconds, and it gives the same answer every time, unlike the model. When an agent runs it after every change, mistakes get fixed before you ever see them. That saves you bugs, time, and tokens.
+-->
+
+---
+layout: section
+---
+
+<div class="eyebrow">2/4 Static Analysis</div>
+
+# Type Checking
+
+<p class="muted">Code that blatantly doesn't make sense</p>
+
+<div class="eyebrow">1/2</div>
+
+<!--
+First up, type checking.
+-->
+
+---
+layout: default
+---
+
+## TypeScript
+
+<p class="big">TypeScript is JavaScript with syntax for types.</p>
+
+<p class="big" v-click>Its type checker reads your code and reports what doesn't line up.</p>
+
+<!--
+TypeScript is JavaScript with syntax for types. You describe the shapes of your values: what's a string, what might be undefined, what a function takes and returns.
+
+[click] Its type checker reads your code without running it, and reports places where values are used in ways that don't line up with those types. You see those reports as red squiggles in your editor and as errors in CI. Agents can read them too.
+
+Two compiler options do most of the work for catching agent mistakes.
+-->
+
+---
+layout: default
+---
+
+## Example: <code>strictNullChecks</code>
+
+<p class="muted"><code>null</code> and <code>undefined</code> have to be handled</p>
+
+<div class="code-hovers hovers-below">
+
+```ts
+let count: number | undefined;
+
+try {
+	count = await fetchCount();
+} catch (error) {
+	console.error("Oh no:", error);
+}
+
+console.log(`I have ${count * 2} items.`);
+```
+
+<CodeHover :column="22" :length="5" :line="8" :shown="$clicks >= 1" message="'count' is possibly 'undefined'." source="ts(18048)" />
+
+</div>
+
+<p v-click="2">Without it, this compiles, then prints “I have NaN items.” whenever the request fails.</p>
+
+<!--
+First up: strictNullChecks.
+
+strictNullChecks means null and undefined have to be handled. Here, count only gets a value if the request succeeds.
+
+[click] So TypeScript won't let you multiply it until you've handled the case where it didn't.
+
+[click] Without strictNullChecks, this compiles just fine. Then the first time the network hiccups, it prints "I have NaN items." Put that in your UI, and your users see it too. And networks do hiccup. Generated code makes this kind of happy-path assumption constantly.
+-->
+
+---
+layout: default
+clicks: 3
+---
+
+## Example: <code>noImplicitAny</code>
+
+<p class="muted">Detects "implicit" (not written) fallbacks to <code>any</code></p>
+
+<div class="code-hovers">
+
+````md magic-move {duration: 700, at: 2}
+```ts
+function formatTalk(talk) {
+	return `${talk.title}, by ${talk.speakr}`;
+}
+```
+
+```ts
+interface TalkOptions {
+	speaker: string;
+	title: string;
+}
+
+function formatTalk(talk: TalkOptions) {
+	return `${talk.title}, by ${talk.speakr}`;
+}
+```
+````
+
+<CodeHover :column="20" :length="4" :line="0" :shown="$clicks === 1" message="Parameter 'talk' implicitly has an 'any' type." source="ts(7006)" />
+
+<CodeHover :column="35" :length="6" :line="6" :shown="$clicks === 3" message="Property 'speakr' does not exist on type 'TalkOptions'. Did you mean 'speaker'?" source="ts(2551)" />
+
+</div>
+
+<!--
+noImplicitAny means TypeScript reports an error anywhere it would otherwise silently fall back to any. Without it, talk here is silently any. Anything goes, including the typo in "speakr". It'd print "undefined" at runtime and nothing would tell you.
+
+[click] With it on, talk has no type annotation, so TypeScript reports an error.
+
+[click] So we give it a type: a TalkOptions interface with a speaker and a title.
+
+[click] And now TypeScript catches the typo: there's no speakr on TalkOptions. Did you mean speaker?
+
+Links:
+
+- https://www.typescriptlang.org/tsconfig/#strictNullChecks
+- https://www.typescriptlang.org/tsconfig/#noImplicitAny
+-->
+
+---
+layout: default
+---
+
+## Protip: Keep TypeScript Strict
+
+<p class="big"><code>strictNullChecks</code> and <code>noImplicitAny</code> are both on with:</p>
+
+```json
+"strict": true
+```
+
+<p class="muted">(the default as of TypeScript 6.0)</p>
+
+<p class="big" v-click>Don't let an agent loosen it, or reach for <code>any</code>, to make an error go away.</p>
+
+<!--
+Both of those come with "strict": true in your tsconfig. Strict mode, best mode. As of TypeScript 6.0 it's on by default, but plenty of existing projects still turn it off. Make sure yours has it. The stricter your types, the more mistakes get caught before anyone reads the code.
+
+[click] And watch for agents loosening it. When a type error is in the way, it's tempting for an agent to turn off a compiler option, or slap an "as any" on the problem. That's the same as disabling a lint rule, which we'll get to in a minute: the error found something real. typescript-eslint's no-explicit-any and no-unsafe rules catch a lot of the "any" part for you.
+
+Links:
+
+- https://www.typescriptlang.org/tsconfig/#strict
+- https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/
+- https://typescript-eslint.io/rules/no-explicit-any
+-->
+
+---
+layout: section
+---
+
+<div class="eyebrow">2/4 Static Analysis</div>
+
+# Linting
+
+<p class="muted">Code that type checks, but is probably wrong</p>
+
+<div class="eyebrow">2/2</div>
+
+<!--
+Next, linting.
+-->
+
+---
+layout: default
+---
+
+## Linters
+
+<p class="big">A linter is a tool that runs a set of checks on your source code.</p>
+
+<p class="big" v-click>Each of those checks is called a "rule".</p>
+
+<!--
+A linter is a tool that runs a set of checks on your source code.
+
+[click] Each of those checks is called a "rule". Each rule may report on code it doesn't like, and each complaint may come with an optional autofix. That's free fixes for agents and humans alike.
+
+ESLint is the linter most of you probably use today. Oxlint is a much faster, Rust-based linter that's catching up quickly, and it can run ESLint-style JavaScript plugins, though that support is still in alpha. Sentry's custom lint rules run on Oxlint now.
+
+Lint rules exist for some of that incomplete list from earlier, too: eslint-plugin-jsx-a11y for many of those blatant accessibility issues, and custom rules for copies of the design system, which we'll get to. Automated checks only find some accessibility issues, though. People find the rest.
+
+Links:
+
+- https://eslint.org
+- https://oxc.rs/docs/guide/usage/linter.html
+- https://oxc.rs/docs/guide/usage/linter/js-plugins.html
+-->
+
+---
+layout: default
+---
+
+## Example: Explicit <code>any</code>
+
+<div class="code-hovers">
+
+````md magic-move {duration: 700, at: 2}
+```ts
+function formatTalk(talk: any) {
+	return `${talk.title}, by ${talk.speakr}`;
+}
+```
+
+```ts
+function formatTalk(talk: TalkOptions) {
+	return `${talk.title}, by ${talk.speaker}`;
+}
+```
+````
+
+<CodeHover :column="26" :length="3" :line="0" :shown="$clicks === 1" message="Unexpected any. Specify a different type." source="eslint(@typescript-eslint/no-explicit-any)" />
+
+</div>
+
+<!--
+Remember noImplicitAny? It only catches an any you didn't write. Write any explicitly, and TypeScript is perfectly happy, typo and all. Agents love doing this when they can't figure out a type, or want an error to go away.
+
+[click] A lint rule catches that: typescript-eslint's no-explicit-any. Unexpected any. Specify a different type.
+
+[click] So the agent goes and finds the real type, and now TypeScript can catch the typo too.
+
+Links:
+
+- https://typescript-eslint.io/rules/no-explicit-any
+-->
+
+---
+layout: default
+---
+
+## Example: Initializing State in an Effect
+
+<div class="code-hovers">
+
+````md magic-move {duration: 700, at: 2}
+```tsx
+function TalkCard({ talk }: TalkCardProps) {
+	const [favorite, setFavorite] = useState(false);
+
+	useEffect(() => {
+		setFavorite(localStorage.getItem(talk.id) === "true");
+	}, [talk.id]);
+}
+```
+
+```tsx
+function TalkCard({ talk }: TalkCardProps) {
+	const [favorite, setFavorite] = useState(
+		() => localStorage.getItem(talk.id) === "true",
+	);
+}
+```
+````
+
+<CodeHover :column="4" :length="11" :line="4" :shown="$clicks === 1" message="Calling setState synchronously within an effect can trigger cascading renders" source="eslint(react-hooks/set-state-in-effect)" />
+
+</div>
+
+<!--
+Here's an example of code that type checks, but is probably wrong. It works. It's also an extra render, and it's a pattern React's docs tell you to avoid. Generated React code does it constantly.
+
+[click] The React Compiler's rules are now in eslint-plugin-react-hooks's recommended config. `set-state-in-effect` flags exactly this: calling setState synchronously within an effect can trigger cascading renders.
+
+[click] And the fix is less code.
+
+(If anyone asks: if talk.id can change for the same card, render it with key={talk.id} so the state resets. And with server rendering, reading localStorage during render needs more care, such as useSyncExternalStore.)
+
+Links:
+
+- https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+- https://react.dev/learn/you-might-not-need-an-effect
+-->
+
+---
+layout: default
+---
+
+## Typed Linting
+
+<p class="big">ESLint sees the raw syntax of your code.</p>
+
+<p class="big" v-click>TypeScript understands what that code means.</p>
+
+<!--
+That rule didn't need type information. But a lot of the most useful rules do.
+
+ESLint on its own sees the raw syntax of your code.
+
+[click] TypeScript understands what that code means: what every value's type is.
+
+Typed linting gives lint rules access to TypeScript's type information. In typescript-eslint, that's the type-checked configs plus the project service. It's slower than syntax-only linting, and it catches a whole category of bugs nothing else does.
+
+Links:
+
+- https://typescript-eslint.io/getting-started/typed-linting
+-->
+
+---
+layout: default
+zoom: 0.9
+---
+
+## Example: Detecting Incorrect Async Code
+
+<div class="code-hovers">
+
+````md magic-move {duration: 700, at: 3}
+```tsx
+function MyButton({ onClick }: { onClick: () => void }) {
+	const [running, setRunning] = useState(false);
+
+	async function onClickAndDisable() {
+		setRunning(true);
+		await onClick();
+		setRunning(false);
+	}
+
+	return (
+		<button disabled={running} onClick={onClickAndDisable}>
+			click me 🤩
+		</button>
+	);
+}
+```
+
+```tsx
+function MyButton({ onClick }: { onClick: () => void }) {
+	const [running, setRunning] = useState(false);
+
+	async function onClickAndDisable() {
+		setRunning(true); // 💀
+		onClick();
+		setRunning(false); // 💀
+	}
+
+	return (
+		<button disabled={running} onClick={onClickAndDisable}>
+			click me 🤩
+		</button>
+	);
+}
+```
+
+```tsx
+function MyButton({ onClick }: { onClick: () => void }) {
+	const [running, setRunning] = useState(false);
+
+	async function onClickAndDisable() {
+		onClick();
+	}
+
+	return (
+		<button disabled={running} onClick={onClickAndDisable}>
+			click me 🤩
+		</button>
+	);
+}
+```
+
+```tsx
+function MyButton({ onClick }: { onClick: () => void }) {
+	const [running, setRunning] = useState(false);
+
+	function onClickAndDisable() { // 💀
+		onClick();
+	}
+
+	return (
+		<button disabled={running} onClick={onClickAndDisable}>
+			click me 🤩
+		</button>
+	);
+}
+```
+
+```tsx
+function MyButton({ onClick }: { onClick: () => void }) {
+	const [running, setRunning] = useState(false);
+
+	return (
+		<button disabled={running} onClick={onClick}>
+			click me 🤩
+		</button>
+	);
+}
+```
+
+```tsx
+function MyButton({ onClick }: { onClick: () => void }) {
+	const [running] = useState(false); // 💀
+
+	return (
+		<button disabled={running} onClick={onClick}>
+			click me 🤩
+		</button>
+	);
+}
+```
+
+```tsx
+function MyButton({ onClick }: { onClick: () => void }) {
+	return (
+		<button disabled={false} onClick={onClick}> {/* 💀 */}
+			click me 🤩
+		</button>
+	);
+}
+```
+
+```tsx
+function MyButton({ onClick }: { onClick: () => void }) {
+	return (
+		<button onClick={onClick}>
+			click me 🤩
+		</button>
+	);
+}
+```
+````
+
+<CodeHover :column="4" :length="15" :line="5" :shown="$clicks === 1" message="Unexpected `await` of a non-Promise (non-&quot;Thenable&quot;) value." source="eslint(@typescript-eslint/await-thenable)" />
+
+<CodeHover :column="39" :length="19" :line="10" :shown="$clicks === 2" message="Promise-returning function provided to attribute where a void return was expected." source="eslint(@typescript-eslint/no-misused-promises)" />
+
+<CodeHover :column="2" :length="32" :line="3" :shown="$clicks === 4" message="Async function 'onClickAndDisable' has no 'await' expression." source="eslint(@typescript-eslint/require-await)" />
+
+<CodeHover :column="18" :length="10" :line="1" :shown="$clicks === 6" message="'setRunning' is assigned a value but never used." source="eslint(@typescript-eslint/no-unused-vars)" />
+
+</div>
+
+<!--
+Let's play one of my favorite programming games: what does this code actually do? Specifically: what does `await onClick()` wait for? (Pause for the room.)
+
+I've been giving this example for years, and it's even more relevant now.
+
+This button component receives an onClick prop. It sets up a running state. When clicked, it sets running to true, awaits the onClick, then sets running to false. The button is disabled while running.
+
+[click] Generated code loves this pattern. But typed linting knows onClick is typed as returning void. So `await onClick()` is awaiting something that isn't a Promise.
+
+(If anyone shouts "but it could be a Promise!": yes, TypeScript lets you pass an async function where a () => void is expected. That's part of what no-misused-promises flags. If waiting really is intended, type the prop as () => Promise<void>, keep the await inside a try/finally, and handle the wrapper's promise at the button, like onClick={() => void onClickAndDisable()}.)
+
+[click] And passing an async function to onClick means a Promise nobody handles.
+
+[click] So drop the await. Now setRunning(true) and setRunning(false) happen synchronously, back to back. Nothing ever sees running as true. 💀
+
+[click] So delete them. The async function still has no await in it, and setRunning is never called anymore.
+
+[click] So drop the async. Now this function only calls onClick. 💀
+
+[click] So delete the wrapper and pass onClick straight through. And setRunning has been flagged as unused ever since we deleted its calls, so it can go too.
+
+[click] Remove it. Now running is always false. 💀
+
+[click] So inline false. Now disabled is always false. 💀
+
+[click] Remove that too. And look at what's left.
+
+Lint rules flagged four of those steps, and each fix exposed the next simplification.
+
+Links:
+
+- https://typescript-eslint.io/rules/await-thenable
+- https://typescript-eslint.io/rules/no-misused-promises
+- https://typescript-eslint.io/rules/require-await
+- https://typescript-eslint.io/rules/no-unused-vars
+-->
+
+---
+layout: default
+zoom: 0.72
+---
+
+## Example: Detecting Incorrect Async Code
+
+<div class="before-after">
+<div>
+
+```tsx
+function MyButton({ onClick }: { onClick: () => void }) {
+	const [running, setRunning] = useState(false);
+
+	async function onClickAndDisable() {
+		setRunning(true);
+		await onClick();
+		setRunning(false);
+	}
+
+	return (
+		<button disabled={running} onClick={onClickAndDisable}>
+			click me 🤩
+		</button>
+	);
+}
+```
+
+</div>
+<div>
+
+```tsx
+function MyButton({ onClick }: { onClick: () => void }) {
+	return (
+		<button onClick={onClick}>
+			click me 🤩
+		</button>
+	);
+}
+```
+
+<img alt="Santiago from Brooklyn 99 excitedly punching forward with her eyes closed" class="santiago" src="/images/santiago-punch.gif" v-click />
+
+</div>
+</div>
+
+<style>
+.before-after {
+  align-items: start;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1.15fr 1fr;
+}
+
+.santiago {
+  display: block;
+  margin: 1.5rem auto 0;
+  width: 22rem;
+}
+</style>
+
+<!--
+Before and after. More than half the code, gone, and the bugs with it.
+
+[click] Yes!
+
+That's what static analysis is for: an agent can run these in seconds after every change, and the code gets smaller and more correct each time.
+-->
+
+---
+layout: default
+---
+
+## Protip: Make Disables Explain Themselves
+
+<div class="disables">
+<div>
+
+<p class="big">Sometimes disabling a rule is right.</p>
+
+<p class="big" v-click="1">Most of the time it's not.</p>
+
+<p class="big" v-click="3">Every disable should say why.</p>
+
+</div>
+
+<img alt="Comic: a cyclist labeled 'Red editor squigglies' rides along; he puts a stick in his own front wheel labeled 'Disable the linter'; he crashes, labeled 'Why do we have so many bugs?!'" class="bike" v-click="2" src="/images/bike-meme.png" />
+
+</div>
+
+<style>
+.disables {
+  align-items: start;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr auto;
+}
+
+.bike {
+  height: 24rem;
+}
+</style>
+
+<!--
+Of course, the fastest way to make a lint error go away is to disable the rule.
+
+I'm not going to tell you to never disable the linter. Every project is unique, and sometimes disabling a rule is the right call.
+
+[click] Most of the time it's not. Most of the time, the rule found something real.
+
+[click] And that's how it goes: disable the linter, then wonder where all the bugs came from.
+
+[click] So every disable should say why. That way a reviewer, human or not, can check whether the reason holds up.
+-->
+
+---
+layout: default
+---
+
+## Protip: Make Disables Explain Themselves
+
+```ts
+export default defineConfig(
+	{ linterOptions: { reportUnusedDisableDirectives: "error" } },
+	comments.recommended,
+	tseslint.configs.recommended,
+	{
+		rules: {
+			"@eslint-community/eslint-comments/require-description": "error",
+		},
+	},
+);
+```
+
+<!--
+So make disables explain themselves. Report unused disable directives. Require a description on every disable comment, so a human can review why. And typescript-eslint's recommended config already bans ts-ignore and requires a description on ts-expect-error.
+
+This deck's own repo has all of these, by the way. I made it with create-typescript-app.
+
+Links:
+
+- https://eslint.org/docs/latest/use/configure/rules#report-unused-eslint-disable-comments
+- https://eslint-community.github.io/eslint-plugin-eslint-comments/rules/require-description.html
+- https://typescript-eslint.io/rules/ban-ts-comment
+-->
+
+---
+layout: default
+---
+
+## Protip: Tell Your LLMs to Understand Rules, Not Work Around Them
+
+<p>Agents often skip linting, or silence it. Spell it out in your <code>AGENTS.md</code>:</p>
+
+```md
+Before considering a task complete, run `npx eslint .` and fix
+everything it reports.
+
+For each report, read the rule's docs, understand why it fired,
+and fix the code. Don't add an `eslint-disable` comment to make
+a report go away.
+```
+
+<p class="big" v-click>For every report: understand why, then fix the code. Don't just silence it.</p>
+
+<!--
+Agents often skip linting unless you tell them to. They'll write the code, maybe run the tests, and call it done. And when they do run ESLint, their favorite fix is an eslint-disable comment.
+
+So tell them, in your AGENTS.md. Run ESLint before calling a task done, and fix everything it reports.
+
+[click] And the part I'd add to any project's instructions: for every report, read the rule's docs, understand why it fired, and fix the code to respect it. Every ESLint rule has a docs page explaining what it catches and why. Not "oh, it's complaining, I'll add a disable comment."
+
+And run the same checks in CI. An instruction is only a suggestion; more on that in part four.
+
+Links:
+
+- https://eslint.org/docs/latest/use/command-line-interface
+- https://eslint.org/docs/latest/rules
+-->
+
+---
+layout: default
+---
+
+## Protip: Enable All the Lint Rules Relevant to You
+
+<p class="big">Every part of your stack probably has a plugin.</p>
+
+<p class="big" v-click>Use the strictest configs you can.</p>
+
+<div v-click>
+
+```ts
+export default defineConfig(
+	eslint.configs.recommended,
+	tseslint.configs.strictTypeChecked,
+	tseslint.configs.stylisticTypeChecked,
+	{ languageOptions: { parserOptions: { projectService: true } } },
+	react.configs.flat.recommended,
+	react.configs.flat["jsx-runtime"],
+	reactHooks.configs.flat.recommended,
+	jsxA11y.flatConfigs.strict,
+);
+```
+
+</div>
+
+<div class="captioned-gif cowbell" v-click>
+  <img alt="SNL's More Cowbell sketch: Will Ferrell gyrating with a cowbell behind Blue Oyster Cult" class="reaction" src="/images/needs-more-lint-rules.gif" />
+  <p>Needs more lint rules</p>
+</div>
+
+<style>
+.cowbell {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cowbell.slidev-vclick-target {
+  transition: none;
+}
+</style>
+
+<!--
+Most projects only turn on a fraction of the lint rules that apply to them. ESLint's own recommended config is a small core.
+
+But every part of your stack probably has a plugin: typescript-eslint for TypeScript, eslint-plugin-react and react-hooks for React and the React Compiler, jsx-a11y for accessibility.
+
+[click] And many plugins ship stricter configs past their recommended ones. Use the strictest ones your team can live with.
+
+[click] Every rule you turn on is one more check that runs on every change, for humans and agents alike.
+
+[click] Is that a lot of lint rules? For most of my career, this has been my answer.
+
+“More Cowbell”: Saturday Night Live
+
+Links:
+
+- https://typescript-eslint.io/users/configs
+- https://github.com/jsx-eslint/eslint-plugin-react
+- https://github.com/jsx-eslint/eslint-plugin-jsx-a11y
+-->
+
+---
+layout: default
+---
+
+## Protip: Turn Review Comments Into Lint Rules
+
+<p class="big">Left the same review comment twice? Make it a lint rule.</p>
+
+<div v-click>
+
+```md
+Write an ESLint rule that reports <insert complaint here>,
+with a fixer that <insert improvement here>.
+Include RuleTester tests with valid and invalid cases.
+```
+
+</div>
+
+<!--
+Left the same review comment twice? Make it a lint rule. Shoutout to Tucker Chapin, whose lightning talk this afternoon made the same point.
+
+A review comment reaches one PR, and only after a human notices the problem. A lint rule runs on every change, for every human and every agent. And it runs inside the agent's loop: the agent reads the lint message and fixes the code before you ever review it. Every lint rule is a review comment you never have to leave again.
+
+[click] And you don't have to write the rule yourself. Agents are great at writing lint rules: a rule is small and well-specified, there are thousands of examples out there, and a rule is easy to test. So ask: say what to report, what the fixer should change it to, and ask for tests with valid and invalid cases. Then review it like any other PR, and turn it on.
+
+Links:
+
+- https://eslint.org/docs/latest/extend/custom-rules
+-->
+
+---
+layout: default
+---
+
+## Example: A Custom Lint Rule
+
+```js
+export default {
+	meta: {
+		messages: {
+			tableElement: "Use SimpleTable instead of a raw <table>.",
+		},
+	},
+	create(context) {
+		return {
+			"JSXOpeningElement[name.name='table']"(node) {
+				context.report({ messageId: "tableElement", node });
+			},
+		};
+	},
+};
+```
+
+<p class="source">Simplified from Sentry's no-manual-table rule</p>
+
+<!--
+Here's roughly what you get back, simplified from a real rule we have at Sentry. Any raw table element in JSX gets flagged, with a message pointing to the right component.
+
+A good lint message is knowledge sharing: it teaches whoever reads it, human or agent, what to do instead.
+
+Remember "copies of the design system"? This is how you catch them automatically, on every change. If you have existing violations, ESLint's bulk suppressions let you turn the rule on right away and fix those over time.
+
+Links:
+
+- https://github.com/getsentry/sentry/blob/master/static/oxlint/eslintPluginScraps/src/rules/noManualTable.ts
+- https://eslint.org/docs/latest/use/suppressions
+-->
+
+---
+layout: default
+---
+
+<div class="eyebrow">2/4 Static Analysis</div>
+
+## Recap: Is It Written Right?
+
+<div class="recap">
+  <span class="muted">You</span>
+  <span class="muted">So your agent…</span>
+  <strong>Keep TypeScript strict</strong>
+  <span>hears about missing null checks and implicit any in seconds</span>
+  <strong>Make disables explain themselves</strong>
+  <span>has to justify silencing a report</span>
+  <strong>Tell your LLMs to understand rules,<br />not work around them</strong>
+  <span>runs the checks and fixes what they find</span>
+  <strong>Enable all the lint rules relevant to you</strong>
+  <span>gets told when code that type checks is probably wrong</span>
+  <strong>Turn review comments into lint rules</strong>
+  <span>gets your feedback before you review</span>
+</div>
+
+<!--
+Part two, recapped. The theme: the agent hears about its mistakes in seconds, from a tool, instead of days later, from you.
+
+(Pause a beat, then move on.)
+-->
+
+---
+layout: center
+---
+
+<BugFunnel current="Dynamic Analysis" />
+
+<!--
+Part three of four: dynamic analysis. Does it match the spec?
+-->
+
+---
+layout: default
+---
+
+## Common Forms of Dynamic Analysis
+
+<p class="muted">Tooling that scrutinizes code by running it</p>
+
+<div class="cards layers">
+  <div v-click>
+    <h3>Unit</h3>
+    <p>Logic, in isolation</p>
+    <p class="muted">Vitest, Testing Library</p>
+  </div>
+  <div v-click>
+    <h3>Integration / E2E</h3>
+    <p>Pieces working together, up to the real app in a real browser</p>
+    <p class="muted">Playwright</p>
+  </div>
+  <div v-click>
+    <h3>Ad hoc</h3>
+    <p>The agent drives a browser: clicks, reads the console, takes screenshots</p>
+    <p class="muted">Chrome DevTools MCP</p>
+  </div>
+</div>
+
+<style>
+.layers {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1.5rem;
+}
+
+.layers h3 {
+  color: var(--jg-squiggle);
+  margin-bottom: 0.5rem;
+}
+</style>
+
+<!--
+Dynamic analysis is tooling that scrutinizes code by running it. There are three common forms here.
+
+[click] Unit tests, such as with Vitest and Testing Library, check logic in isolation. Great, but they don't run the real app.
+
+[click] Integration and end-to-end tests check pieces working together, all the way up to the real app in a real browser. Playwright handles end-to-end.
+
+[click] And then there's ad hoc checking: the agent itself drives a browser. It can click around, read the console, and take screenshots. Chrome DevTools MCP is the tool I use for that.
+-->
+
+---
+layout: section
+---
+
+<div class="eyebrow">3/4 Dynamic Analysis</div>
+
+# Unit Testing
+
+<p class="muted">Testing! Everybody loves it!</p>
+
+<div class="eyebrow">1/2</div>
+
+<!--
+First, unit testing. Everybody loves it!
+-->
+
+---
+layout: default
+---
+
+## Tests Are a Snapshot of the Spec
+
+```ts
+describe("TalkSearch", () => {
+	it("shows matching talks when the user types");
+	it("shows 'No results' when nothing matches");
+	it("ignores a response when a newer search replaced it");
+});
+```
+
+<p class="big" v-click>Behavior that isn't tested isn't protected.</p>
+
+<!--
+Here's a way to think about tests: they're a snapshot of the currently specified behavior.
+
+Reading just these test names, you know what this component is supposed to do.
+
+[click] And here's the flip side. Anything the tests don't pin down isn't protected, even if the plan said it. Take away that third test, and the next change, by a human or an agent, is free to break stale-response handling.
+-->
+
+---
+layout: default
+---
+
+## Protip: Respect, Add To, and Use the Spec
+
+<div class="cards principles">
+  <div v-click>
+    <h3>Respect</h3>
+    <p>Editing or deleting a test changes the spec.</p>
+  </div>
+  <div v-click>
+    <h3>Add to</h3>
+    <p>Every new behavior gets a test. Over time, the spec grows as you understand your product better.</p>
+  </div>
+  <div v-click>
+    <h3>Use</h3>
+    <p>Write the test titles first. Then the code.</p>
+  </div>
+</div>
+
+<!--
+So have your agents work with the spec.
+
+[click] Respect it. Editing tests is fine. Deleting tests is fine! But it's a spec change, so make it on purpose, not to make things pass.
+
+[click] Add to it. Every new behavior gets a test, or nothing protects it. And over time, the spec should grow, as you understand your product better.
+
+[click] And use it. Write the test titles first, like on the last slide, and have the agent fill them in and then write the code.
+-->
+
+---
+layout: default
+---
+
+## Testing Strategies That Are Much Easier Now
+
+<div class="cards principles">
+  <div v-click>
+    <h3>Test-driven development</h3>
+    <p>Write the tests first, then the code that passes them.</p>
+  </div>
+  <div v-click>
+    <h3>Thorough coverage</h3>
+    <p>Edge cases and error states, not just the happy path.</p>
+  </div>
+  <div v-click>
+    <h3>Regression tests</h3>
+    <p>Every bug fix gets a test, so the bug stays fixed.</p>
+  </div>
+</div>
+
+<!--
+Writing tests used to be expensive. Now agents can draft them in minutes, so a lot of testing strategies that used to feel like luxuries are much more doable.
+
+[click] Test-driven development: write the tests first, then the code that passes them. That's the "use the spec" idea from a minute ago.
+
+[click] Thorough coverage: edge cases and error states, not just the happy path. It's not about hitting an exact number. It's about testing the things you'd want tested.
+
+[click] And regression tests: every bug fix gets a test, so the bug stays fixed.
+-->
+
+---
+layout: default
+---
+
+## Protip: Name Tests "X when Y"
+
+<div class="test-titles">
+  <p class="vague"><code>it("works")</code></p>
+  <p class="vague"><code>it("handles empty results")</code></p>
+  <div v-click="1">
+    <p><code>it("<span class="x">shows matching talks</span> <span class="y">when the user types</span>")</code></p>
+    <p><code>it("<span class="x">shows 'No results'</span> <span class="y">when nothing matches</span>")</code></p>
+    <p><code>it("<span class="x">ignores a response</span> <span class="y">when a newer search replaced it</span>")</code></p>
+  </div>
+</div>
+
+<p class="legend" v-click="2"><span class="x">X</span> what happens <span class="y">Y</span> under what condition</p>
+
+<style>
+.test-titles p {
+  font-size: var(--jg-size-medium);
+  margin: 0 0 0.75rem;
+}
+
+.test-titles .vague {
+  opacity: 0.55;
+  text-decoration: line-through;
+  text-decoration-color: var(--jg-fg-muted);
+}
+
+.test-titles .x,
+.legend .x {
+  border-bottom: 3px solid var(--jg-squiggle);
+  color: var(--jg-squiggle);
+}
+
+.test-titles .y,
+.legend .y {
+  border-bottom: 3px dashed var(--jg-link);
+  color: var(--jg-link);
+}
+
+.legend {
+  font-size: var(--jg-size-medium);
+  margin-top: 1.5rem;
+}
+
+.legend .x,
+.legend .y {
+  font-weight: var(--jg-weight-bold);
+  margin-left: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.legend .x {
+  margin-left: 0;
+}
+</style>
+
+<!--
+A small protip I personally like a lot: name tests "X when Y".
+
+Titles like "works" or "handles empty results" don't tell you much. Handles them how?
+
+[click] Instead, be specific. Read these titles in a describe block and you have the spec, including the edge cases.
+
+[click] X is what happens. Y is under what condition. It also makes gaps obvious. If there's a "when" you can think of that isn't there, that's a test to write. Agents follow this pattern well once you tell them to. Sentry's react-testing skill tells agents much the same thing: "Name tests after the behavior they protect."
+
+Links:
+
+- https://github.com/getsentry/sentry/blob/master/.agents/skills/react-testing/SKILL.md
+-->
+
+---
+layout: default
+---
+
+## Protip: Arrange, Act, Assert
+
+```tsx {all|2-3|5|7|all}
+it("shows 'No results' when nothing matches", async () => {
+	render(<TalkSearch talks={talks} />);
+	const input = screen.getByRole("searchbox");
+
+	await userEvent.type(input, "zzz");
+
+	expect(await screen.findByText("No results")).toBeVisible();
+});
+```
+
+<p class="aaa">
+  <span :class="{ active: $clicks === 1 || $clicks >= 4 }">Arrange</span>
+  <span :class="{ active: $clicks === 2 || $clicks >= 4 }">Act</span>
+  <span :class="{ active: $clicks === 3 || $clicks >= 4 }">Assert</span>
+</p>
+
+<style>
+.aaa {
+  display: flex;
+  font-size: var(--jg-size-large);
+  font-weight: var(--jg-weight-bold);
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.aaa span {
+  color: var(--jg-fg-muted);
+  opacity: 0.45;
+  transition:
+    color var(--jg-duration-medium) ease,
+    opacity var(--jg-duration-medium) ease;
+}
+
+.aaa span.active {
+  color: var(--jg-squiggle);
+  opacity: 1;
+}
+</style>
+
+<!--
+Another protip for structuring tests, for humans and agents alike: Arrange, Act, Assert.
+
+[click] Arrange: set up everything the test needs. Here, render the component and find the input.
+
+[click] Act: do exactly one thing. Type into the search box.
+
+[click] Assert: check the result. "No results" shows up.
+
+[click] Every test reads the same way, top to bottom. That makes agent-written tests much easier to review, and it makes a test that's secretly doing three things obvious.
+
+Links:
+
+- https://testing-library.com/docs/queries/about/#priority
+-->
+
+---
+layout: default
+---
+
+## What Not to Test
+
+<div class="cards principles">
+  <div v-click>
+    <h3>Features that are gone</h3>
+    <p>Don't assert that removed code stays removed.</p>
+  </div>
+  <div v-click>
+    <h3>Code without logic</h3>
+    <p>Static markup, constants, and props passed straight through.</p>
+  </div>
+  <div v-click>
+    <h3>Other people's code</h3>
+    <p>Your framework and libraries already have their own tests.</p>
+  </div>
+</div>
+
+<!--
+Cheap tests have a catch: agents will happily write tests that don't need to exist. Every test is code you maintain.
+
+[click] Don't test that features are gone. Once you remove something, a test asserting it's not there is just noise.
+
+[click] Don't test code that contains no logic. Static markup, constants, props passed straight through. If there's no decision being made, there's nothing to get wrong.
+
+[click] And don't test other people's code. React already tests that useState works.
+-->
+
+---
+layout: section
+---
+
+<div class="eyebrow">3/4 Dynamic Analysis</div>
+
+# Beyond Unit Tests
+
+<p class="muted">Look at the actual page</p>
+
+<div class="eyebrow">2/2</div>
+
+<!--
+Next, beyond unit tests: integration and end-to-end tests, agents driving a browser themselves, and a quick peek at production, past the four stages.
+-->
+
+---
+layout: default
+---
+
+## Testing More Than One Piece
+
+<div class="cards principles test-scopes">
+  <div>
+    <h3>Unit</h3>
+    <p>One piece, in isolation.</p>
+  </div>
+  <div v-click>
+    <h3>Integration</h3>
+    <p>Pieces working together.</p>
+  </div>
+  <div v-click>
+    <h3>End-to-end</h3>
+    <p>The real app in a real browser, used the way a person would.</p>
+  </div>
+</div>
+
+<style>
+.test-scopes {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1.5rem;
+}
+</style>
+
+<!--
+Unit tests check one piece at a time, in isolation: a function, a hook, a component with everything around it mocked.
+
+[click] Integration tests check pieces working together: a component with its real state and data layer, with only the network faked.
+
+[click] End-to-end tests run the real app in a real browser and use it the way a person would. They're slower, and they catch the bugs that only show up in the whole app: routing, storage, the real network, the browser itself. Those are exactly the bugs an agent misses when it only reads one file at a time.
+-->
+
+---
+layout: default
+---
+
+## Example: An End-To-End Test
+
+```ts
+test("keeps a favorite when the page reloads", async ({ page }) => {
+	await page.goto("/talks");
+	await page.getByRole("button", { name: "Favorite" }).first().click();
+
+	await page.reload();
+
+	await expect(
+		page.getByRole("button", { name: "Favorite", pressed: true }),
+	).toBeVisible();
+});
+```
+
+<p class="big" v-click>It fails when the page is broken, even if every function works.</p>
+
+<!--
+Here's what one looks like, in Playwright. Go to the talks page, favorite a talk, reload, and expect it to still be a favorite.
+
+Notice it finds things the way a user does: by role and by name. And "pressed" checks aria-pressed, so the test also fails if a screen reader can't tell whether the toggle is on.
+
+[click] And it fails when the page is broken, even if every function in it works on its own. That's the gap between unit tests and what users see.
+
+Agents are good at writing these, and good at running them. Put them in CI, and tell your agent to run them before it says it's done.
+
+Links:
+
+- https://playwright.dev/docs/locators
+-->
+
+---
+layout: default
+---
+
+## Agents Can Drive a Browser, Too
+
+<p class="big">Tests check the flows you thought to write down.</p>
+
+<p class="big" v-click>A browser lets an agent check the flow it just changed.</p>
+
+<!--
+End-to-end tests check the flows you thought to write down ahead of time.
+
+[click] But agents can also drive a browser directly, while they work. That lets an agent check the flow it just changed: click through it, look at it, read the console. Before it tells you it's done.
+-->
+
+---
+layout: default
+---
+
+## Example: Giving the Agent a Browser
+
+```json
+{
+	"mcpServers": {
+		"chrome-devtools": {
+			"command": "npx",
+			"args": ["-y", "chrome-devtools-mcp@latest"]
+		}
+	}
+}
+```
+
+```md
+Open localhost:3000/talks, favorite a talk, and reload.
+Screenshot the result, and check the console for errors.
+```
+
+<!--
+Setting it up is a few lines of MCP config. This is straight from the Chrome DevTools MCP readme.
+
+Then you can ask for runtime checks in plain language: open the page, favorite a talk, reload, screenshot it, and check the console.
+
+It's the same flow as that end-to-end test. The difference: the agent can check it right after changing it, before anyone has written a test. And if the check matters, turn it into a test.
+
+Links:
+
+- https://github.com/ChromeDevTools/chrome-devtools-mcp
+-->
+
+---
+layout: statement
+---
+
+# "All checks pass."
+
+<p class="muted">An agent, about a page it never looked at</p>
+
+<!--
+Here's something you'll hear from agents a lot, about frontend changes: "All checks pass."
+
+Raise your hand if an agent has told you all checks pass, and the page was broken. (Pause.) This was a test. Everybody should be raising their hand.
+-->
+
+---
+layout: center
+---
+
+<img alt="Tim Robinson sarcastically asking: YOU SURE ABOUT THAT?" class="reaction" src="/images/tim-robinson-you-sure.gif" />
+
+<!--
+You sure about that?
+
+“You sure about that?”: Tim Robinson, I Think You Should Leave
+-->
+
+---
+layout: default
+---
+
+## Protip: Actually Verify Outputs
+
+<p class="big" v-click>Reasoning about code isn't running it.</p>
+
+<div class="cards principles" v-click>
+  <div>
+    <h3>Ask for evidence</h3>
+    <p>Screenshots, console output, and network requests from the running page.</p>
+  </div>
+  <div>
+    <h3>Look at it yourself</h3>
+    <p>Your users see the screen, not the test results.</p>
+  </div>
+</div>
+
+<!--
+Agents verify their own work by reasoning about it all the time: "The code says this should work, so it does." Checks pass, the math looks right, and the page is still broken.
+
+[click] Reasoning about code isn't running it. A model reading its own code can say "this should work." Even a passing unit test only says the logic works in isolation. Only the running page says whether the page works.
+
+[click] So ask for evidence from the running page: screenshots, console output, network requests. We'll see a skill for exactly that in part four. And look at it yourself.
+-->
+
+---
+layout: statement
+---
+
+# The best testing is in production.
+
+<p class="muted" v-click>(Please be gentle to your users.)</p>
+
+<!--
+Here's a slightly spicy one: the best testing is in production. That's the only place with your real users, real data, and real devices.
+
+On the funnel, that's telemetry, the stage after peer review. It's the most realistic test you'll get, and one of the most expensive places to catch a bug. The only net after it is your users. So it's a backstop, not your first net.
+
+[click] Please be gentle to your users. They didn't sign up to be your test suite.
+-->
+
+---
+layout: default
+---
+
+## Protip: Watch What Users Actually Hit
+
+<div class="cards principles prod-signals">
+  <div>
+    <h3>Errors</h3>
+    <p>Real exceptions, with stack traces and how many people hit them.</p>
+  </div>
+  <div>
+    <h3>Performance</h3>
+    <p>Slow pages and requests, traced across services.</p>
+  </div>
+  <div>
+    <h3>Replays</h3>
+    <p>What someone saw and did right before it broke.</p>
+  </div>
+</div>
+
+<p class="big" v-click>Agents can read these too, through MCP servers like Sentry's.</p>
+
+<style>
+.prod-signals {
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1.5rem 0;
+}
+</style>
+
+<!--
+So watch what users actually hit, with an observability or monitoring tool. You want errors with real stack traces and counts, performance traces for slow pages and requests, and replays of what someone saw and did right before it broke.
+
+[click] And agents can read these too. Sentry has an MCP server, and so do other observability tools. Point an agent at a real production issue and it starts from evidence instead of a guess.
+
+Full disclosure: I work at Sentry, and this is the thing we build. Whatever you use, use something.
+
+Links:
+
+- https://mcp.sentry.dev
+-->
+
+---
+layout: default
+---
+
+<div class="eyebrow">3/4 Dynamic Analysis</div>
+
+## Recap: Does It Match the Spec?
+
+<div class="recap">
+  <span class="muted">You</span>
+  <span class="muted">So your agent…</span>
+  <strong>Respect, add to, and use the spec</strong>
+  <span>hits a failing test when it changes behavior you care about</span>
+  <strong>Name tests "X when Y"</strong>
+  <span>writes test titles that read as the spec</span>
+  <strong>Arrange, act, assert</strong>
+  <span>writes tests you can review at a glance</span>
+  <strong>Test in a real browser</strong>
+  <span>checks the page, not just the code</span>
+  <strong>Actually verify outputs</strong>
+  <span>shows you screenshots, not just "All checks pass."</span>
+  <strong>Watch what users actually hit</strong>
+  <span>starts from real errors instead of guesses</span>
+</div>
+
+<!--
+Part three, recapped. The theme: don't take the agent's word for it. Run the code, and look at the result.
+
+(Pause a beat, then move on.)
+-->
+
+---
+layout: center
+---
+
+<BugFunnel current="Peer Review" />
+
+<!--
+Part four of four: peer review. Is the spec correct?
+-->
+
+---
+layout: section
+---
+
+<div class="eyebrow">4/4 Peer Review</div>
+
+# Humans
+
+<p class="muted">That means you</p>
+
+<div class="eyebrow">1/2</div>
+
+<!--
+First, humans. That means you.
+-->
+
+---
+layout: default
+---
+
+## Is the Spec Correct?
+
+<p class="big">Tools check the code against the spec. Only people can check the spec against what users need.</p>
+
+<p class="accent cta" v-click>Have a human review every PR that ships to real users.</p>
+
+<style>
+.cta {
+  font-size: var(--jg-size-subtitle);
+  font-weight: var(--jg-weight-bold);
+  margin-top: 1.5rem;
+  white-space: nowrap;
+}
+</style>
+
+<!--
+Types, lint, and tests answer the funnel's middle two questions: is it written right, and does it match the spec?
+
+But the last question is different. Tools check the code against the spec. Only people can check the spec against what users actually need. That's the most valuable part of review now.
+
+[click] Have a human review every PR that ships to real users. Spend that review time on the plan and the test changes, not just the implementation.
+-->
+
+---
+layout: default
+---
+
+## Example: A Spec Change in Disguise
+
+<p class="muted">"Fixed the failing test. All checks pass."</p>
+
+```diff
+ it("shows 'No results' when nothing matches", async () => {
+ 	render(<TalkSearch talks={talks} />);
+ 	const input = screen.getByRole("searchbox");
+
+ 	await userEvent.type(input, "zzz");
+
+-	expect(await screen.findByText("No results")).toBeVisible();
++	expect(screen.queryByText("No results")).not.toBeInTheDocument();
+ });
+```
+
+<p class="big" v-click>The tests pass because the spec changed. Only a person can say whether it should have.</p>
+
+<!--
+Here's what that looks like. Watch out for this one.
+
+The agent says: "Fixed the failing test. All checks pass." And they do pass! Because it changed what the test expects. The title still says it shows "No results". The assertion now says it doesn't.
+
+[click] None of your CI checks will fail on this, because the tests are the thing that changed. An AI reviewer may well flag that the title and the assertion disagree. But it can't tell you which one is right. That depends on what your users need, and only a person can decide that. So when you review an agent's PR, read the test changes first.
+-->
+
+---
+layout: section
+---
+
+<div class="eyebrow">4/4 Peer Review</div>
+
+# Skills
+
+<p class="muted">Again!</p>
+
+<div class="eyebrow">2/2</div>
+
+<!--
+Second, skills. Again! Skills aren't just for writing code. They're great for reviewing and testing it, too.
+-->
+
+---
+layout: default
+---
+
+## Example: A Skill for Adversarial Review
+
+```md
+---
+name: adversarial-review
+description: Adversarially reviews the current changes, fixes the findings,
+  and repeats until a review comes back clean.
+---
+
+1. Have a fresh subagent review the diff as a skeptical reviewer:
+   correctness, edge cases, accessibility, performance, and simplicity.
+2. List each finding with its file, line, and severity. Don't fix yet.
+3. Fix every real finding. Re-run lint, type checking, and tests.
+4. Repeat from step 1 until a review comes back clean.
+```
+
+
+<!--
+First: adversarial review. This is the one I use the most.
+
+Ask for an adversarial review of the changes, fix what it finds, and repeat until a review comes back clean.
+
+The "repeat" part matters. One round isn't enough, because fixes cause new bugs. Keep going until a review comes back clean.
+
+Fair warning: it burns through tokens like nothing else. The results are usually worth it.
+-->
+
+---
+layout: default
+---
+
+## Example: A Skill for Browser Setup
+
+```md
+---
+name: browse-local-sentry
+description: Connects an agent's browser to a local Sentry dev server ...
+---
+
+- Run every check in every session. Chrome updates, re-auth, and port
+  changes undo earlier setup without warning.
+- Never bypass certificate warnings, log in to sentry.io yourself,
+  or type the user's credentials.
+- In the user's own Chrome, open your own tabs. Never navigate, reload,
+  close, read, screenshot, run scripts in, or quote the user's tabs.
+```
+
+<!--
+Before an agent can QA anything in a browser, it has to get into one. That's fiddlier than it sounds: which port is the dev server on, is the certificate trusted, is the agent signed in?
+
+So I wrote a skill that holds its hand through all of that. Run every check in every session, because Chrome updates, re-auth, and port changes quietly undo earlier setup. Never bypass certificate warnings, log in, or type my credentials. And when it borrows my Chrome for my session, it opens its own tabs and never touches mine.
+
+If you're not at Sentry, Anthropic's webapp-testing skill is a good starting point for driving your own app with Playwright.
+
+Links:
+
+- https://github.com/getsentry/skills/tree/main/skills/browse-local-sentry
+- https://github.com/anthropics/skills/tree/main/skills/webapp-testing
+-->
+
+---
+layout: default
+---
+
+## Example: A Skill for Browser QA
+
+```md
+---
+name: pr-screenshots
+description: Capture screenshots of the Sentry UI in a web browser,
+  lay them out in a pull request description as before/after tables, ...
+---
+
+Screenshots in a PR are QA evidence.
+
+- List every place in the product that the diff reaches.
+- Real build only: never screenshot a story, mock page, or harness
+  built for the PR.
+- No injected changes: never inject CSS or change the DOM to imitate
+  the change.
+- Identical framing: capture the same region at the same dimensions
+  for both shots of a pair.
+```
+
+<!--
+Once it's in the browser, here's the QA part: pr-screenshots, also from Sentry's shared skills repo.
+
+Screenshots in a PR are QA evidence. So the rules are about keeping them honest. Find every place the change shows up. Screenshot the real build, never a mock page. Never inject CSS to fake the change. And frame before and after identically, so they can be compared.
+
+Links:
+
+- https://github.com/getsentry/skills/tree/main/skills/pr-screenshots
+-->
+
+---
+layout: default
+---
+
+## Example: A Skill for PR Screenshots
+
+```md
+- Lay screenshots out in the PR description as before/after tables.
+- Pixel-diff every before/after pair. Move pairs with no visible
+  difference to **Unchanged**.
+- Upload with `gh --attach`. Do not push asset branches or commit images.
+- Before writing a body the user may have edited, fetch it again.
+```
+
+```shell
+gh pr edit 123 --body-file pr-body.md \
+  --attach './shots/logs-before.png' --attach './shots/logs-after.png'
+```
+
+<!--
+The same skill also puts those screenshots in the pull request description.
+
+Before/after tables, one row per location and state. Pixel-diff every pair, so "no visible change" is checked, not assumed.
+
+And upload them with the GitHub CLI's --attach flag, which is new as of this September. I wrote this skill recently, because before it, agents kept claiming the GitHub CLI couldn't attach images, and asked me to drag screenshots in by hand.
+
+Plus my favorite rule: before rewriting a PR description, fetch it again, in case a human edited it.
+
+I put screenshots in the description of every frontend PR, and writing that description doubles as my own QA pass.
+
+Links:
+
+- https://github.com/getsentry/skills/tree/main/skills/pr-screenshots
+- https://cli.github.com/manual/gh_pr_edit
+-->
+
+---
+layout: default
+---
+
+## Protip: Distill Repeated Work Into Skills
+
+<p class="big">Do something often? Have an agent distill it into a skill.</p>
+
+<div class="cards principles">
+  <div v-click>
+    <h3>Gather</h3>
+    <p>Point it at your past work: reviews, PRs, docs.</p>
+  </div>
+  <div v-click>
+    <h3>Distill</h3>
+    <p>Have it find the patterns and write them up as a skill.</p>
+  </div>
+  <div v-click>
+    <h3>Test</h3>
+    <p>Run the skill on real cases it hasn't seen, and compare.</p>
+  </div>
+</div>
+
+<!--
+If you do something often, have an agent distill it into a skill.
+
+[click] Gather: point it at your past work. Your review comments, your PRs, your docs.
+
+[click] Distill: have it find the recurring patterns and write them up as a skill.
+
+[click] Test: run the skill on real cases it hasn't seen, and compare against what you'd actually do.
+
+One caveat: if a pattern can be checked mechanically, make it a lint rule, like in part two. Skills are for the judgment calls a lint rule can't make.
+-->
+
+---
+layout: default
+---
+
+## Example: lint-rule-review-skill
+
+<p class="muted">I've reviewed a lot of lint rules. So I distilled those reviews into a skill.</p>
+
+<div class="cards distill-flow">
+  <div v-click="1">
+    <h3>Find</h3>
+    <p>“Find all my past lint rule reviews in open source”</p>
+  </div>
+  <span aria-hidden="true" class="distill-arrow" v-click="2">→</span>
+  <div v-click="2">
+    <h3>Analyze</h3>
+    <p>“Analyze these to categorize and group all comments”</p>
+  </div>
+  <span aria-hidden="true" class="distill-arrow" v-click="3">→</span>
+  <div v-click="3">
+    <h3>Distill</h3>
+    <p>“Distill all those pieces of feedback into a reusable lint rule review skill”</p>
+  </div>
+</div>
+
+<div class="cards protip" v-click="4"><div>Example for custom lint rules: github.com/JoshuaKGoldberg/lint-rule-review-skill</div></div>
+
+<style>
+.distill-flow {
+  align-items: stretch;
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  margin-top: 1.5rem;
+}
+
+.distill-flow h3 {
+  color: var(--jg-squiggle);
+  margin-bottom: 0.4rem;
+}
+
+.distill-flow p {
+  font-size: var(--jg-size-medium);
+  line-height: 1.35;
+  margin: 0;
+}
+
+.distill-arrow {
+  align-self: center;
+  color: var(--jg-squiggle);
+  font-size: var(--jg-size-large);
+  font-weight: var(--jg-weight-bold);
+}
+
+.protip {
+  margin: 2rem 0 0.5rem;
+}
+
+.protip > div {
+  border-color: var(--jg-hairline);
+  padding: 1rem 1.5rem;
+}
+</style>
+
+<!--
+Here's what that looks like for me. I've reviewed a lot of lint rules over the years: ESLint, typescript-eslint, and Flint. So I gave an agent three basic instructions.
+
+[click] First: find all my past lint rule reviews in open source. Thousands of review comments. I was not about to read those myself.
+
+[click] Second: analyze them to categorize and group all the comments. From 3,092 of those comments, it found 178 recurring patterns, like "match by declaration, not by name." Every pattern cites the real comments it came from. It even marks 42 of its own patterns as candidates for lint rules instead.
+
+[click] Third: distill all that feedback into a reusable lint rule review skill. Then I tested it: I held back some real reviews, and scored the skill against those. And I ran it on Sentry's custom lint rules, where it found hundreds of improvements. Not a replacement for a human reviewer, but a very good first pass.
+
+[click] So if you're writing custom lint rules, like we talked about earlier, run them through this skill.
+
+Links:
+
+- https://github.com/JoshuaKGoldberg/lint-rule-review-skill
+- https://github.com/getsentry/sentry/pull/131080
+-->
+
+---
+layout: default
+---
+
+## Instructions Are Guidance
+
+<div class="evidence">
+<div>
+
+<p class="muted">My agent instructions</p>
+
+```md
+Never add the trailing "🤖 Generated with Claude Code".
+```
+
+</div>
+</div>
+
+<!--
+One more lesson about skills and instructions in general. Remember when I said the agent can ignore an instruction?
+
+My personal agent instructions say never to add a "Generated with Claude Code" line to pull requests.
+-->
+
+---
+layout: center
+---
+
+<img alt="Qui-Gon Jinn from Star Wars saying: I wish that were so" class="reaction" src="/images/qui-gon-wish.gif" />
+
+<!--
+I wish that were so.
+
+“I wish that were so”: Qui-Gon Jinn, Star Wars: Episode I
+-->
+
+---
+layout: default
+---
+
+## Instructions Are Guidance
+
+<div class="evidence">
+<div>
+
+<p class="muted">My agent instructions</p>
+
+```md
+Never add the trailing "🤖 Generated with Claude Code".
+```
+
+</div>
+<div v-click>
+
+<p class="muted">One of my PRs, last week</p>
+
+```md
+Turns on `typescript/no-unnecessary-type-arguments` ...
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+```
+
+</div>
+</div>
+
+<style>
+.evidence {
+  display: grid;
+  gap: 1.5rem;
+}
+</style>
+
+<!--
+Here are my instructions again.
+
+[click] Here's one of my pull requests from last week. It has the line. Rude.
+
+Links:
+
+- https://github.com/getsentry/toolkit/pull/2128
+-->
+
+---
+layout: center
+---
+
+<img alt="April from Parks and Recreation, wide-eyed in disbelief, pressing her fingers to her temples at her desk" class="reaction" src="/images/april-disbelief.gif" />
+
+<!--
+Are you kidding me.
+
+“Stressed”: https://giphy.com/gifs/parksandrec-episode-5-parks-and-recreation-rec-76Nahzjx4Y6WXP2APE
+-->
+
+---
+layout: statement
+---
+
+# Instructions are suggestions.
+
+<p v-click>Anything that has to happen every time belongs in a lint rule, a type, a test, or CI.</p>
+
+<!--
+Instructions are suggestions. The agent might follow them. It might not.
+
+[click] Anything that has to happen every time belongs in a lint rule, a type, a test, or CI. Not just in a prompt. For this one, fix it at the source: set Claude Code's attribution.pr setting to an empty string, and Claude Code stops asking the model for that line at all. And if it really has to hold every time, a CI check on PR descriptions can fail the PR.
+
+Links:
+
+- https://code.claude.com/docs/en/settings-reference#attribution-pr
+-->
+
+---
+layout: default
+clicks: 4
+---
+
+<div class="never" :class="`step-${$clicks}`">
+  <div aria-hidden="true" class="never-wall">
+    <div v-for="row in 14" :key="row">NEVER TRUST AN AI · NEVER TRUST AN AI · NEVER TRUST AN AI · NEVER TRUST AN AI</div>
+  </div>
+  <h1 class="never-text">Never trust an AI.</h1>
+  <p class="never-footnote">* This deck was made with AI. Double-check everything in it.</p>
+</div>
+
+<style>
+.never {
+  display: grid;
+  inset: 0;
+  overflow: hidden;
+  place-content: center;
+  position: absolute;
+  text-align: center;
+}
+
+.never-wall {
+  color: rgb(119 187 255 / 0%);
+  display: grid;
+  font-size: 1.6rem;
+  font-weight: var(--jg-weight-bolder);
+  gap: 0.35rem;
+  inset: -4rem;
+  position: absolute;
+  transform: rotate(-8deg);
+  transition: color var(--jg-duration-slowest) ease;
+  white-space: nowrap;
+}
+
+.never-wall div:nth-child(even) {
+  margin-left: -6rem;
+}
+
+.never-text {
+  font-size: var(--jg-size-title);
+  position: relative;
+  text-shadow: var(--jg-text-shadow);
+  transition:
+    font-size var(--jg-duration-slowest) ease,
+    line-height var(--jg-duration-slowest) ease;
+}
+
+.step-1 .never-text,
+.step-2 .never-text {
+  font-size: 5.5rem;
+  text-transform: uppercase;
+}
+
+.step-2 .never-wall {
+  color: rgb(119 187 255 / 14%);
+}
+
+.step-3 .never-text,
+.step-4 .never-text {
+  font-size: 10.5rem;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.step-3 .never-wall,
+.step-4 .never-wall {
+  color: rgb(0 163 255 / 28%);
+}
+
+.never-footnote {
+  background: var(--jg-bg-bottom);
+  bottom: 1.25rem;
+  color: var(--jg-fg);
+  font-size: 1rem;
+  opacity: 0;
+  padding: 0.35rem 0.75rem;
+  position: absolute;
+  right: 2rem;
+  transition: opacity var(--jg-duration-medium) ease;
+}
+
+.step-4 .never-footnote {
+  opacity: 1;
+}
+</style>
+
+<!--
+So I want to be very clear about something.
+
+Never trust an AI.
+
+[click] NEVER trust an AI.
+
+[click] Not for the code. Not for the tests. Not for the PR description. Not for the summary of the PR description.
+
+[click] NEVER. TRUST. AN AI.
+
+[click] (Pause.) This deck was made with AI, by the way. So double-check everything I just told you.
+-->
+
+---
+layout: default
+---
+
+<div class="eyebrow">4/4 Peer Review</div>
+
+## Recap: Is the Spec Correct?
+
+<div class="recap">
+  <span class="muted">You</span>
+  <span class="muted">So your agent…</span>
+  <strong>Have a human review what ships</strong>
+  <span>has its spec checked against what users need</span>
+  <strong>Review and QA with skills</strong>
+  <span>finds its own bugs before you review</span>
+  <strong>Distill repeated work into skills</strong>
+  <span>gets a first-pass review that knows your patterns</span>
+  <strong>Rules in CI</strong>
+  <span>gets stopped by a failing check, not just asked nicely</span>
+</div>
+
+<!--
+Part four, recapped. The theme: tools check the code, and people check the spec. Let's close out.
+-->
+
+---
+layout: center
+---
+
+## "The Bug Acquisition Funnel"
+
+<BugFunnel />
+
+<!--
+None of this gets you to zero bugs. Nothing does. The best you can do is get asymptotically close.
+
+But every stage of the funnel catches bugs the others miss. It would be foolish to write off any one stage for not catching every bug on its own. And how much of each you need depends on what you're building: a weekend side project is not the Mars rover.
+
+We've been building these stages for years, long before agents showed up. They're how you check the guesses.
+-->
+
+---
+layout: default
+---
+
+## Protips <span class="emoji">📸</span>
+
+<div class="protips">
+  <p>Prompt precisely: plan, context, review.</p>
+  <p>Pull in issue tracker context.</p>
+  <p>Practice coding by hand.</p>
+  <p>Facts in <code>AGENTS.md</code>, procedures in skills, rules in CI.</p>
+  <p>Keep TypeScript strict.</p>
+  <p>Make disables explain themselves.</p>
+  <p>Tell your LLMs to understand rules, not work around them.</p>
+  <p>Enable all the lint rules relevant to you.</p>
+  <p>Turn review comments into lint rules.</p>
+  <p>Respect, add to, and use the spec.</p>
+  <p>Name tests "X when Y".</p>
+  <p>Arrange, act, assert.</p>
+  <p>Test in a real browser.</p>
+  <p>Actually verify outputs.</p>
+  <p>Watch what users actually hit.</p>
+  <p>Have a human review what ships.</p>
+  <p>Distill repeated work into skills.</p>
+  <p>Include as many relevant lint rules as you possibly can.</p>
+  <p><strong>Never trust an AI.</strong></p>
+</div>
+
+<style>
+.protips {
+  column-gap: 3rem;
+  columns: 2;
+  margin-top: 1.5rem;
+}
+
+.protips p {
+  break-inside: avoid;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  margin: 0 0 0.6rem;
+}
+</style>
+
+<!--
+These are photo-capable slides, if you want.
+
+The main protips from today, in one place.
+-->
+
+---
+layout: default
+---
+
+## 🔗
+
+<div class="cards links">
+  <div>
+    <h3>Skills</h3>
+    <p><a href="https://agentskills.io">agentskills.io</a></p>
+    <p><a href="https://github.com/getsentry/skills">github.com/<wbr />getsentry/<wbr />skills</a></p>
+    <p><a href="https://github.com/anthropics/skills">github.com/<wbr />anthropics/<wbr />skills</a></p>
+    <p><a href="https://github.com/JoshuaKGoldberg/lint-rule-review-skill">github.com/<wbr />JoshuaKGoldberg/<wbr /><span class="nowrap">lint-rule-review-skill</span></a></p>
+  </div>
+  <div>
+    <h3>Static Analysis</h3>
+    <p><a href="https://typescriptlang.org">typescriptlang.org</a></p>
+    <p><a href="https://typescript-eslint.io">typescript-eslint.io</a></p>
+    <p><a href="https://eslint.org">eslint.org</a></p>
+    <p><a href="https://oxc.rs">oxc.rs</a> <span class="muted">(Oxlint)</span></p>
+    <p><a href="https://github.com/getsentry/sentry/tree/master/static/oxlint">github.com/<wbr />getsentry/<wbr />sentry/<wbr />tree/<wbr />master/<wbr />static/<wbr />oxlint</a></p>
+  </div>
+  <div>
+    <h3>Dynamic Analysis</h3>
+    <p><a href="https://vitest.dev">vitest.dev</a></p>
+    <p><a href="https://testing-library.com">testing-library.com</a></p>
+    <p><a href="https://playwright.dev">playwright.dev</a></p>
+    <p><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">github.com/<wbr />ChromeDevTools/<wbr /><span class="nowrap">chrome-devtools-mcp</span></a></p>
+    <p><a href="https://mcp.sentry.dev">mcp.sentry.dev</a></p>
+  </div>
+</div>
+
+<style>
+.links {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1.3fr 1fr 1.3fr;
+  margin-top: 2rem;
+}
+
+.links h3 {
+  color: var(--jg-squiggle);
+  margin-bottom: 1rem;
+}
+
+.links .nowrap {
+  white-space: nowrap;
+}
+
+.links p {
+  font-size: var(--jg-size-small);
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+}
+</style>
+
+<!--
+The main tools and skills I talked about, in one place. Many slides' notes also link to the docs behind them, so grab the slides afterward if you want to dig in.
+-->
+
+---
+layout: cover
+---
+
+# Thank you! <span class="emoji">💖</span>
+
+<p class="thanks-handle">@ JoshuaKGoldberg .com</p>
+
+<img alt="QR code linking to hi.joshuakgoldberg.com" class="thanks-qr" src="/images/qr-hi-joshuakgoldberg.png" />
+
+<style>
+.thanks-handle {
+  color: var(--jg-link);
+  font-size: var(--jg-size-large);
+  margin-top: 2rem;
+}
+
+.thanks-qr {
+  margin: 2rem auto 0;
+  width: 8.5rem;
+}
+</style>
+
+<!--
+Thanks very much to you for listening, and to the React Summit organizers and my fellow MCs for a great day! You can reach me on Bluesky, Fosstodon, and dot com at JoshuaKGoldberg. The QR code goes to all of those, and the slides are on joshuakgoldberg.com/speaking.
+
+Make AI write better code. Thanks everyone, enjoy the evening!
+-->

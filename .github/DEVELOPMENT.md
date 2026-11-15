@@ -16,7 +16,7 @@ pnpm install
 Each talk in `packages/` is a [Slidev](https://sli.dev) deck in its `src/`.
 slidev2pptx builds each deck into a PowerPoint file in its package's `lib/` directory.
 It isn't published yet, so this repository installs it as an optional dependency from a local checkout next to it, in `../slidev2pptx`.
-Without that checkout, `pnpm install` still works, and you can present and lint talks, but not build them.
+Without that checkout, `pnpm install` still works, and you can present talks and run the format, lint, and type checks, but not build talks or run `pnpm lint:packages`, whose `pnpm dedupe --check` would drop slidev2pptx from the lockfile.
 If you have the checkout, build it before installing:
 
 ```shell
@@ -63,7 +63,7 @@ pnpm format --write
 
 ## Linting
 
-This package includes several forms of linting to enforce consistent code quality and styling.
+This repository includes several forms of linting to enforce consistent code quality and styling.
 Each should be shown in VS Code, and can be run manually on the command-line:
 
 - `pnpm lint` ([ESLint](https://eslint.org) with [typescript-eslint](https://typescript-eslint.io)): Lints source files, including JavaScript, Markdown, and TypeScript

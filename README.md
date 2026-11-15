@@ -20,6 +20,7 @@ The decks were converted from their original PowerPoint files, so they may look 
 
 | Talk                                                                                                                                                                                  | Given at                                             |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Make AI Write Better Code](./packages/2026-11-17-make-ai-write-better-code)                                                                                                          | React Summit US 2026 (November 17, 2026)             |
 | [What's New in TypeScript 6.0](./packages/2026-05-21-what-s-new-in-typescript-6-0)                                                                                                    | Boston TS Club (May 21, 2026)                        |
 | [How to Learn to Love the Linter](./packages/2026-03-28-how-to-learn-to-love-the-linter)                                                                                              | Boston Code Camp 40 (March 28, 2026)                 |
 | [TypeScript and Aspire](./packages/2026-03-23-typescript-and-aspire)                                                                                                                  | AspireConf 2026 (March 23, 2026)                     |
@@ -64,7 +65,6 @@ The decks were converted from their original PowerPoint files, so they may look 
 | [TypeScript for JavaScripties](./packages/2023-05-30-typescript-for-javascripties)                                                                                                    | CityJS Athens 2023 (May 30, 2023)                    |
 | [Interviewing Developers with Accuracy and Precision](./packages/2023-05-18-interviewing-developers-with-accuracy-and-precision)                                                      | JSConf India 2023 (May 18, 2023)                     |
 | [The Life and Times of an Open Source Maintainer](./packages/2023-05-17-the-life-and-times-of-an-open-source-maintainer)                                                              | PhillyJS (May 17, 2023)                              |
-| [Accessibility, Design Systems, and YOU!](./packages/2021-07-14-accessibility-design-systems-and-you)                                                                                 | CSSCamp 2021 (July 14, 2021)                         |
 | [Setting Up ESLint and TypeScript for React](./packages/2023-04-21-setting-up-eslint-and-typescript-for-react)                                                                        | React Miami 2023 (April 21, 2023)                    |
 | [How to Complain Positively](./packages/2023-03-16-how-to-complain-positively)                                                                                                        | StaffPlus NYC 2023 (March 16, 2023)                  |
 | [Enums are MISUNDERSTOOD (Not Terrible)](./packages/2023-03-07-enums-are-misunderstood-not-terrible)                                                                                  | Michigan TypeScript (March 7, 2023)                  |
@@ -89,6 +89,7 @@ The decks were converted from their original PowerPoint files, so they may look 
 | [From Takedown to TypeScript](./packages/2021-11-03-from-takedown-to-typescript)                                                                                                      | CascadiaJS 2021 (November 3, 2021)                   |
 | [Converting a Game Engine to TypeScript](./packages/2021-09-10-converting-a-game-engine-to-typescript)                                                                                | TSConf 2021 (September 10, 2021)                     |
 | ["Zero" Frontend Crashes in Production](./packages/2021-08-21-zero-frontend-crashes-in-production)                                                                                    | Reliable Web Summit 2021 (August 21, 2021)           |
+| [Accessibility, Design Systems, and YOU!](./packages/2021-07-14-accessibility-design-systems-and-you)                                                                                 | CSSCamp 2021 (July 14, 2021)                         |
 | [Microfrontends at Scale](./packages/2021-06-28-microfrontends-at-scale)                                                                                                              | WeAreDevelopers World Congress 2021 (June 28, 2021)  |
 | [Crafting an Accessible Design System](./packages/2021-05-20-crafting-an-accessible-design-system)                                                                                    | A11y Bytes 2021 (May 20, 2021)                       |
 | [Breaking the Codecademy Course Catalog](./packages/2021-04-27-breaking-the-codecademy-course-catalog)                                                                                | React JS Case Study Festival 2021 (April 27, 2021)   |
@@ -140,4 +141,4 @@ Thanks! 💖
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- spellchecker: enable -->
 
-> 💝 This package was templated with [`create-typescript-app`](https://github.com/JoshuaKGoldberg/create-typescript-app) using the [Bingo framework](https://create.bingo).
+> 💝 This repository was templated with [`create-typescript-app`](https://github.com/JoshuaKGoldberg/create-typescript-app) using the [Bingo framework](https://create.bingo).

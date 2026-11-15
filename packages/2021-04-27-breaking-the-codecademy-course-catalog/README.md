@@ -2,7 +2,7 @@
 
 Slides for Breaking the Codecademy Course Catalog, a talk given at:
 
-- [React JS Case Study Festival 2021](https://events.geekle.us): April 27, 2021 ([video](https://youtu.be/HVoPNeLqM8I?t=33274))
+- React JS Case Study Festival 2021: April 27, 2021 ([video](https://youtu.be/HVoPNeLqM8I?t=33274))
 
 ## Usage
 
