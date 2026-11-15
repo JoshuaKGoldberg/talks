@@ -1,0 +1,21 @@
+{
+	"name": "2023-11-19-static-analysis-shockingly-awesome",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Static Analysis: Shockingly Awesome! ⚡️\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2023-11-19-static-analysis-shockingly-awesome"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2023-11-19-static-analysis-shockingly-awesome.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

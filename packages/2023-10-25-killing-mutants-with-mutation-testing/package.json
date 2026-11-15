@@ -1,0 +1,21 @@
+{
+	"name": "2023-10-25-killing-mutants-with-mutation-testing",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Killing Mutants with Mutation Testing\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2023-10-25-killing-mutants-with-mutation-testing"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2023-10-25-killing-mutants-with-mutation-testing.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

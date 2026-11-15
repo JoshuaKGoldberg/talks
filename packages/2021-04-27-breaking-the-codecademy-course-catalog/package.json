@@ -1,0 +1,21 @@
+{
+	"name": "2021-04-27-breaking-the-codecademy-course-catalog",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Breaking the Codecademy Course Catalog\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2021-04-27-breaking-the-codecademy-course-catalog"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2021-04-27-breaking-the-codecademy-course-catalog.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

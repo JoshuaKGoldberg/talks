@@ -1,0 +1,21 @@
+{
+	"name": "2025-05-27-types-beyond-typescript",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Types Beyond TypeScript\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2025-05-27-types-beyond-typescript"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2025-05-27-types-beyond-typescript.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

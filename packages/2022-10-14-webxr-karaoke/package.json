@@ -1,0 +1,21 @@
+{
+	"name": "2022-10-14-webxr-karaoke",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"WebXR Karaoke\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2022-10-14-webxr-karaoke"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2022-10-14-webxr-karaoke.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

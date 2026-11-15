@@ -1,0 +1,21 @@
+{
+	"name": "2025-03-19-what-s-new-in-typescript-5-8",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"What's New in TypeScript 5.8\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2025-03-19-what-s-new-in-typescript-5-8"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2025-03-19-what-s-new-in-typescript-5-8.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

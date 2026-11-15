@@ -1,0 +1,21 @@
+{
+	"name": "2021-12-09-graphql-apollo-next-js-a-lovely-trio",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"GraphQL + Apollo + Next.js: A Lovely Trio\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2021-12-09-graphql-apollo-next-js-a-lovely-trio"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2021-12-09-graphql-apollo-next-js-a-lovely-trio.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

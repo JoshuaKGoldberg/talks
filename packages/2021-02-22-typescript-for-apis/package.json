@@ -1,0 +1,21 @@
+{
+	"name": "2021-02-22-typescript-for-apis",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"TypeScript for APIs\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2021-02-22-typescript-for-apis"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2021-02-22-typescript-for-apis.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

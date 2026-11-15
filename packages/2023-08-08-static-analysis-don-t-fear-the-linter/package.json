@@ -1,0 +1,21 @@
+{
+	"name": "2023-08-08-static-analysis-don-t-fear-the-linter",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Static Analysis: Don't Fear the Linter!\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2023-08-08-static-analysis-don-t-fear-the-linter"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2023-08-08-static-analysis-don-t-fear-the-linter.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

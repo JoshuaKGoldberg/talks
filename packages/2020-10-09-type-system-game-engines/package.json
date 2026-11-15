@@ -1,0 +1,21 @@
+{
+	"name": "2020-10-09-type-system-game-engines",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Type System Game Engines\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2020-10-09-type-system-game-engines"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2020-10-09-type-system-game-engines.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

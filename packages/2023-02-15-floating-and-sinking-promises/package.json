@@ -1,0 +1,21 @@
+{
+	"name": "2023-02-15-floating-and-sinking-promises",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Floating and Sinking Promises\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2023-02-15-floating-and-sinking-promises"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2023-02-15-floating-and-sinking-promises.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

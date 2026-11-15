@@ -1,0 +1,21 @@
+{
+	"name": "2022-06-15-adventures-in-type-safe-prisma-clients",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Adventures in Type Safe Prisma Clients\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2022-06-15-adventures-in-type-safe-prisma-clients"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2022-06-15-adventures-in-type-safe-prisma-clients.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

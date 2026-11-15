@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "Regular Bold";
+	src: url("./fonts/0-Regular-Bold__1_.otf");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Regular Bold";
+	src: url("./fonts/1-Regular-Bold.otf");
+	font-weight: 600;
+	font-style: normal;
+}
+
+.pptx {
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+	font-family: Calibri, sans-serif;
+	color: black;
+	text-align: left;
+}
+
+.pptx-group {
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+}
+
+.pptx-shape {
+	position: absolute;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.pptx-crop {
+	overflow: hidden;
+}
+
+/* UnoCSS's preflight shrinks images to their container, which would undo crops. */
+.pptx img {
+	max-width: none;
+	max-height: none;
+}
+
+.pptx-text {
+	display: flex;
+	flex-direction: column;
+	overflow-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+.pptx-text p,
+.pptx-text ul,
+.pptx-text ol,
+.pptx-text li {
+	margin: 0;
+	padding: 0;
+}
+
+.pptx-text ul,
+.pptx-text ol {
+	list-style-position: outside;
+}
+
+.pptx-text a {
+	color: inherit;
+}

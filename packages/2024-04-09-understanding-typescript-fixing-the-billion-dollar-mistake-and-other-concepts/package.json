@@ -1,0 +1,21 @@
+{
+	"name": "2024-04-09-understanding-typescript-fixing-the-billion-dollar-mistake-and-other-concepts",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Understanding TypeScript: Fixing the Billion Dollar Mistake and Other Concepts\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2024-04-09-understanding-typescript-fixing-the-billion-dollar-mistake-and-other-concepts"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2024-04-09-understanding-typescript-fixing-the-billion-dollar-mistake-and-other-concepts.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

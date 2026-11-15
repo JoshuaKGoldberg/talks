@@ -1,0 +1,21 @@
+{
+	"name": "2025-05-29-tooling-like-it-s-2025",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Tooling Like It's 2025\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2025-05-29-tooling-like-it-s-2025"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2025-05-29-tooling-like-it-s-2025.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

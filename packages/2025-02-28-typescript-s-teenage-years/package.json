@@ -1,0 +1,21 @@
+{
+	"name": "2025-02-28-typescript-s-teenage-years",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"TypeScript's Teenage Years\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2025-02-28-typescript-s-teenage-years"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2025-02-28-typescript-s-teenage-years.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}

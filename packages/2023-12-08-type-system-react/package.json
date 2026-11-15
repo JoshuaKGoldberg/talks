@@ -1,0 +1,21 @@
+{
+	"name": "2023-12-08-type-system-react",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Slides for \"Type System React\".",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoshuaKGoldberg/talks.git",
+		"directory": "packages/2023-12-08-type-system-react"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Josh Goldberg",
+		"email": "git@joshuakgoldberg.com"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "slidev2pptx src/slides.md --output lib/2023-12-08-type-system-react.pptx",
+		"dev": "slidev src/slides.md"
+	}
+}
