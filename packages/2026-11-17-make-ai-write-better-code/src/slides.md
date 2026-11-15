@@ -67,7 +67,6 @@ Thanks to Ken for that talk. He's right: you can build anything now. This talk i
 -->
 
 ---
-
 layout: default
 ---
 
@@ -200,7 +199,6 @@ https://learningtypescript.com
 -->
 
 ---
-
 layout: full
 ---
 
@@ -211,7 +209,6 @@ I've been working in open source for a little over a decade. Green squares are a
 -->
 
 ---
-
 layout: center
 clicks: 2
 ---
@@ -231,7 +228,6 @@ Is traditional software verification still needed with AI?
 -->
 
 ---
-
 layout: center
 ---
 
@@ -252,7 +248,6 @@ It is incredibly rare for a software application to completely catch and fix all
 -->
 
 ---
-
 layout: center
 clicks: 4
 ---
@@ -278,7 +273,6 @@ Are we ready?
 -->
 
 ---
-
 layout: center
 ---
 
@@ -297,7 +291,6 @@ I'm ready!
 -->
 
 ---
-
 layout: center
 ---
 
@@ -308,7 +301,6 @@ Part one of four: design thought. What should it be?
 -->
 
 ---
-
 layout: section
 ---
 
@@ -325,7 +317,6 @@ Step one is knowing what you're doing.
 -->
 
 ---
-
 layout: statement
 ---
 
@@ -336,7 +327,6 @@ The better you know a tool, the more effective you are with it. That goes for AI
 -->
 
 ---
-
 layout: default
 ---
 
@@ -378,7 +368,6 @@ layout: default
 -->
 
 ---
-
 layout: statement
 ---
 
@@ -393,7 +382,6 @@ There is no substitute for human discretion.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -430,7 +418,6 @@ None of these would have failed a build. Most of them would have passed a quick 
 -->
 
 ---
-
 layout: center
 ---
 
@@ -443,7 +430,6 @@ What the hell.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -473,7 +459,6 @@ layout: default
 -->
 
 ---
-
 layout: default
 ---
 
@@ -495,7 +480,6 @@ Add favorites to the talk list.
 
 ```md
 Add a favorite toggle to each TalkCard.
-
 - Persist favorites with the existing useStoredState
   hook in src/hooks/useStoredState.ts.
 - Use the design system's ToggleButton.
@@ -526,7 +510,6 @@ That's most of a spec, in seven lines. When it comes to LLMs, you get out what y
 -->
 
 ---
-
 layout: default
 ---
 
@@ -552,8 +535,7 @@ layout: default
 <div v-click>
 
 ```md
-Fix ENG-1234.
-Before planning, read the issue, the error
+Fix ENG-1234. Before planning, read the issue, the error
 report it links to, and the chat thread in its comments.
 ```
 
@@ -582,7 +564,6 @@ You don't have to write all that context from scratch. Your issue tracker alread
 -->
 
 ---
-
 layout: default
 ---
 
@@ -626,7 +607,6 @@ Sometimes it's also just faster to do the task yourself.
 -->
 
 ---
-
 layout: section
 ---
 
@@ -643,7 +623,6 @@ The other half of design thought is skills: teaching your agent how to research,
 -->
 
 ---
-
 layout: default
 ---
 
@@ -662,7 +641,6 @@ description: Sentry and React performance ...
 # Sentry React Best Practices
 
 ## When to Apply
-
 ...
 ```
 
@@ -707,7 +685,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -730,6 +707,7 @@ layout: default
     <p>Linting, type checking, tests, and more</p>
   </div>
 </div>
+
 
 <style>
 .context-grid {
@@ -763,7 +741,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -777,10 +754,8 @@ description: Researches a task before planning it: code to reuse, current
 ---
 
 1. Find code that already does part of the task: components, hooks,
-   and utilities.
-   Plan to reuse them instead of writing new copies.
-2. Read the current docs for every library involved.
-   Your training
+   and utilities. Plan to reuse them instead of writing new copies.
+2. Read the current docs for every library involved. Your training
    data is older than you think.
 3. Find how this codebase built similar features, and follow that.
 4. Report what you found, with links, and any open questions.
@@ -795,7 +770,6 @@ That report becomes the context for the plan.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -809,14 +783,12 @@ description: Writes up a design for a change before any code exists,
 ---
 
 Before writing code, write up:
-
 - Which existing components, hooks, and design system pieces it uses
 - Every state: loading, empty, error, and success
 - Accessibility: keyboard, focus, and screen reader behavior
 - What's out of scope
 
-Then stop.
-Don't write code until I approve the design.
+Then stop. Don't write code until I approve the design.
 ```
 
 <!--
@@ -834,7 +806,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -862,7 +833,6 @@ Check whether your framework, or the community around it, publishes skills like 
 -->
 
 ---
-
 layout: default
 ---
 
@@ -932,7 +902,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -960,7 +929,6 @@ Quick recap of part one. On the left, what you do. On the right, how that makes 
 -->
 
 ---
-
 layout: center
 ---
 
@@ -971,7 +939,6 @@ Part two of four: static analysis. Is it written right?
 -->
 
 ---
-
 layout: default
 ---
 
@@ -988,7 +955,6 @@ Why does this matter so much with agents? Static analysis runs in seconds, and i
 -->
 
 ---
-
 layout: section
 ---
 
@@ -1005,7 +971,6 @@ First up, type checking.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1024,7 +989,6 @@ Two compiler options do most of the work for catching agent mistakes.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1063,7 +1027,6 @@ strictNullChecks means null and undefined have to be handled. Here, count only g
 -->
 
 ---
-
 layout: default
 clicks: 3
 ---
@@ -1115,7 +1078,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1144,7 +1106,6 @@ Links:
 -->
 
 ---
-
 layout: section
 ---
 
@@ -1161,7 +1122,6 @@ Next, linting.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1188,7 +1148,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1227,7 +1186,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1275,7 +1233,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1300,7 +1257,6 @@ Links:
 -->
 
 ---
-
 layout: default
 zoom: 0.9
 ---
@@ -1366,8 +1322,7 @@ function MyButton({ onClick }: { onClick: () => void }) {
 function MyButton({ onClick }: { onClick: () => void }) {
 	const [running, setRunning] = useState(false);
 
-	function onClickAndDisable() {
-		// 💀
+	function onClickAndDisable() { // 💀
 		onClick();
 	}
 
@@ -1406,9 +1361,7 @@ function MyButton({ onClick }: { onClick: () => void }) {
 ```tsx
 function MyButton({ onClick }: { onClick: () => void }) {
 	return (
-		<button disabled={false} onClick={onClick}>
-			{" "}
-			{/* 💀 */}
+		<button disabled={false} onClick={onClick}> {/* 💀 */}
 			click me 🤩
 		</button>
 	);
@@ -1417,7 +1370,11 @@ function MyButton({ onClick }: { onClick: () => void }) {
 
 ```tsx
 function MyButton({ onClick }: { onClick: () => void }) {
-	return <button onClick={onClick}>click me 🤩</button>;
+	return (
+		<button onClick={onClick}>
+			click me 🤩
+		</button>
+	);
 }
 ```
 ````
@@ -1470,7 +1427,6 @@ Links:
 -->
 
 ---
-
 layout: default
 zoom: 0.72
 ---
@@ -1503,7 +1459,11 @@ function MyButton({ onClick }: { onClick: () => void }) {
 
 ```tsx
 function MyButton({ onClick }: { onClick: () => void }) {
-	return <button onClick={onClick}>click me 🤩</button>;
+	return (
+		<button onClick={onClick}>
+			click me 🤩
+		</button>
+	);
 }
 ```
 
@@ -1536,7 +1496,6 @@ That's what static analysis is for: an agent can run these in seconds after ever
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1583,7 +1542,6 @@ I'm not going to tell you to never disable the linter. Every project is unique, 
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1615,7 +1573,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1628,8 +1585,7 @@ Before considering a task complete, run `npx eslint .` and fix
 everything it reports.
 
 For each report, read the rule's docs, understand why it fired,
-and fix the code.
-Don't add an `eslint-disable` comment to make
+and fix the code. Don't add an `eslint-disable` comment to make
 a report go away.
 ```
 
@@ -1651,7 +1607,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1717,7 +1672,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1748,7 +1702,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1787,7 +1740,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1817,7 +1769,6 @@ Part two, recapped. The theme: the agent hears about its mistakes in seconds, fr
 -->
 
 ---
-
 layout: center
 ---
 
@@ -1828,7 +1779,6 @@ Part three of four: dynamic analysis. Does it match the spec?
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1879,7 +1829,6 @@ Dynamic analysis is tooling that scrutinizes code by running it. There are three
 -->
 
 ---
-
 layout: section
 ---
 
@@ -1896,7 +1845,6 @@ First, unit testing. Everybody loves it!
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1921,7 +1869,6 @@ Reading just these test names, you know what this component is supposed to do.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1953,7 +1900,6 @@ So have your agents work with the spec.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -1985,7 +1931,6 @@ Writing tests used to be expensive. Now agents can draft them in minutes, so a l
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2059,7 +2004,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2122,7 +2066,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2154,7 +2097,6 @@ Cheap tests have a catch: agents will happily write tests that don't need to exi
 -->
 
 ---
-
 layout: section
 ---
 
@@ -2171,7 +2113,6 @@ Next, beyond unit tests: integration and end-to-end tests, agents driving a brow
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2208,7 +2149,6 @@ Unit tests check one piece at a time, in isolation: a function, a hook, a compon
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2244,7 +2184,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2261,7 +2200,6 @@ End-to-end tests check the flows you thought to write down ahead of time.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2296,7 +2234,6 @@ Links:
 -->
 
 ---
-
 layout: statement
 ---
 
@@ -2311,7 +2248,6 @@ Raise your hand if an agent has told you all checks pass, and the page was broke
 -->
 
 ---
-
 layout: center
 ---
 
@@ -2324,7 +2260,6 @@ You sure about that?
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2352,7 +2287,6 @@ Agents verify their own work by reasoning about it all the time: "The code says 
 -->
 
 ---
-
 layout: statement
 ---
 
@@ -2369,7 +2303,6 @@ On the funnel, that's telemetry, the stage after peer review. It's the most real
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2412,7 +2345,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2444,7 +2376,6 @@ Part three, recapped. The theme: don't take the agent's word for it. Run the cod
 -->
 
 ---
-
 layout: center
 ---
 
@@ -2455,7 +2386,6 @@ Part four of four: peer review. Is the spec correct?
 -->
 
 ---
-
 layout: section
 ---
 
@@ -2472,7 +2402,6 @@ First, humans. That means you.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2500,7 +2429,6 @@ But the last question is different. Tools check the code against the spec. Only 
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2531,7 +2459,6 @@ The agent says: "Fixed the failing test. All checks pass." And they do pass! Bec
 -->
 
 ---
-
 layout: section
 ---
 
@@ -2548,7 +2475,6 @@ Second, skills. Again! Skills aren't just for writing code. They're great for re
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2563,12 +2489,11 @@ description: Adversarially reviews the current changes, fixes the findings,
 
 1. Have a fresh subagent review the diff as a skeptical reviewer:
    correctness, edge cases, accessibility, performance, and simplicity.
-2. List each finding with its file, line, and severity.
-   Don't fix yet.
-3. Fix every real finding.
-   Re-run lint, type checking, and tests.
+2. List each finding with its file, line, and severity. Don't fix yet.
+3. Fix every real finding. Re-run lint, type checking, and tests.
 4. Repeat from step 1 until a review comes back clean.
 ```
+
 
 <!--
 First: adversarial review. This is the one I use the most.
@@ -2581,7 +2506,6 @@ Fair warning: it burns through tokens like nothing else. The results are usually
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2593,13 +2517,11 @@ name: browse-local-sentry
 description: Connects an agent's browser to a local Sentry dev server ...
 ---
 
-- Run every check in every session.
-  Chrome updates, re-auth, and port
+- Run every check in every session. Chrome updates, re-auth, and port
   changes undo earlier setup without warning.
 - Never bypass certificate warnings, log in to sentry.io yourself,
   or type the user's credentials.
-- In the user's own Chrome, open your own tabs.
-  Never navigate, reload,
+- In the user's own Chrome, open your own tabs. Never navigate, reload,
   close, read, screenshot, run scripts in, or quote the user's tabs.
 ```
 
@@ -2617,7 +2539,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2652,7 +2573,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2660,17 +2580,15 @@ layout: default
 
 ```md
 - Lay screenshots out in the PR description as before/after tables.
-- Pixel-diff every before/after pair.
-  Move pairs with no visible
+- Pixel-diff every before/after pair. Move pairs with no visible
   difference to **Unchanged**.
-- Upload with `gh --attach`.
-  Do not push asset branches or commit images.
+- Upload with `gh --attach`. Do not push asset branches or commit images.
 - Before writing a body the user may have edited, fetch it again.
 ```
 
 ```shell
 gh pr edit 123 --body-file pr-body.md \
-	--attach './shots/logs-before.png' --attach './shots/logs-after.png'
+  --attach './shots/logs-before.png' --attach './shots/logs-after.png'
 ```
 
 <!--
@@ -2691,7 +2609,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2727,7 +2644,6 @@ One caveat: if a pattern can be checked mechanically, make it a lint rule, like 
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2809,7 +2725,6 @@ Links:
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2834,7 +2749,6 @@ My personal agent instructions say never to add a "Generated with Claude Code" l
 -->
 
 ---
-
 layout: center
 ---
 
@@ -2847,7 +2761,6 @@ I wish that were so.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -2894,7 +2807,6 @@ Links:
 -->
 
 ---
-
 layout: center
 ---
 
@@ -2907,7 +2819,6 @@ Are you kidding me.
 -->
 
 ---
-
 layout: statement
 ---
 
@@ -2926,7 +2837,6 @@ Links:
 -->
 
 ---
-
 layout: default
 clicks: 4
 ---
@@ -3029,7 +2939,6 @@ Never trust an AI.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -3055,7 +2964,6 @@ Part four, recapped. The theme: tools check the code, and people check the spec.
 -->
 
 ---
-
 layout: center
 ---
 
@@ -3072,7 +2980,6 @@ We've been building these stages for years, long before agents showed up. They'r
 -->
 
 ---
-
 layout: default
 ---
 
@@ -3122,7 +3029,6 @@ The main protips from today, in one place.
 -->
 
 ---
-
 layout: default
 ---
 
@@ -3183,7 +3089,6 @@ The main tools and skills I talked about, in one place. Many slides' notes also 
 -->
 
 ---
-
 layout: cover
 ---
 

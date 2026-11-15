@@ -18,7 +18,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -45,7 +44,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -72,7 +70,6 @@ https://learningtypescript.com
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -83,7 +80,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -94,7 +90,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -104,7 +99,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -115,7 +109,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -148,7 +141,6 @@ It is incredibly rare for a software application to completely catch and fix all
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -165,7 +157,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -177,7 +168,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -189,7 +179,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -201,7 +190,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -228,7 +216,6 @@ A type checker would never tell you to make this switch. The code runs just as w
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 1000 }
 ---
@@ -242,7 +229,6 @@ transition: { name: view-transition, duration: 1000 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -256,7 +242,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -268,7 +253,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -291,7 +275,6 @@ This example is a little contrived (I’ve never seen someone await a console lo
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -309,7 +292,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -330,7 +312,6 @@ The ‘await onClick()’ is unnecessary because onClick is typed as a function 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -361,7 +342,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -396,7 +376,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -430,7 +409,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -459,7 +437,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -486,7 +463,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -510,7 +486,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -533,7 +508,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -553,7 +527,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -574,7 +547,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 1000 }
 ---
@@ -588,7 +560,6 @@ transition: { name: view-transition, duration: 1000 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -602,7 +573,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -614,7 +584,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -627,7 +596,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -642,7 +610,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -657,7 +624,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -672,7 +638,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -684,7 +649,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -701,7 +665,6 @@ Yes, I know it was the anonymous kid bending spoons. I wanted a suit pun to segu
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 1000 }
 ---
@@ -715,7 +678,6 @@ transition: { name: view-transition, duration: 1000 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -729,7 +691,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -741,7 +702,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -757,7 +717,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -772,7 +731,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -783,7 +741,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -797,7 +754,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -809,7 +765,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -820,7 +775,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -835,7 +789,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -849,7 +802,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -859,7 +811,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -875,7 +826,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -887,7 +837,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -899,7 +848,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -911,7 +859,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -923,7 +870,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -935,7 +881,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -947,7 +892,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -957,7 +901,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -967,7 +910,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -979,7 +921,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -991,7 +932,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1002,7 +942,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1014,7 +953,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1029,7 +967,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1040,7 +977,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1051,7 +987,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1063,7 +998,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1075,7 +1009,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1086,7 +1019,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1098,7 +1030,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1109,7 +1040,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1121,7 +1051,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1131,7 +1060,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1143,7 +1071,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1153,7 +1080,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1165,7 +1091,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1199,7 +1124,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1233,7 +1157,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1263,7 +1186,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1278,7 +1200,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1291,7 +1212,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1304,7 +1224,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1317,7 +1236,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1330,7 +1248,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1343,7 +1260,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1357,7 +1273,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1369,7 +1284,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -1379,7 +1293,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1412,7 +1325,6 @@ It is incredibly rare for a software application to completely catch and fix all
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1424,7 +1336,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1436,7 +1347,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1448,7 +1358,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1460,7 +1369,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1471,7 +1379,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1482,7 +1389,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1509,7 +1415,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 ---
 

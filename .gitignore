@@ -1,8 +1,8 @@
 .DS_Store
-/coverage
-/dist
-/node_modules
+node_modules/
 packages/*/lib/
+
+# Fonts that can't be redistributed are copied in from this machine by scripts/fonts.ts.
 packages/*/src/fonts/*
 !packages/*/src/fonts/*-LeagueSpartan-VariableFont_wght.ttf
 !packages/*/src/fonts/*-nunitosans-bold-webfont.ttf

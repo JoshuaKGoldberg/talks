@@ -18,7 +18,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -32,7 +31,6 @@ You can follow along at home with the slide notes linked on my site, joshuakgold
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -47,7 +45,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -65,7 +62,6 @@ After that we’ll take a step back from granular code writing and look at Swagg
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -75,7 +71,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -93,7 +88,6 @@ By now, many of you have heard the TypeScript catchphrase: “TypeScript is a ty
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -113,7 +107,6 @@ One core premise of TypeScript is that your TypeScript source code will be trans
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -135,7 +128,6 @@ TypeScript would give us unhappy red squigglies in our editors if we tried to pa
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -157,7 +149,6 @@ The type system code and any type system inferences are a development-time only 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -174,7 +165,6 @@ By now, we’ve explained what TypeScript is, but still not… why?
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -193,7 +183,6 @@ We need standard formats to describe functions and APIs.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -216,7 +205,6 @@ Each part of that application is its own mystery for development (after all, we�
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -226,7 +214,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -239,7 +226,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -256,7 +242,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -271,7 +256,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -288,7 +272,6 @@ This is why some packages give you really good autocomplete for some projects. W
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -303,7 +286,6 @@ When a user types document.addEventListener, for example, TypeScript can suggest
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -333,7 +315,6 @@ Coming back to the surprise-o-chart from before, we can visualize TypeScript def
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -344,7 +325,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -356,7 +336,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -371,7 +350,6 @@ Enter DefinitelyTyped
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -384,7 +362,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -399,7 +376,6 @@ If you ever need to check how to get a package’s type definitions, visit aka.m
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -429,7 +405,6 @@ DefinitelyTyped helps fill out the definition files to apply in more places, whi
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -440,7 +415,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -456,7 +430,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -468,7 +441,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -479,7 +451,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -490,7 +461,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -504,7 +474,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -529,7 +498,6 @@ Buckle up and hold on strong, because this is going to be a wild ride.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -540,7 +508,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -556,7 +523,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -570,7 +536,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -582,7 +547,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -597,7 +561,6 @@ If you’d like to follow along at home, I’ve set up a quick example repositor
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -616,7 +579,6 @@ The example repository from these slides also uses a nifty library, swagger-expr
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -636,7 +598,6 @@ https://github.com/ruby-grape/grape
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -650,7 +611,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -673,7 +633,6 @@ By auto-generating our client SDK and specifying a predictable shape for our API
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -683,7 +642,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -705,7 +663,6 @@ From the developer experience perspective, that last bit can be painful. Example
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -725,7 +682,6 @@ If you’re lucky and can write your own custom server API handlers, you might h
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -749,7 +705,6 @@ Basically, we want to be able to run database queries in our GET requests.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -763,7 +718,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -779,7 +733,6 @@ https://hasura.io/docs/1.0/graphql/core/queries/query-filters.html#using-multipl
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -795,7 +748,6 @@ Let’s take a look at how that’s possible with this example GraphQL applicati
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -805,7 +757,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -815,7 +766,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -829,12 +779,11 @@ transition: none
 
 <!--
 Looking at these beautiful typed query structures, do you see how the ideas of TypeScript resonate with GraphQL?
-Consistency, predictability, and developer tooling awesomeness-ility are key tenants of both GraphQL and TypeScript.
+Consistency, predictability, and developer tooling awesomeness-ility are key tenants of both GraphQL and TypeScript. 
 “Ryan Reynolds Smile”: https://giphy.com/gifs/smile-ryan-reynolds-sly-oYxNkISitSQo
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -852,7 +801,6 @@ In fact, many popular GraphQL libraries -including Apollo- have tooling support 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -875,7 +823,6 @@ In many ways, GraphQL helps make it feel like there’s no line between the clie
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -889,7 +836,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -907,7 +853,6 @@ After that we took a step back from granular code writing and played with Swagge
 -->
 
 ---
-
 layout: none
 ---
 

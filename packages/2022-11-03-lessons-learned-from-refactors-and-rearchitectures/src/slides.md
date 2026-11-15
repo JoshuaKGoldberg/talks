@@ -18,7 +18,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -28,7 +27,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -38,7 +36,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -48,7 +45,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -58,7 +54,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -72,7 +67,6 @@ Thanks – I knew you could do it.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -87,7 +81,6 @@ I've been professionally involved with a few dozen software projects across a fe
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -104,7 +97,6 @@ But I haven’t seen Five Whys used as frequently in industry to diagnose team- 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -120,7 +112,6 @@ Another formulation of the question “why?” is the question “how?”: speci
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -137,7 +128,6 @@ I’m going to pull on stories from my personal decade of contract work, interns
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -153,7 +143,6 @@ Our first situation is from my joining a team that was about to release a major 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -168,7 +157,6 @@ So you can imagine my dismay when the refactor was immediately rolled back for h
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -184,7 +172,6 @@ This was a test. Everybody here who has ever worked in tech should be raising th
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -199,7 +186,6 @@ Five Whys! Why did the app -crewed by many seasoned developers with long histori
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -217,7 +203,6 @@ Second why: why didn’t the team write tests?
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -235,7 +220,6 @@ Third why: why didn’t the team schedule writing thorough tests before releasin
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -252,7 +236,6 @@ Fourth why: why didn't this get done on the team? Or: How do we stop overeager t
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -272,7 +255,6 @@ Fixing P0s from the bug bash and accessibility tests
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -288,7 +270,6 @@ For more details, I also recommend The Checklist Manifesto by Atul Gawande. It�
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -303,7 +284,6 @@ For our next big project, we learned from our mistakes. We grew as a team. We in
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -319,7 +299,6 @@ In this case, our test enthusiast actually was hit by a bus and taken out of com
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -334,7 +313,6 @@ Why were we in a situation where losing a single person crushed our ability to t
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -350,7 +328,6 @@ How do we make sure developers have time for knowledge sharing?
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -367,7 +344,6 @@ How can we un-concentrate knowledge efficiently?
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -378,14 +354,13 @@ transition: { name: fade, duration: 250 }
 </div>
 
 <!--
-Mob programming is like a 1:1, but with a bunch of developers all programming at once. They can allow numerous participants to go through the same real-time challenges and investigations with each other. They’re not as commonly practiced as 1:1 pairings, but “mob programming” sessions (when done right) can be highly effective at distributing knowledge on a team.
+Mob programming is like a 1:1, but with a bunch of developers all programming at once. They can allow numerous participants to go through the same real-time challenges and investigations with each other. They’re not as commonly practiced as 1:1 pairings, but “mob programming” sessions (when done right) can be highly effective at distributing knowledge on a team. 
 The most potent mobs I’ve been in have been led by a developer who was at least experienced in 1:1s. Ideally, you want a leader who knows how to explain concepts and give control of the keyboard -physically or virtually- without throwing people into situations they’re not prepared for. I personally have fond memories of leading mobs of developers in converting old JavaScript files to shiny new TypeScript.
 Yet, 1:1s and mobs share a flaw: they’re very transient experiences. Recordings of old sessions aren’t always useful as documentation for new team members.
 How do we make our knowledge sharing not just efficient, but also useful for future team members?
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -403,7 +378,6 @@ Still, I’ve been on teams that actively practice all sorts of knowledge sharin
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -420,7 +394,6 @@ Involve team members across those spans in the development of any major new arch
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -433,7 +406,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -447,13 +419,12 @@ transition: none
 
 <!--
 One of the most common violations of junior-friendly architectures I’ve seen in the wild is monads. Monads are a beautiful and essential part of pure functional programming. If your team is working in highly functional programming paradigms, they can be a wonderfully expressive code pattern.
-But show of hands, how many people in this room have ever actually understood monads?
+But show of hands, how many people in this room have ever actually understood monads? 
 That’s right – a few jubilant enthusiasts and otherwise almost nobody! I even put this exact reaction in my slide notes that almost nobody uses monads – because almost no teams use strongly functional programming, virtually no college or bootcamp curriculums teach it, and as a concept it often takes a few tries to understand.
 For non-essential software patterns such as monads, unless your team contains multiple developers highly familiar with the pattern and is well positioned to onboard new developers to that pattern, the benefit of utilizing that pattern is not likely to exceed the cost. Sorry monads.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -468,7 +439,6 @@ For our next big project, we learned from our mistakes. We grew as a team. We ma
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -482,7 +452,6 @@ The lead developer blatantly ignored the very excited junior developers’ ideas
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -499,7 +468,6 @@ Why wasn’t our lead dev respecting best practices?
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -517,7 +485,6 @@ Why was the lead dev barreling forward without helping other devs learn (or lear
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -533,7 +500,6 @@ Treat project kickoffs as an excuse to educate developers on the pieces of softw
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -550,7 +516,6 @@ I will note that involving someone’s manager is often not a good first step. T
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -566,7 +531,6 @@ If you’re not accustomed to giving or receiving feedback, I recommend the book
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -581,7 +545,6 @@ For the specific situation of rushed deadlines, I’ll quickly note that this of
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -596,7 +559,6 @@ For our next big project, we learned from our mistakes. We grew as a team. We re
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -610,7 +572,6 @@ In other words, we put a bunch of developers who had never led a project togethe
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -626,7 +587,6 @@ Why didn’t throwing our devs directly into an experience-giving situation effe
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -642,7 +602,6 @@ As a general guideline, when asking someone to do a task for their first time, m
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -663,7 +622,6 @@ Now, I realize this is asking for a hefty amount of pairing with your senior dev
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -679,7 +637,6 @@ Consider it a medium-to-long term investment: you may not have as much project b
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -699,7 +656,6 @@ Assume your team will overpromise and underdeliver. Life happens. The world is c
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -715,7 +671,6 @@ But do keep in mind that if you explicitly tell a department to strive for a lev
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -731,7 +686,6 @@ The phrase “Aggressive Goals” is my personal trigger. Whenever I hear it I k
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -747,7 +701,6 @@ For more details on why overloading people, teams, and departments is bad, I rec
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -762,7 +715,6 @@ For our next big project, we learned from our mistakes. We grew as a team. We te
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -776,7 +728,6 @@ transition: { name: fade, duration: 250 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -792,7 +743,6 @@ Yay!
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -808,7 +758,6 @@ When you do raise visibility on successes, you encourage team members to keep do
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -821,12 +770,11 @@ transition: { name: fade, duration: 250 }
 </div>
 
 <!--
-…but! Why? Why was the project successful?
+…but! Why? Why was the project successful? 
 Don’t just question your failures – question your successes. What made your successful projects work well? What lessons can be learned and reused on other projects?
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -842,7 +790,6 @@ In the context of refactors and rearchitectures, consider explicitly finding way
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -858,7 +805,6 @@ Consider the needs of the people you’re trying to convince. Nontechnical stake
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -874,7 +820,6 @@ Stll, many teams find it hard to budget for refactors. When you have pressing pr
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -891,7 +836,6 @@ This all begs the question: how do we achieve incremental victories in our refac
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -907,7 +851,6 @@ I’ll give you three high-level strategies that I’ve enjoyed in the past.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -926,7 +869,6 @@ First, consider just not modifying all existing code at once. Sometimes it’s o
 -->
 
 ---
-
 layout: none
 hide: true
 transition: { name: fade, duration: 250 }
@@ -949,7 +891,6 @@ This slide includes JavaScript or TypeScript code marked as deprecated, with VS 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -967,7 +908,6 @@ Another strategy is to “hollow” out existing code by making it call to newer
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -986,7 +926,6 @@ Lastly, you can go the other way: “wrap” existing code with the newer, bette
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -1003,7 +942,6 @@ That’s right: tests! It all comes full circle.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -1013,7 +951,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -1026,7 +963,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -1037,7 +973,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 ---
 

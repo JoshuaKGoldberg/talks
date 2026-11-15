@@ -18,7 +18,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -28,7 +27,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -39,7 +37,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -51,7 +48,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -61,7 +57,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -72,7 +67,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -82,7 +76,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -93,7 +86,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -104,7 +96,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -114,7 +105,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -124,7 +114,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -140,7 +129,6 @@ https://nextjs.org/docs/basic-features/pages
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -156,7 +144,6 @@ https://nextjs.org/docs/routing/introduction
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -172,7 +159,6 @@ https://nextjs.org/docs/basic-features/data-fetching
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -188,7 +174,6 @@ https://nextjs.org/docs/basic-features/data-fetching
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -204,7 +189,6 @@ https://nextjs.org/docs/basic-features/data-fetching
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -220,7 +204,6 @@ https://nextjs.org/docs/routing/dynamic-routes#catch-all-routes
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -236,7 +219,6 @@ https://nextjs.org/docs/basic-features/typescript
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -246,7 +228,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -257,7 +238,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -271,7 +251,6 @@ https://graphql.org/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -293,7 +272,6 @@ https://graphql.org
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -303,7 +281,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -318,7 +295,6 @@ https://github.com/graphql/graphiql/blob/main/packages/graphiql/README.md
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -334,7 +310,6 @@ https://graphql.org/learn/queries/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -350,7 +325,6 @@ https://graphql.org/learn/execution/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -366,7 +340,6 @@ https://www.graphile.org/postgraphile/usage-library
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -382,7 +355,6 @@ https://graphql.org/learn/execution/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -398,7 +370,6 @@ https://graphql.org/learn/execution/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -408,7 +379,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -418,7 +388,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -435,7 +404,6 @@ https://www.graphile.org/postgraphile/usage-library
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -452,7 +420,6 @@ https://www.graphql-code-generator.com/docs/plugins/typescript-operations
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -466,7 +433,6 @@ https://graphql.org/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -477,7 +443,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -491,7 +456,6 @@ https://graphql.org/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -501,7 +465,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -515,7 +478,6 @@ https://graphql.org/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -531,7 +493,6 @@ https://www.apollographql.com/docs/react/get-started/#2-initialize-apolloclient
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -547,7 +508,6 @@ https://www.apollographql.com/docs/react/api/react/hooks/#the-apolloprovider-com
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -563,7 +523,6 @@ https://www.apollographql.com/docs/react/api/react/hooks/#usequery
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -573,7 +532,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -590,7 +548,6 @@ https://www.graphql-code-generator.com/docs/plugins/typescript-react-apollo
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -601,7 +558,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -616,7 +572,6 @@ But it’s a different kind of framework than React, which comes with pros and c
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -630,7 +585,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -645,7 +599,6 @@ https://reactjs.org/docs/design-principles.html
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -660,7 +613,6 @@ https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -674,7 +626,6 @@ Original meme by Jake Clark: https://jake-clark.tumblr.com/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -684,7 +635,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -698,7 +648,6 @@ Original meme by Jake Clark: https://jake-clark.tumblr.com/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -709,7 +658,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -720,7 +668,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -731,7 +678,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -742,7 +688,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -753,7 +698,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -763,7 +707,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 ---
 

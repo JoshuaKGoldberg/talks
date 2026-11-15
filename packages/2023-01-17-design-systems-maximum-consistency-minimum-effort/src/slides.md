@@ -20,7 +20,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -31,7 +30,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -46,7 +44,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -58,7 +55,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -68,7 +64,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -78,7 +73,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -91,7 +85,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -104,12 +97,11 @@ transition: none
 </div>
 
 <!--
-Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code.
+Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code. 
 I’m also the author of the recent Learning TypeScript book, published by O’Reilly.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -123,7 +115,6 @@ You can follow along at home with the slide notes linked on my site, joshuakgold
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -135,7 +126,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -146,7 +136,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -169,7 +158,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -186,7 +174,6 @@ Developers love deduplicating code, and hate being told to reinvent the same thi
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -197,7 +184,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -209,7 +195,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -237,7 +222,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -263,7 +247,6 @@ More unusual or niche ones: a ProgressBar and a HexCharacter
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -289,7 +272,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -304,7 +286,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -332,7 +313,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -343,7 +323,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -367,7 +346,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -391,7 +369,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -402,7 +379,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -414,7 +390,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -430,7 +405,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -446,7 +420,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -460,7 +433,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -476,7 +448,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -491,7 +462,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -503,7 +473,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -520,7 +489,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -534,7 +502,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -545,7 +512,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -561,7 +527,6 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -571,7 +536,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -581,7 +545,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -592,7 +555,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -604,7 +566,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -617,7 +578,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -634,7 +594,6 @@ NOTE: in the recorded version of the presentation, I’d had this button as a �
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -651,7 +610,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -667,7 +625,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -678,7 +635,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -694,7 +650,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -710,7 +665,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -720,7 +674,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -730,7 +683,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -746,7 +698,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -764,7 +715,6 @@ https://stylelint.io/user-guide/rules/selector-max-type
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -775,7 +725,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -791,7 +740,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -807,7 +755,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -823,7 +770,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -833,7 +779,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -845,7 +790,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -861,7 +805,6 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -872,7 +815,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -884,7 +826,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -894,7 +835,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -904,7 +844,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -914,7 +853,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 ---
 

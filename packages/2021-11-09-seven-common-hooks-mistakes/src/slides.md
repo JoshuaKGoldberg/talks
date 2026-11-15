@@ -18,7 +18,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -30,7 +29,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -40,7 +38,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -50,7 +47,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -61,7 +57,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -72,7 +67,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -82,7 +76,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -95,7 +88,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -107,7 +99,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -118,7 +109,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -128,7 +118,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -141,7 +130,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -152,7 +140,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -165,7 +152,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -175,7 +161,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -186,7 +171,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -196,7 +180,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -214,7 +197,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -225,7 +207,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -235,7 +216,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -248,7 +228,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -259,7 +238,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -269,7 +247,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -282,7 +259,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -296,7 +272,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -307,7 +282,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -318,7 +292,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -329,7 +302,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -345,7 +317,6 @@ NEW React docs: https://beta.reactjs.org/
 -->
 
 ---
-
 layout: none
 ---
 

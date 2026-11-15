@@ -18,7 +18,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -31,7 +30,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -42,7 +40,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -54,7 +51,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -66,7 +62,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -77,7 +72,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -91,7 +85,6 @@ https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -102,7 +95,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -132,7 +124,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -143,7 +134,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -154,7 +144,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -165,7 +154,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -176,7 +164,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -187,7 +174,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -198,7 +184,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -209,7 +194,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -220,7 +204,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -234,7 +217,6 @@ developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -248,7 +230,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -259,7 +240,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -270,7 +250,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -281,7 +260,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -292,7 +270,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -303,7 +280,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -314,7 +290,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -325,7 +300,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -339,7 +313,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -350,7 +323,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -364,7 +336,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -375,7 +346,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -386,7 +356,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -401,7 +370,6 @@ Todo cleaner transition between sections
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -414,7 +382,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -426,7 +393,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -436,7 +402,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -447,7 +412,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -465,7 +429,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -478,7 +441,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -489,7 +451,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -500,7 +461,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -515,7 +475,6 @@ https://typescript-eslint.io/play/#ts=5.2.2&fileType=.tsx&code=IYZwngdgxgBAZgV2g
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -526,7 +485,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -540,7 +498,6 @@ https://typescript-eslint.io/rules/no-floating-promises
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -551,7 +508,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -562,7 +518,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -573,7 +528,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -584,7 +538,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -595,7 +548,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -609,7 +561,6 @@ https://typescript-eslint.io/rules/no-misused-promises
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -620,7 +571,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -638,7 +588,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -649,7 +598,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -660,7 +608,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -671,7 +618,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -684,7 +630,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -695,7 +640,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -708,7 +652,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 ---
 

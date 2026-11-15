@@ -1,5 +1,7 @@
 /.all-contributorsrc
 /.husky
-/coverage
-/dist
 /pnpm-lock.yaml
+packages/*/lib/
+packages/*/src/
+!packages/2026-11-17-make-ai-write-better-code/src/
+packages/*/src/slides.md

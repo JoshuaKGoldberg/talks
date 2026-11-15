@@ -2,6 +2,7 @@ import comments from "@eslint-community/eslint-plugin-eslint-comments/configs";
 import eslint from "@eslint/js";
 import markdown from "@eslint/markdown";
 import vitest from "@vitest/eslint-plugin";
+import prettier from "eslint-config-prettier/flat";
 import jsdoc from "eslint-plugin-jsdoc";
 import jsonc from "eslint-plugin-jsonc";
 import markdownLinks from "eslint-plugin-markdown-links";
@@ -9,13 +10,24 @@ import n from "eslint-plugin-n";
 import packageJson from "eslint-plugin-package-json";
 import perfectionist from "eslint-plugin-perfectionist";
 import * as regexp from "eslint-plugin-regexp";
+import vue from "eslint-plugin-vue";
 import yml from "eslint-plugin-yml";
 import { defineConfig, globalIgnores } from "eslint/config";
 import tseslint from "typescript-eslint";
 
 export default defineConfig(
 	globalIgnores(
-		["**/*.snap", "coverage", "dist", "node_modules", "pnpm-lock.yaml"],
+		[
+			"**/*.snap",
+			"node_modules",
+			"packages/*/lib",
+			"packages/*/src",
+			// Decks written in Slidev, rather than converted from PowerPoint, are linted.
+			"!packages/2026-11-17-make-ai-write-better-code/src",
+			"packages/*/src/slides.md",
+			"packages/*/src/node_modules",
+			"pnpm-lock.yaml",
+		],
 		"Global Ignores",
 	),
 	{ linterOptions: { reportUnusedDisableDirectives: "error" } },
@@ -31,11 +43,14 @@ export default defineConfig(
 			regexp.configs["flat/recommended"],
 			tseslint.configs.strictTypeChecked,
 			tseslint.configs.stylisticTypeChecked,
+			vue.configs["flat/recommended"],
 		],
-		files: ["**/*.{js,ts}"],
+		files: ["**/*.{js,ts,vue}"],
 		languageOptions: {
 			parserOptions: {
-				projectService: { allowDefaultProject: ["*.config.*s"] },
+				extraFileExtensions: [".vue"],
+				parser: tseslint.parser,
+				projectService: true,
 			},
 		},
 		rules: {
@@ -50,6 +65,20 @@ export default defineConfig(
 			"operator-assignment": "error",
 		},
 		settings: { perfectionist: { partitionByComment: true, type: "natural" } },
+	},
+	{
+		extends: [tseslint.configs.disableTypeChecked, prettier],
+		files: ["**/*.vue"],
+		rules: { "no-undef": "off" },
+	},
+	{
+		extends: [vitest.configs.recommended],
+		files: ["**/*.test.ts"],
+		rules: {
+			"@typescript-eslint/no-unsafe-assignment": "off",
+			"vitest/prefer-describe-function-title": "error",
+		},
+		settings: { vitest: { typecheck: true } },
 	},
 	{
 		extends: [jsonc.configs["flat/recommended-with-json"]],
@@ -69,16 +98,7 @@ export default defineConfig(
 		rules: { "n/no-missing-import": "off" },
 	},
 	{
-		extends: [vitest.configs.recommended],
-		files: ["**/*.test.*"],
-		rules: {
-			"@typescript-eslint/no-unsafe-assignment": "off",
-			"vitest/prefer-describe-function-title": "error",
-		},
-		settings: { vitest: { typecheck: true } },
-	},
-	{
-		files: ["**/*.test.*", "eslint.config.*"],
+		files: ["eslint.config.*"],
 		rules: { "n/no-unsupported-features/node-builtins": "off" },
 	},
 	{
@@ -98,6 +118,6 @@ export default defineConfig(
 	},
 	{
 		extends: [packageJson.configs.recommended, packageJson.configs.stylistic],
-		files: ["package.json"],
+		files: ["**/package.json"],
 	},
 );

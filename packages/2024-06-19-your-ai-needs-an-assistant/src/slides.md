@@ -20,7 +20,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -35,13 +34,12 @@ transition: { name: fade, duration: 500 }
 </div>
 
 <!--
-Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code.
+Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code. 
 I’m also the author of the recent Learning TypeScript book, published by O’Reilly.
 Now, I’d heard of AI around when a lot of other devs did, which is to say, when image generation prompts got popular. Please enjoy a self-portrait of, and I’m quoting the prompt, …
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -56,7 +54,6 @@ https://www.bing.com/images/create/an-extremely-muscular-and-attractive-man-grin
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -71,7 +68,6 @@ But then see also this image…
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -88,7 +84,6 @@ So I thought it would be apparent that as incredibly high potential AI is, it’
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -103,7 +98,6 @@ But then we started getting issues and help requests on my open source projects 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -119,7 +113,6 @@ You can find links to the actual AI prompts I used in the slide annotations, ava
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -134,7 +127,6 @@ You can find links to the actual AI prompts I used in the slide annotations, ava
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -148,7 +140,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -162,7 +153,6 @@ transition: { name: view-transition, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -177,7 +167,6 @@ transition: { name: fade, duration: 250 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -191,7 +180,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -212,7 +200,6 @@ But, fear not: we all learn from our mistakes. That’s what it means to be a de
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -226,7 +213,6 @@ transition: { name: view-transition, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -241,7 +227,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -255,7 +240,6 @@ transition: { name: view-transition, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -272,7 +256,6 @@ transition: { name: view-transition, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -293,7 +276,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -308,7 +290,6 @@ This is not a pessimistic talk. AI is the latest of exponentially increasing pro
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -323,7 +304,6 @@ Here are five strong suggestions I have for how to effectively use this wonderfu
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -337,7 +317,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -348,7 +327,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -358,7 +336,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -372,7 +349,6 @@ transition: { name: view-transition, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -395,7 +371,6 @@ This doesn’t even enable typed linting! It just enables linting TypeScript cod
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -414,7 +389,6 @@ If you’re curious about typed linting, see: https://typescript-eslint.io/getti
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -428,7 +402,6 @@ AI it's a summarizer. It's a powerful way to explain in friendly language. But i
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -457,7 +430,6 @@ Personally, I go through a flow chart when I have to use a new tool and might wa
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -483,7 +455,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -499,7 +470,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -524,12 +494,11 @@ transition: { name: fade, duration: 500 }
 </div>
 
 <!--
-Even better, if you have time and energy to give back, most of the tools you’re using are probably open source or otherwise something with an issue tracker you can access. Send feedback! If the docs are missing, file an issue asking for them. If they don’t cover or link to explanations of important concepts, file an issue suggesting that be added in!
+Even better, if you have time and energy to give back, most of the tools you’re using are probably open source or otherwise something with an issue tracker you can access. Send feedback! If the docs are missing, file an issue asking for them. If they don’t cover or link to explanations of important concepts, file an issue suggesting that be added in! 
 Issues asking for docs to be added are not the same as help requests.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -543,7 +512,6 @@ I can’t keep doing this! We’re inundated with users who use crappy ChatGPT a
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -554,7 +522,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -578,7 +545,6 @@ In the middle are linters such as ESLint. They typically run on a file-by-file b
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -592,7 +558,6 @@ https://chatgpt.com/c/1b9b5557-553b-46ea-a045-c38236b9a0a3
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -611,7 +576,6 @@ https://chatgpt.com/c/1b9b5557-553b-46ea-a045-c38236b9a0a3
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -625,7 +589,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -635,7 +598,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -654,7 +616,6 @@ https://chatgpt.com/c/323a885c-e901-49fa-bd8e-369ae1065af5
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -664,7 +625,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -689,7 +649,6 @@ https://chatgpt.com/c/323a885c-e901-49fa-bd8e-369ae1065af5
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -709,7 +668,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -733,7 +691,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -752,7 +709,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -774,7 +730,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -798,7 +753,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -818,7 +772,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -836,7 +789,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -847,7 +799,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -858,7 +809,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -872,7 +822,6 @@ Let’s go back to our previous TypeScript function about arrays and divisibilit
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -887,13 +836,12 @@ transition: { name: fade, duration: 500 }
 <!--
 Honestly, these are pretty reasonable tests! I’m omitting the test bodies of the second and third tests because they’re similar to the first. All three work well and pass on my machine. Hooray!
 But, I do have some gripes here. First off, I’m a big fan of AAA testing: having each test explicitly Arrange, Act, and Assert on a single test case. But these test blocks have several cases grouped inside each test.
-Second, there aren’t that many edge cases being tested: just empty arrays and no elements being divisible. But surely there are other edge cases we should test: for example, what about negative numbers?
+Second, there aren’t that many edge cases being tested: just empty arrays and no elements being divisible. But surely there are other edge cases we should test: for example, what about negative numbers? 
 When it comes to LLMs, you get out what you put in.
 If you ask a very high-level, vague question, it’ll give you a high-level, vague response. It can’t know how specific a response you’re looking for unless you tell it.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -909,7 +857,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -922,7 +869,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -937,7 +883,6 @@ Let’s dive in further on the topic of dynamically analyzing your code.
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -960,7 +905,6 @@ https://chatgpt.com/c/13595b6f-1479-4910-b5e1-51c744d2d03e
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -987,7 +931,6 @@ https://chatgpt.com/c/1ddbd7c4-ec72-4c85-9e3d-a30cdb3d18cf
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1020,7 +963,6 @@ https://chatgpt.com/c/cf5daaa8-fe5a-464a-9f0a-fa9aa378789f
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1039,7 +981,6 @@ What we’d really love to be able to do is use something like TypeScript’s ty
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1059,7 +1000,6 @@ In other words, I want to attach TypeScript types to my AI prompts, and be guara
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1079,7 +1019,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1100,13 +1039,12 @@ transition: { name: fade, duration: 500 }
 </div>
 
 <!--
-In other words, what we’d really want here is not just passing TypeScript types, but also detect any discrepancies between the response and those types.
+In other words, what we’d really want here is not just passing TypeScript types, but also detect any discrepancies between the response and those types. 
 If there are discrepancies, reported as type errors, then we’d want to report those type errors back to the AI to have it correct the response data shape.
 We can keep doing this until it satisfies our types.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1120,7 +1058,6 @@ TypeChat is a nifty library from folks on the TypeScript team that does just wha
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1138,7 +1075,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1153,7 +1089,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1171,7 +1106,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 hide: true
 transition: { name: view-transition, duration: 700 }
@@ -1188,7 +1122,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -1207,7 +1140,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1218,7 +1150,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1229,7 +1160,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1240,7 +1170,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1253,7 +1182,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1269,7 +1197,6 @@ Two, Gemini is free, while OpenAI costs money
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1305,7 +1232,6 @@ Just to recap, here’s how I described TypeChat: given a response, continuously
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1340,7 +1266,6 @@ Let’s augment that flow for general code question prompts. We’ll run each of
 -->
 
 ---
-
 layout: none
 hide: true
 transition: { name: fade, duration: 700 }
@@ -1352,7 +1277,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 hide: true
 transition: { name: fade, duration: 700 }
@@ -1366,7 +1290,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1376,7 +1299,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1388,7 +1310,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1402,7 +1323,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1418,7 +1338,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1436,7 +1355,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1453,7 +1371,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1472,7 +1389,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1487,7 +1403,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1505,7 +1420,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1521,7 +1435,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1538,7 +1451,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1553,7 +1465,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1564,7 +1475,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1575,7 +1485,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1585,7 +1494,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -1599,7 +1507,6 @@ https://www.bing.com/images/create/an-extremely-muscular-and-attractive-man-grin
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1617,7 +1524,6 @@ First, remember that AI is still very early stage. It’s in an early peak of in
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1631,7 +1537,6 @@ I’m personally already in the trough of disillusionment because of how many de
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1645,7 +1550,6 @@ When writing code with AI, don’t forget to validate your code with existing to
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1661,7 +1565,6 @@ I look forward to seeing what you all create using “AI” in conjunction with 
 -->
 
 ---
-
 layout: none
 ---
 

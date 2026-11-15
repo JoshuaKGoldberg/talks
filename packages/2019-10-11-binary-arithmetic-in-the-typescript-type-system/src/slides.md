@@ -18,7 +18,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -28,7 +27,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -50,7 +48,6 @@ Hipster - https://en.wikipedia.org/wiki/Hipster_(contemporary_subculture)#/media
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -65,7 +62,6 @@ Throughout the tech stacks and projects you could work on, the idea of a languag
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -80,7 +76,6 @@ TypeScript, then, is really two languages rolled into one. It contains the JavaS
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -98,7 +93,6 @@ I’m hoping these human language descriptions of the TypeScript code get us to 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -116,7 +110,6 @@ If your type descriptions indicate an ‘id’ variable is always going to be of
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -131,7 +124,6 @@ You will write better and more TypeScript code if you have a firm understanding 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -143,7 +135,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -158,7 +149,6 @@ Restating the explanation: when I declare a variable is of type Bit, I’m sayin
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -175,7 +165,6 @@ Just as we declared a general `Bit` type to represent anything that's
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -191,7 +180,6 @@ In this case, we’re describing a type based off another type. It takes in some
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -214,7 +202,6 @@ In this example, the result of a BitFlip will be 0 if “T can be described by 0
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -232,7 +219,6 @@ From now on, you’ll get the code equivalent instead of the plain language one.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -247,7 +233,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -264,7 +249,6 @@ This is TypeScript dang it, not JavaScript! We need a way to add type annotation
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -281,7 +265,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -299,7 +282,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -310,7 +292,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -326,7 +307,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -338,7 +318,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -357,7 +336,6 @@ The value of an Int8 is the sum of its bits, where each bit contributes twice as
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -378,7 +356,6 @@ A “mapped type” is one that transforms the properties of some input type. It
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -392,7 +369,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -407,7 +383,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -433,7 +408,6 @@ Suppose you wanted to add `110` to `111`.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -449,7 +423,6 @@ Representing each column's three bits of addition in the type system, 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -465,7 +438,6 @@ Later on it’ll be useful to have the BitAdd results of all 8 columns of input 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -476,7 +448,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -490,7 +461,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -505,7 +475,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -519,7 +488,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -534,7 +502,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -544,7 +511,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -554,7 +520,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -564,7 +529,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -574,7 +538,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -584,7 +547,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -594,7 +556,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -605,7 +566,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -616,7 +576,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -626,7 +585,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -636,7 +594,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -650,7 +607,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -666,7 +622,6 @@ https://en.wikibooks.org/wiki/Wikijunior:Fruit_Alphabet/Complete
 -->
 
 ---
-
 layout: none
 ---
 

@@ -18,7 +18,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -30,12 +29,11 @@ transition: { name: fade, duration: 350 }
 </div>
 
 <!--
-Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code.
+Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code. 
 I’m also the author of the recent Learning TypeScript book, published by O’Reilly.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -48,7 +46,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -62,7 +59,6 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -73,7 +69,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -88,7 +83,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -99,7 +93,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -114,7 +107,6 @@ To answer that, we’ll have to first answer: what is JavaScript?
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -128,12 +120,11 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 <!--
-JavaScript is a programming language. It provides a standard set of syntax to describe values and how to use those values: variables, string literals, assignments, and so on.
+JavaScript is a programming language. It provides a standard set of syntax to describe values and how to use those values: variables, string literals, assignments, and so on. 
 The big problem with JavaScript is that it doesn’t have a built-in, standardized way to describe the intent behind those values. This code snippet shows creating a value variable, then assigning it first a string, then a number. There’s no way in JavaScript to say, hey, I want this value to hold a string.
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -154,7 +145,6 @@ TypeScript adds in some new syntax to the world of JavaScript. Here we see a ‘
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -175,7 +165,6 @@ Here, we see the TypeScript command-line, ”tsc”, telling us that an index.ts
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -196,7 +185,6 @@ Lastly, TypeScript also provides nice integrations for editors such as VS Code, 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -230,7 +218,6 @@ Without a description of the code’s intent, we’re left with just the values:
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -243,7 +230,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -257,7 +243,6 @@ Asdf
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -268,7 +253,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -282,7 +266,6 @@ Asdf
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -301,7 +284,6 @@ https://www.typescriptlang.org/play?#code/DYUwLgBAbghsCuIIF4ICICiAVDaDcAUAQJYBmE
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -320,7 +302,6 @@ https://www.typescriptlang.org/play?#code/DYUwLgBAbghsCuIBcEDOYBOBLAdgcwG4AoIrAM
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -338,7 +319,6 @@ https://www.typescriptlang.org/play?#code/DYUwLgBAbghsCuIDcED0qIBUCeAHEAXBDAHbYB
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -349,7 +329,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -365,7 +344,6 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -376,7 +354,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -397,7 +374,6 @@ https://www.typescriptlang.org/play?#code/DYUwLgBAbghsCuIIF4IFkZgBYDoBOMAdgCYD2A
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -414,7 +390,6 @@ https://www.typescriptlang.org/play?#code/DYUwLgBAbghsCuIBcEDOYBOBLAdgcwgB8Id4Bb
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -432,7 +407,6 @@ https://www.typescriptlang.org/play?#code/MYewdgzgLgBAbgQwDYFcCmMC8MCyCoAWAdAE4J
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -451,7 +425,6 @@ https://www.typescriptlang.org/play?#code/DYUwLgBAbghsCuIBcEBEAFAFgS2MAnqgNwBQJs
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -469,7 +442,6 @@ https://www.typescriptlang.org/play?#code/DYUwLgBAbghsCuIBcEDOYBOBLAdgcwgB8IBaAR
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -487,7 +459,6 @@ https://www.typescriptlang.org/play?#code/DYUwLgBAbghsCuIBcEDOYBOBLAdgcwgB8J4cAT
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -498,7 +469,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -512,13 +482,12 @@ transition: { name: fade, duration: 350 }
 <!--
 JavaScript code tends to have a lot of objects. TypeScript would be pretty useless if it didn’t understand them.
 When you create a variable with an object value, TypeScript understands that variable to be of an object type. That object type contains all the same properties as the variable, with the primitive (not literal!) type equivalents for all its values.
-
+ 
 Here, the ‘value’ variable is an object with a ‘name’ string and a ‘power’ number. Accessing those two properties is allowed, and TypeScript knows what type they’ll be. But accessing a ‘nope’ property is not allowed – TypeScript knows it doesn’t exist!
 https://www.typescriptlang.org/play?#code/MYewdgzgLgBAbgQwDYFcCmMC8MDeMwIC2aAXDAEQBSIEAFuQDQwAOIA7mgE5kCcADHwCMMAL4BuAFATEqNADoCxSTPRzWHTnKggACpzTAAlhEPgAFAEpJ05KrAhmaSQHpnMPQ65QAnjADk9o5+MAAmIGgQ+CCwaAAexrDgMD6OEq7+eIqkMNCchmAA5mIs7FxkYCiEAEZcxSJ+chJAA
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -538,7 +507,6 @@ https://www.typescriptlang.org/play?#code/DYUwLgBAbghsCuIBcEDeEB2MC2yIGcwAnASwwH
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -558,7 +526,6 @@ I’ll also note that TypeScript has a syntax feature called “interfaces” th
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -576,7 +543,6 @@ https://www.typescriptlang.org/play?#code/C4TwDgpgBAcghgWwgNTgGwK7QLxQN5QB2iEAXF
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -587,7 +553,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -598,7 +563,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -616,7 +580,6 @@ https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABAGzgcwLIFMDOOCGaWAKjAL
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -633,7 +596,6 @@ https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABAGzgcwLIFMDOOCGaWAKjAL
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -650,7 +612,6 @@ https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABAGzgcwLIFMDOOCGaWAKjAL
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -668,7 +629,6 @@ https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABAJwKZRMsBnAQnOAG1QEMwA
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -686,7 +646,6 @@ https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABAJwKZRMsBnAQnOAG1QEMwA
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -703,7 +662,6 @@ https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABMAhjANgCgJQC5FgCmAboQE
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -721,7 +679,6 @@ https://www.typescriptlang.org/play?#code/C4TwDgpgBAysBOBLAdgcwCoHsByBXAtgEYTxQC
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -732,7 +689,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -748,7 +704,6 @@ https://www.typescriptlang.org/play?#code/MYewdgzgLgBAbgQwDYFcCmEYF4YG0DkC+ANDPg
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -764,7 +719,6 @@ https://www.typescriptlang.org/play?#code/DYUwLgBAbghsCuIDOAuCSwCcCWA7A5gNoC6A3A
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -780,7 +734,6 @@ https://www.typescriptlang.org/play?#code/C4TwDgpgBAysBOBLAdgcwILICYDkCuAtgEYTxQ
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -791,7 +744,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -804,7 +756,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -817,7 +768,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -830,7 +780,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -841,7 +790,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -852,7 +800,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -863,7 +810,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -879,7 +825,6 @@ https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgApygZwgEwGpwA2ArigN
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -895,7 +840,6 @@ https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgGpwDYFcIGdkDeAUMsgL
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -911,7 +855,6 @@ https://www.typescriptlang.org/play?#code/MYewdgzgLgBAbgQwDYFcCmEYF4YG8BQMMAtmgF
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -927,7 +870,6 @@ https://www.typescriptlang.org/play?#code/MYewdgzgLgBAbgQwDYFcCmEYF4YG8BQMMAtmgF
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -938,7 +880,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -954,7 +895,6 @@ https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABDAJgUzLKBPAPAFQD4AKANw
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -970,7 +910,6 @@ https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgEIHsAeAeAKgPmQG8AoZ
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -986,7 +925,6 @@ https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgCIXgVwDaQCYBCA9gB4A
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1002,7 +940,6 @@ https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABAcwKZQDwBUA0iDSqAnoqgB
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1013,7 +950,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1028,7 +964,6 @@ https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgEIVAc2QbwFDLIhwC2EA
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1043,7 +978,6 @@ https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgEIVAc2QbwFDLIhwC2EA
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1058,7 +992,6 @@ https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgEIVAc2QbwFDLIhwC2EA
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1073,7 +1006,6 @@ https://www.typescriptlang.org/play?#code/C4TwDgpgBAkgzgQQE5IIYgDwBUB8UC8AUFFFlB
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1088,7 +1020,6 @@ https://www.typescriptlang.org/play?#code/C4TwDgpgBA4hwEEBOSCGIAq4IB4MD4oBeAKCig
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1103,7 +1034,6 @@ https://www.typescriptlang.org/play?#code/C4TwDgpgBAggTnAhiAksCBbAzgJQgYwFc4sBLA
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1113,7 +1043,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1124,7 +1053,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1134,7 +1062,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1145,7 +1072,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1156,7 +1082,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1168,7 +1093,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 ---
 

@@ -22,7 +22,6 @@ I’ll admit, the name is a little long. I didn’t think of the catchier “Con
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -37,7 +36,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -51,7 +49,6 @@ You can follow along at home with the slide notes linked on my site, joshuakgold
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -62,7 +59,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -73,7 +69,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -85,7 +80,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -95,7 +89,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -110,7 +103,6 @@ Before any major architectural change happens, it must be *discussed*.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -128,7 +120,6 @@ Don’t get me wrong, I’m not trying to devalue coming into a team with a fres
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -142,7 +133,6 @@ Getting your fellow engineers excited about a switch is key to its success. You 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -156,7 +146,6 @@ My favorite image from our evangelism phase was in the very beginning, where we 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -171,7 +160,6 @@ As you expand your influencing of an idea, and especially once the team commits 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -189,7 +177,6 @@ I try to identify two archetypes of people on the team who can push the new shif
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -201,7 +188,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -213,7 +199,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -224,7 +209,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -238,7 +222,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -255,7 +238,6 @@ A key feature of our conversion that helped it be successful was not disrupting 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -267,7 +249,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -281,7 +262,6 @@ Technical conversion work on our main codebase commenced on April 2nd, 2019: a d
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -297,7 +277,6 @@ Honestly, I could give a full-length conference talk on TypeStat alone – but t
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -316,7 +295,6 @@ Components that don’t declare their own propTypes, or have inaccurate propType
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -327,7 +305,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -343,7 +320,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -359,7 +335,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -376,7 +351,6 @@ A key feature of our conversion that helped it be successful was not disrupting 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -392,7 +366,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -408,7 +381,6 @@ Ironically, I think the flavor of the cake was vanilla…
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -424,7 +396,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 ---
 

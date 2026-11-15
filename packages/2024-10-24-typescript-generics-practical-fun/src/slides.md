@@ -18,7 +18,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -35,12 +34,11 @@ transition: { name: fade, duration: 700 }
 </div>
 
 <!--
-Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code.
+Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code. 
 I’m also the author of the Learning TypeScript book, published by O’Reilly.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -55,7 +53,6 @@ In this talk, I'd like to walk you through a feature of TypeScript called "gener
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -72,7 +69,6 @@ Let’s start from the beginning. Hello, types!
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -86,7 +82,6 @@ What are types? In order to go down the path of types for JavaScript today, we g
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -101,7 +96,6 @@ TypeScript is by far the most popular way to do types in JavaScript. But to go d
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -116,7 +110,6 @@ transition: { name: fade, duration: 700 }
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -130,12 +123,11 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 <!--
-JavaScript is a programming language. It provides a standard set of syntax to describe values and how to use those values: variables, string literals, assignments, and so on.
+JavaScript is a programming language. It provides a standard set of syntax to describe values and how to use those values: variables, string literals, assignments, and so on. 
 The big problem with JavaScript is that it doesn’t have a built-in, standardized way to describe the intent behind those values. This code snippet shows creating a value variable, then assigning it first a string, then a number. There’s no way in JavaScript to say, hey, I want this value to hold a string.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -154,7 +146,6 @@ TypeScript adds in some new syntax to the world of JavaScript. Here we see a ‘
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -169,7 +160,6 @@ JavaScript has a lot of features in it and can take some time to learn. What is 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -184,7 +174,6 @@ Being able to describe those shapes in a standardized, enforceable syntax is an 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -201,7 +190,6 @@ We already saw this example, of a variable whose type annotation says it's JavaS
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -218,7 +206,6 @@ TypeScript also provides syntax to describe object shapes. For example, this Box
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -241,7 +228,6 @@ On the other hand, what if we want another variable to be a Boxed with value: nu
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -255,7 +241,6 @@ Introducing, generic types! Generic types allow us to declare reusable shapes in
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -270,7 +255,6 @@ We're going to now spend some time defining generics and how they can be used fo
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -285,7 +269,6 @@ More technically...
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -301,13 +284,12 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 <!--
-Take this new Boxed interface. Instead of always declaring its 'value' property to be a string, it takes a 'type parameter' called 'T'.
+Take this new Boxed interface. Instead of always declaring its 'value' property to be a string, it takes a 'type parameter' called 'T'. 
 Just to be clear on naming here, Boxed is a generic interface. T is a type parameter. The existence of a type parameter is what makes the interface generic.
 Later own, consumers of this interface can provide a type argument for that T. We could provide a string to make a Boxed string like before, or other types if we want.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -327,7 +309,6 @@ This is what it looks like to provide a string as the type argument for T. I'm a
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -352,7 +333,6 @@ transition: { name: fade, duration: 700 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -368,7 +348,6 @@ https://www.totaltypescript.com/no-such-thing-as-a-generic
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -388,7 +367,6 @@ Anyway, back to the generic types, here's providing an object for box that works
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -410,7 +388,6 @@ If we switch to Box<number>, then that object would no longer satisfy the shape!
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -430,7 +407,6 @@ Switching the value to a number would resolve that issue for this Boxed number. 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -445,7 +421,6 @@ Another way of thinking about generic types is that they're like functions in th
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -460,7 +435,6 @@ You can even think of them as being analogous to runtime functions.
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -476,7 +450,6 @@ Our Boxed<T> interface is kind of like a function named Boxed that takes in a T 
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -494,7 +467,6 @@ On the left, we have passing a type argument to the generic Boxed interface. On 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -514,7 +486,6 @@ We end up describing an object shape with a value property set to string.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -529,7 +500,6 @@ Congrats folks, we've embarked on our journey into TypeScript generics. Welcome 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -544,7 +514,6 @@ I'm going to take a detour from interfaces to talk about functions. They can als
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -560,7 +529,6 @@ One common example of generic functions is the identity function: one that just 
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -580,7 +548,6 @@ The identity function is supposed to return the same type as whatever you pass i
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -602,7 +569,6 @@ Well, one option could be to declare the type of the value parameter as string. 
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -626,7 +592,6 @@ If we pass in a number argument instead of a string, we'd want the return type t
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -648,7 +613,6 @@ We could use the 'any' type, which is TypeScript's YOLO type. It lets us do what
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -670,7 +634,6 @@ We could use the 'unknown' type, which is a safer version of any that doesn't le
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -685,7 +648,6 @@ The actual way to write the identify function in TypeScript is with a type param
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -709,7 +671,6 @@ If we pass in a string, the return type is string. For this one specific call to
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -735,7 +696,6 @@ Hooray!
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -752,7 +712,6 @@ Let's mix things up and start going into those type system operations.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -767,7 +726,6 @@ Get ready for a mildly wild ride.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -778,7 +736,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -793,7 +750,6 @@ Because this is meant to be a practical talk, let's focus on some real world use
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -808,7 +764,6 @@ The Box type is a common one for explaining generic types and functions. This cr
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -820,12 +775,11 @@ transition: { name: fade, duration: 700 }
 </div>
 
 <!--
-If we call createBox with a string, then the return type is Box<string>.
+If we call createBox with a string, then the return type is Box<string>. 
 Let's look at a bigger function.
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -842,7 +796,6 @@ Rewording from earlier, the type of the provided initialValue changes the type o
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -860,7 +813,6 @@ The createState function also has a type parameter, which is used for its initia
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -877,7 +829,6 @@ Now, before we go into deeper features around generics, I want to talk a bit abo
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -892,7 +843,6 @@ In TypeScript-land, you can use types more specific than the general string prim
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -912,7 +862,6 @@ Back in createBox, maybe we'd want TypeScript to infer the literal type rather t
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -936,7 +885,6 @@ Now, you might be wondering - why is this useful? Well, TypeScript is able to gi
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -960,7 +908,6 @@ For example, here, knowing that box.value is a specific string literal means Typ
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -971,7 +918,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -981,12 +927,11 @@ transition: { name: fade, duration: 700 }
 </div>
 
 <!--
-I think that's pretty nifty!
+I think that's pretty nifty! 
 “So Cool Ken”: https://tenor.com/view/so-cool-ken-ryan-gosling-barbie-movie-awesome-gif-373387493549880442
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1006,7 +951,6 @@ Back to type parameters, all the examples we've seen have used one type paramete
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1027,7 +971,6 @@ I'd start by writing a Pair interface that uses two type parameters: Key and Val
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1056,7 +999,6 @@ Now, this function signature is getting kind of long. We're repeating the words 
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1084,7 +1026,6 @@ You don't have to match up type parameter names. To save some space, we could us
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1113,7 +1054,6 @@ Either way, hooray! We're using multiple type parameters in an interface and a f
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1144,7 +1084,6 @@ And, as a bonus, the const type parameters from before could work for this funct
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1160,7 +1099,6 @@ Let's look at another kind of function.
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1181,7 +1119,6 @@ The 'get' function is a classic, popularized by older utility libraries such as 
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1205,7 +1142,6 @@ I'd start by slapping a type parameter on 'get' for the 'container' parameter.
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1236,7 +1172,6 @@ With this type as-is, someone could provide a totally unrelated key, like 'asdf'
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1265,7 +1200,6 @@ We need some way to give 'key' a type parameter, but also only allow it to be a 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1280,7 +1214,6 @@ Which we can do! TypeScript allows these type parameter 'constraints' with the '
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1309,7 +1242,6 @@ Going back to the 'get' function with two type parameters...
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1336,7 +1268,6 @@ If we constrain the 'K' type parameter to 'keyof T', then voila! No type errors,
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1359,7 +1290,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1374,7 +1304,6 @@ Are we feeling powerful or what?
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1389,7 +1318,6 @@ Since we're feeling so good about this, let's go a bit deeper on how type parame
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1409,7 +1337,6 @@ Take this getIndexOf function, that uses a const type parameter for a values: T 
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1425,7 +1352,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1447,7 +1373,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1470,7 +1395,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1492,7 +1416,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1513,7 +1436,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1538,7 +1460,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1567,7 +1488,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1596,7 +1516,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1626,7 +1545,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1654,7 +1572,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1665,7 +1582,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1693,7 +1609,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1725,7 +1640,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1755,7 +1669,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1770,7 +1683,6 @@ transition: { name: fade, duration: 700 }
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -1780,7 +1692,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1797,7 +1708,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1808,7 +1718,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1820,7 +1729,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1836,7 +1744,6 @@ https://effectivetypescript.com/2020/08/12/generics-golden-rule/
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1853,7 +1760,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1872,7 +1778,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1889,7 +1794,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1911,7 +1815,6 @@ Low key, I do feel a little smug that the typescript-eslint rule report has a mo
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1927,7 +1830,6 @@ I know there’s a lot of stuff in the JavaScript ecosystem that can take up you
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1949,7 +1851,6 @@ Fear not: we all learn from our mistakes. That’s what it means to be a develop
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1964,7 +1865,6 @@ The TypeScript party doesn’t have to stop just because your generic types are 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1975,7 +1875,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1986,7 +1885,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1997,7 +1895,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -2011,7 +1908,6 @@ https://www.totaltypescript.com/no-such-thing-as-a-generic
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -2022,7 +1918,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -2033,7 +1928,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -2044,7 +1938,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -2055,7 +1948,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -2070,7 +1962,6 @@ https://effectivetypescript.com/2020/08/12/generics-golden-rule/
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -2086,7 +1977,6 @@ I know there’s a lot of stuff in the JavaScript ecosystem that can take up you
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -2101,7 +1991,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -2118,7 +2007,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 ---
 

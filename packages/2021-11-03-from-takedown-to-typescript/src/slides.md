@@ -18,7 +18,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -30,7 +29,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -41,7 +39,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -52,7 +49,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -62,7 +58,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -76,7 +71,6 @@ Throughout this presentation, I’d encourage you to try framing my points in th
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -87,7 +81,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -105,7 +98,6 @@ Back before the modern web, if you wanted to download software from the internet
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -122,7 +114,6 @@ Now that we have the modern web, the process is much simpler. You visit a websit
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -137,7 +128,6 @@ Moira: https://giphy.com/gifs/cbc-schitts-creek-moira-1wpt0Aef5EdGyczbLk
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -152,7 +142,6 @@ https://en.wikipedia.org/wiki/Full_Screen_Mario
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -166,7 +155,6 @@ FSM was an HTML5 remake of the original Super Mario Bros. It had the original 32
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -180,7 +168,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -190,7 +177,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -205,7 +191,6 @@ https://www.nintendolife.com/news/2013/11/full_screen_mario_web_game_closed_down
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -220,13 +205,12 @@ transition: none
 
 <!--
 The key hook for FSM was that it started immediately upon entering the page. You didn’t have to click through loading screens or whatnot. Immediately upon loading the page, you got that magical moment of the classic nostalgic Mario theme. It brought a lot of users back to their childhood, to happy moments of family (or avoiding family).
-I personally felt a strong emotional reaction to the game because I had little to no friends as a kid and video games were all I had – hopefully none of you can relate!
+I personally felt a strong emotional reaction to the game because I had little to no friends as a kid and video games were all I had – hopefully none of you can relate! 
 Kids with Nintendo presents: https://overmental.com/content/90s-kids-losing-their-crap-over-christmas-video-games-is-absolutely-adorable-7965
 Family playing Super Mario Bros: https://www.gamedeveloper.com/business/sad-but-true-we-can-t-prove-when-super-mario-bros-came-out
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -236,7 +220,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -252,7 +235,6 @@ In contrast to FSM, let’s look at a modern website. There are a ton of ads and
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -262,7 +244,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -273,7 +254,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -284,7 +264,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -294,7 +273,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -310,7 +288,6 @@ Demo: so developers can see the basic working of those features.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -326,7 +303,6 @@ Change testing: so local development feels (and is) quick and seamless.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -342,7 +318,6 @@ Templates: so GitHub etiquette is understandable without personal context
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -352,7 +327,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -366,7 +340,6 @@ I’ve since extracted an open source game engine called EightBittr out of the F
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -382,7 +355,6 @@ I’d also appreciate it if you didn’t share FSP too much because every time I
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -403,7 +375,7 @@ transition: none
 <!--
 EightBittr is modular, meaning that each logical section is its own standalone component with zero or more dependencies on other components. By convention, each component’s name is exactly ten characters long and consists of two words, where the second word is a verb ending with ‘r’. There is no good reason for that naming convention. I’m just weird.
 Specific game logic in implementers such as FullScreenMario and, later, FullScreenPokemon use that engine. Game interactions are hooked up to the DOM using a separate module called UserWrappr.
-Let’s have a brief overview of how those components work together. The first area of them is map spawning: storing map descriptions, tracking which areas should be added to gameplay, and creating the objects within.
+Let’s have a brief overview of how those components work together. The first area of them is map spawning: storing map descriptions, tracking which areas should be added to gameplay, and creating the objects within. 
 Those then are placed into groups to allow for efficient collision detection.
 Events can be run on the objects, or actors, in those groups, including cycling between CSS-like classes.
 Actors are drawn onto the screen based on their classes using the graphics modules, with separate storing sprites, rendering them ontosmall classes, and full screen drawing.
@@ -414,7 +386,6 @@ Anyway, splitting up a nontrivial project into components and creating well-defi
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -428,7 +399,6 @@ That previous slide has an inhuman amount of top-level complexity to memorize fo
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -451,7 +421,6 @@ But there’s one more key documentation form that I really want to go over…
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -466,7 +435,6 @@ TypeScript!
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -476,7 +444,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -499,7 +466,6 @@ If you later try to call this sayHello function with a number in a string, TypeS
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -513,7 +479,6 @@ Now, I know it is arguably true that TypeScript itself is a barrier to entry (in
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -529,7 +494,6 @@ In this code snippet, it’s hard to tell just from looking at “FSM.timeHandle
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -539,7 +503,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -555,7 +518,6 @@ There is a bunch of code in the EightBittr class (yes, I know, classes aren’t 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -570,7 +532,6 @@ These factories take in an instance of the game and use a bunch of its other mem
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -581,7 +542,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -595,7 +555,6 @@ It is inevitable that, as a project grows, it increases in complexity. That comp
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -614,7 +573,6 @@ Which would you prefer?
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -629,7 +587,6 @@ It depends! Sometimes simplicity is easiest. Sometimes all those dependencies ar
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -639,7 +596,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -651,7 +607,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -666,7 +621,6 @@ Personally, I wrote FullScreenMario at a time early in my career when I seriousl
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -675,7 +629,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -686,7 +639,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -697,7 +649,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -708,7 +659,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 ---
 

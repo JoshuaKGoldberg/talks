@@ -18,7 +18,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -41,12 +40,11 @@ transition: { name: fade, duration: 500 }
 
 <!--
 I’m a full time independent open source maintainer. I work on dev tooling around JavaScript and TypeScript – most notably, typescript-eslint, which I hope all of you are using to prevent bugs and bad practices in your TypeScript code.
-I’m also the author of the O’Reilly Learning TypeScript book.
+I’m also the author of the O’Reilly Learning TypeScript book. 
 https://learningtypescript.com
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -60,7 +58,6 @@ When I tell a developer I work on linters like ESLint, there are approximately t
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -76,7 +73,6 @@ These reactions are sorted from least common to most common.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -92,7 +88,6 @@ But I get it. Not every tool is for everyone. And linters have learned the hard 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -107,7 +102,6 @@ This might seem like another negative reaction, questioning my life choices...
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -121,7 +115,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -135,7 +128,6 @@ I believe that the better my dev tooling, the better I’m able to do my job as 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -150,7 +142,6 @@ Miriam Suzanne's photo from jsheroes.io
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -160,7 +151,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -181,7 +171,6 @@ Because dev tooling is a huge space, we’re going to have to focus a bit. I’m
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -200,7 +189,6 @@ We’re going to talk about those three forms of static analysis – mostly type
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -216,7 +204,6 @@ I’m not going to go deep into building or bundling, how to test your code, whi
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -230,7 +217,6 @@ transition: { name: view-transition, duration: 750 }
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 1250 }
 ---
@@ -253,7 +239,6 @@ We’re going to talk about those three forms of static analysis – mostly type
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -272,7 +257,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -288,7 +272,6 @@ Filip Sodic's photo from jsheroes.io
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -309,7 +292,6 @@ It’s 2025 now. Are these challenges solved today?
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -321,7 +303,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -336,7 +317,6 @@ Sophie Koonin's photo from jsheroes.io
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -351,7 +331,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -367,12 +346,11 @@ transition: { name: fade, duration: 700 }
 </div>
 
 <!--
-TypeScript is a shockingly configurable language. If you want, your code can be what we would affectionately call “weakly” typed: where many values don’t have known types. That’s common for projects that haven’t had the time to be migrated towards the other end of the spectrum, “strongly typed”.
+TypeScript is a shockingly configurable language. If you want, your code can be what we would affectionately call “weakly” typed: where many values don’t have known types. That’s common for projects that haven’t had the time to be migrated towards the other end of the spectrum, “strongly typed”. 
 TypeScript is technically a “gradually typed” language: it allows you to specify a strictness that matches where you want to be on that spectrum.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -388,7 +366,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -402,7 +379,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -417,7 +393,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -432,7 +407,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -449,7 +423,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -466,7 +439,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -482,7 +454,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -502,7 +473,6 @@ https://gunshowcomic.com/899
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -516,7 +486,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -527,7 +496,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -537,7 +505,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -551,7 +518,6 @@ Let's talk about another common TypeScript pain: running the code in the first p
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -569,7 +535,6 @@ At first, we had tsc –watch. Start that in one terminal window, then run your 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -589,7 +554,6 @@ Note that these projects only transpile, not type-check. Transpiling is fast; ty
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -608,7 +572,6 @@ Also available are Node.js ESM loaders , formerly the –register hook with Comm
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -623,7 +586,6 @@ https://tc39.es/proposal-type-annotations/
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -644,7 +606,6 @@ Wouldn’t it be nice if Node.js had this too?
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -668,7 +629,6 @@ Web development is truly streets ahead.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -691,7 +651,6 @@ By the way, the reason it’s called type stripping is because that’s what hap
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -705,7 +664,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -722,7 +680,6 @@ Let’s take this very straightforward prompt. Chat prompts are pretty good at i
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -740,7 +697,6 @@ Let’s say we also want to know what kind of venue each suggestion is.
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -761,7 +717,6 @@ Sandrina Pereira's photo from jsheroes.io
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -782,7 +737,6 @@ In other words, I want to attach TypeScript types to my AI prompts, and be guara
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -796,7 +750,6 @@ TypeChat is a nifty library from folks on the TypeScript team that does just wha
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -814,7 +767,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -829,7 +781,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -843,7 +794,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -857,7 +807,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -868,7 +817,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -887,7 +835,6 @@ https://www.youtube.com/watch?v=0mCsluv5FXA&ab_channel=MichiganTypeScript
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -902,7 +849,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -918,7 +864,6 @@ That type checking, as wonderful and powerful as it is, is slow today – oftent
 -->
 
 ---
-
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -931,7 +876,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -956,7 +900,6 @@ https://kaleidawave.github.io/posts/introducing-ezno
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -970,7 +913,6 @@ https://devblogs.microsoft.com/typescript/typescript-native-port/
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -984,7 +926,6 @@ https://devblogs.microsoft.com/typescript/typescript-native-port/
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -998,7 +939,6 @@ https://devblogs.microsoft.com/typescript/announcing-typescript-native-previews
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 1250 }
 ---
@@ -1015,7 +955,6 @@ transition: { name: view-transition, duration: 1250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 1250 }
 ---
@@ -1031,7 +970,6 @@ transition: { name: view-transition, duration: 1250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1047,7 +985,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1074,7 +1011,6 @@ A type checker would never tell you to make this switch. The code runs just as w
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1087,7 +1023,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1098,7 +1033,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1110,7 +1044,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1122,7 +1055,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1132,7 +1064,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1150,7 +1081,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1173,7 +1103,6 @@ This example is a little contrived (I’ve never seen someone await a console lo
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1194,7 +1123,6 @@ The ‘await onClick()’ is unnecessary because onClick is typed as a function 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1225,7 +1153,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1260,7 +1187,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1293,7 +1219,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1321,7 +1246,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1348,7 +1272,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1372,7 +1295,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1394,7 +1316,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1414,7 +1335,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1434,7 +1354,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1455,7 +1374,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1465,7 +1383,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1481,7 +1398,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1493,7 +1409,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1505,7 +1420,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1522,7 +1436,6 @@ Hidde de Vries's photo from jsheroes.io
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1534,7 +1447,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1546,7 +1458,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1563,7 +1474,6 @@ Atila Fassina's photo from jsheroes.io
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1573,7 +1483,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1585,7 +1494,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1605,7 +1513,6 @@ Oxlint: oxc.rs
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1620,7 +1527,6 @@ https://github.com/johnsoncodehk/tsslint
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1635,7 +1541,6 @@ https://github.com/JoshuaKGoldberg/flint
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 1250 }
 ---
@@ -1647,7 +1552,6 @@ transition: { name: view-transition, duration: 1250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 1250 }
 ---
@@ -1663,7 +1567,6 @@ transition: { name: view-transition, duration: 1250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1679,7 +1582,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1690,7 +1592,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1702,7 +1603,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1718,7 +1618,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1732,7 +1631,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1748,7 +1646,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1772,7 +1669,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1796,7 +1692,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 1250 }
 ---
@@ -1814,7 +1709,6 @@ transition: { name: view-transition, duration: 1250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1832,7 +1726,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1842,7 +1735,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1853,7 +1745,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1867,7 +1758,6 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1877,7 +1767,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1893,7 +1782,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -1903,7 +1791,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1918,7 +1805,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1936,7 +1822,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 hide: true
 transition: { name: view-transition, duration: 750 }
@@ -1954,7 +1839,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1970,7 +1854,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 hide: true
 transition: { name: view-transition, duration: 750 }
@@ -1987,7 +1870,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 hide: true
 transition: { name: view-transition, duration: 750 }
@@ -2004,7 +1886,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -2019,7 +1900,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -2039,7 +1919,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -2062,7 +1941,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -2081,7 +1959,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -2102,7 +1979,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -2124,7 +2000,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2146,7 +2021,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2161,7 +2035,6 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2172,7 +2045,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2209,7 +2081,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2219,7 +2090,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2230,7 +2100,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2241,7 +2110,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -2252,7 +2120,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -2266,7 +2133,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2280,7 +2146,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -2291,7 +2156,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2305,7 +2169,6 @@ Time: 33 minutes
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -2316,7 +2179,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2335,7 +2197,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -2347,7 +2208,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -2364,7 +2224,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2381,7 +2240,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2391,7 +2249,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -2401,7 +2258,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -2411,7 +2267,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 ---
 

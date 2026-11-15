@@ -18,7 +18,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -29,7 +28,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -41,7 +39,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -51,7 +48,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -62,7 +58,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -76,7 +71,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -90,7 +84,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -104,7 +97,6 @@ https://graphql.org/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -116,7 +108,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -126,7 +117,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -136,7 +126,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -147,7 +136,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -160,7 +148,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -179,7 +166,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -190,7 +176,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -207,7 +192,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -224,7 +208,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -241,7 +224,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -252,7 +234,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -266,7 +247,6 @@ https://graphql.org/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -276,7 +256,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -290,7 +269,6 @@ https://graphql.org/
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -306,7 +284,6 @@ https://www.apollographql.com/docs/react/get-started/#2-initialize-apolloclient
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -316,7 +293,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -333,7 +309,6 @@ https://www.graphql-code-generator.com/docs/plugins/typescript-react-apollo
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -343,7 +318,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -354,7 +328,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -365,7 +338,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -376,7 +348,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 ---
 

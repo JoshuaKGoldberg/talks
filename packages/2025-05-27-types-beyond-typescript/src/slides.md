@@ -29,7 +29,6 @@ Closing Thoughts: 1 minute
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -52,12 +51,11 @@ transition: { name: fade, duration: 500 }
 
 <!--
 I’m a full time independent open source maintainer. I work on dev tooling around JavaScript and TypeScript – most notably, typescript-eslint, which I hope all of you are using to prevent bugs and bad practices in your TypeScript code.
-I’m also the author of the O’Reilly Learning TypeScript book.
+I’m also the author of the O’Reilly Learning TypeScript book. 
 https://learningtypescript.com
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -68,7 +66,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -82,7 +79,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -99,7 +95,6 @@ End: minute 3
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -114,7 +109,6 @@ To answer that, we’ll have to first answer: what is TypeScript?
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -129,7 +123,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -143,12 +136,11 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 <!--
-JavaScript is a programming language. It provides a standard set of syntax to describe values and how to use those values: variables, string literals, assignments, and so on.
+JavaScript is a programming language. It provides a standard set of syntax to describe values and how to use those values: variables, string literals, assignments, and so on. 
 The big problem with JavaScript is that it doesn’t have a built-in, standardized way to describe the intent behind those values. This code snippet shows creating a value variable, then assigning it first a string, then a number. There’s no way in JavaScript to say, hey, I want this value to hold a string.
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -167,7 +159,6 @@ TypeScript adds in some new syntax to the world of JavaScript. Here we see a ‘
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -186,7 +177,6 @@ Here, we see the TypeScript command-line, ”tsc”, telling us that an index.ts
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -206,7 +196,6 @@ Lastly, TypeScript also provides nice integrations for editors such as VS Code, 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -220,7 +209,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -231,7 +219,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -243,7 +230,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -259,7 +245,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -277,7 +262,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -288,7 +272,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -310,7 +293,6 @@ your code looks like an unreadable mess, but you keep going…
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -327,7 +309,6 @@ https://www.youtube.com/watch?v=0mCsluv5FXA&ab_channel=MichiganTypeScript
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -342,7 +323,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -356,7 +336,6 @@ Wait.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -378,7 +357,6 @@ But, fear not: we all learn from our mistakes. That’s what it means to be a de
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -395,7 +373,6 @@ End: minute 7
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -406,7 +383,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -417,7 +393,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -429,7 +404,6 @@ transition: { name: view-transition, duration: 750 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -448,7 +422,6 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -463,7 +436,6 @@ https://tc39.es/proposal-type-annotations/
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -475,7 +447,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -486,7 +457,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -499,7 +469,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -516,7 +485,6 @@ End: minute 11
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -527,7 +495,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -538,7 +505,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -549,7 +515,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -561,7 +526,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -574,7 +538,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -590,7 +553,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -606,7 +568,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -622,7 +583,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -638,7 +598,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -655,7 +614,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -670,7 +628,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -681,7 +638,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -694,7 +650,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -706,7 +661,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -720,7 +674,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -732,7 +685,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -746,7 +698,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -760,7 +711,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -778,7 +728,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -789,7 +738,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -806,7 +754,6 @@ End: minute 20
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -817,7 +764,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -834,7 +780,6 @@ That’s a very reasonable question! The answer is: somewhat no. On the surface,
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -859,7 +804,6 @@ One commonality between all forms of static analysis is that all these tools nee
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -886,7 +830,6 @@ A type checker would never tell you to make this switch. The code runs just as w
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -901,7 +844,6 @@ Types are different from syntax. ASTs only store the syntax seen in your file. T
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -920,7 +862,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -943,7 +884,6 @@ This example is a little contrived (I’ve never seen someone await a console lo
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -964,7 +904,6 @@ The ‘await onClick()’ is unnecessary because onClick is typed as a function 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -995,7 +934,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1030,7 +968,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1063,7 +1000,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1094,7 +1030,6 @@ TODO unused var
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1122,7 +1057,6 @@ TODO unused var
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1144,7 +1078,6 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1164,7 +1097,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1185,7 +1117,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1196,7 +1127,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1207,7 +1137,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1227,7 +1156,6 @@ Let’s take this very straightforward prompt. Chat prompts are pretty good at i
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1251,7 +1179,6 @@ Let’s say we also want to know what kind of venue each suggestion is.
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1279,7 +1206,6 @@ Then also for some of those types, we want to know if they’re accessible…thi
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1297,7 +1223,6 @@ What we’d really love to be able to do is use something like TypeScript’s ty
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1317,7 +1242,6 @@ In other words, I want to attach TypeScript types to my AI prompts, and be guara
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1338,7 +1262,6 @@ In other words, I want to attach TypeScript types to my AI prompts, and be guara
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1360,13 +1283,12 @@ transition: { name: fade, duration: 500 }
 </div>
 
 <!--
-In other words, what we’d really want here is not just passing TypeScript types, but also detect any discrepancies between the response and those types.
+In other words, what we’d really want here is not just passing TypeScript types, but also detect any discrepancies between the response and those types. 
 If there are discrepancies, reported as type errors, then we’d want to report those type errors back to the AI to have it correct the response data shape.
 We can keep doing this until it satisfies our types.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1380,7 +1302,6 @@ TypeChat is a nifty library from folks on the TypeScript team that does just wha
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1398,7 +1319,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 700 }
 ---
@@ -1413,7 +1333,6 @@ transition: { name: view-transition, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1430,7 +1349,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1441,7 +1359,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1459,7 +1376,6 @@ End: minute 24
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1470,7 +1386,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1484,7 +1399,6 @@ Let's talk about the TypeScript pain: running the code with Node.js in the first
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1502,7 +1416,6 @@ At first, we had tsc –watch. Start that in one terminal window, then run your 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1522,7 +1435,6 @@ Note that these projects only transpile, not type-check. Transpiling is fast; ty
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1541,7 +1453,6 @@ Also available are Node.js ESM loaders , formerly the –register hook with Comm
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1556,7 +1467,6 @@ https://tc39.es/proposal-type-annotations/
 -->
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 750 }
 ---
@@ -1577,7 +1487,6 @@ Wouldn’t it be nice if Node.js had this too?
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1601,7 +1510,6 @@ Web development is truly streets ahead.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1625,7 +1533,6 @@ By the way, the reason it’s called type stripping is because that’s what hap
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1641,7 +1548,6 @@ That type checking, as wonderful and powerful as it is, is slow today – oftent
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1666,7 +1572,6 @@ https://kaleidawave.github.io/posts/introducing-ezno
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1680,7 +1585,6 @@ https://devblogs.microsoft.com/typescript/typescript-native-port/
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1694,7 +1598,6 @@ https://devblogs.microsoft.com/typescript/typescript-native-port/
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1708,7 +1611,6 @@ https://devblogs.microsoft.com/typescript/typescript-native-port/
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1719,7 +1621,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1737,7 +1638,6 @@ End: minute 25
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1747,7 +1647,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -1760,7 +1659,6 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1782,7 +1680,6 @@ But, fear not: we all learn from our mistakes. That’s what it means to be a de
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1795,7 +1692,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1814,7 +1710,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1825,7 +1720,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 ---
 

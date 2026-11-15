@@ -20,7 +20,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -34,7 +33,6 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -49,13 +47,12 @@ transition: { name: fade, duration: 350 }
 </div>
 
 <!--
-Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code.
+Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code. 
 I’m also the author of the recent Learning TypeScript book, published by O’Reilly.
 Now, I’d heard of AI around when a lot of other devs did, which is to say, when image generation prompts got popular. Please enjoy a self-portrait of, and I’m quoting the prompt, …
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -66,7 +63,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -79,7 +75,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -90,7 +85,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -107,7 +101,6 @@ https://www.typescriptlang.org/play/?#code/MYewdgzgLgBAHjAvDAsgQygCwHQCc1gAmIAtg
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -118,7 +111,6 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
-
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -134,7 +126,6 @@ https://www.typescriptlang.org/play/?#code/MYewdgzgLgBAHjAvDAsgQygCwHQCc1gAmIAtg
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -150,7 +141,6 @@ https://www.typescriptlang.org/play/?#code/MYewdgzgLgBAHjAvDAsgQygCwHQCc1gAmIAtg
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -168,7 +158,6 @@ https://www.typescriptlang.org/play/?#code/MYewdgzgLgBAHjAvDAsgQygCwHQCc1gAmIAtg
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -185,7 +174,6 @@ https://www.typescriptlang.org/play/?#code/MYewdgzgLgBAHjAvDAsgQygCwHQCc1gAmIAtg
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -196,7 +184,6 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -213,7 +200,6 @@ https://www.typescriptlang.org/play/?#code/MYewdgzgLgBAHjAvDAsgQygCwHQCc1gAmIAtg
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -224,7 +210,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -235,7 +220,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -249,7 +233,6 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -259,7 +242,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 ---
 

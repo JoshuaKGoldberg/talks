@@ -18,7 +18,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -32,7 +31,6 @@ You can follow along at home with the slide notes linked on my site, joshuakgold
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -47,7 +45,6 @@ Lastly, we’ll talk about some of the parts of a healthy team culture that make
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -65,7 +62,6 @@ Again: the React family of libraries is not noticeably better, worse, faster, or
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -80,7 +76,6 @@ The examples in that repository are all simplified versions of bad performance b
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -91,7 +86,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -102,7 +96,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -130,7 +123,6 @@ This is all to say: the people and structures behind a product have a real impac
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -148,7 +140,6 @@ But what does that mean, it’s too slow?
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -166,7 +157,6 @@ Problem: the page could still be visually in a loading stage after these events.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -187,7 +177,6 @@ Lighthouse is an open source tool from Google that grades page performance on th
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -198,7 +187,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -210,7 +198,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -229,7 +216,6 @@ In the “client on demand page”, you can visualize it as having only a little
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -249,7 +235,6 @@ We can optimize that a little bit by having the server compute the initial layou
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -269,7 +254,6 @@ One more optimization! If the page is the same for all users always, we can comp
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -285,7 +269,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -303,7 +286,6 @@ I’ll also enable “Disable cache” to make sure the browser pretend it’s v
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -322,7 +304,6 @@ Actually, a quarter of a second for the page to download its initial HTML is not
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -340,7 +321,6 @@ I should note that network results fluctuate a lot and you should really be runn
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -356,7 +336,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -371,7 +350,6 @@ We’ve talked about the initial HTML payload for a page. Now let’s talk about
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -387,7 +365,6 @@ Fun fact: the more code your page has, the longer it takes to start up!
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -403,7 +380,6 @@ Let’s look at a page that has a large number of scripts downloaded. Each one o
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -420,7 +396,6 @@ To see how those script loads impact the loading behavior of the page, you can s
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -439,7 +414,6 @@ After recording the initial load of our page, we can see a whole bunch of script
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -459,7 +433,6 @@ If we remove many of those scripts, we see those metrics move up to only about 3
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -476,7 +449,6 @@ Browser dev tools generally have an option to intentionally throttle the network
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -496,7 +468,6 @@ On Fast 3G, that /script-bloat page wait time shoots up to a ridiculous five who
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -516,7 +487,6 @@ Removing the script bloat on the page brought the page down to loading a bunch o
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -532,7 +502,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -548,7 +517,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -562,7 +530,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -573,7 +540,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -585,7 +551,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -600,12 +565,11 @@ transition: none
 </div>
 
 <!--
-Here we see the performance waterfall for a page that loads a ton of JavaScript for its initial React components. On Fast 3G, it takes almost four whole seconds to download them.
+Here we see the performance waterfall for a page that loads a ton of JavaScript for its initial React components. On Fast 3G, it takes almost four whole seconds to download them. 
 We can additionally see the Total blocking time, or the amount of time between First Contentful Paint (FCP) and Time to Interactive, is over a second. That’s a lot of time for the page to be sitting pretty, not yet able to respond to user input.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -621,7 +585,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -640,7 +603,6 @@ Example simplified from the Next.js docs on code splitting: https://nextjs.org/d
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -659,7 +621,6 @@ Applying lazy loading a particularly expensive component in our demo app reduces
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -674,7 +635,6 @@ DDOS, or Dedicated Denial of Service, is when someone sends so many requests to 
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -690,7 +650,6 @@ If you can’t see the error in this slide, good! That’s the point -- it can b
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -706,7 +665,6 @@ Now, imagine if you run a website used by thousands upon thousands of active use
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -724,7 +682,6 @@ The fix for this particular variant of self-DDOS is to only fetch the data once,
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -739,7 +696,6 @@ Now we only get the one call to the user endpoint.
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -755,7 +711,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -765,12 +720,11 @@ transition: none
 </div>
 
 <!--
-One interesting graph from our retrospective on one of our self-inflicted DDOS events was looking at the average response time for one of the affected servers.
+One interesting graph from our retrospective on one of our self-inflicted DDOS events was looking at the average response time for one of the affected servers. 
 This particular incident had us (me) deploying a change that spammed one of our content “search” endpoints on a service. We fixed it first by reverting the code I had pushed. That stopped new loaded pages from spamming requests but didn’t stop pages that were already open from continuing to send requests. We implemented a second change to cache that particular endpoint’s responses so the server wouldn’t have to recompute them each time. Fun!
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -781,7 +735,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -798,7 +751,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -816,7 +768,6 @@ https://wiki.c2.com/?PrematureOptimization
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -828,7 +779,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -845,7 +795,6 @@ https://en.wikipedia.org/wiki/Five_whys
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -856,7 +805,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -872,7 +820,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -888,7 +835,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -904,7 +850,6 @@ transition: none
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -919,7 +864,6 @@ Lastly, we’ll talk about some of the parts of a healthy team culture that make
 -->
 
 ---
-
 layout: none
 ---
 

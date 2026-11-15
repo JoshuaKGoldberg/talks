@@ -15,7 +15,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -25,7 +24,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -35,7 +33,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -45,7 +42,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -59,7 +55,6 @@ Love it, thank you!
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -74,7 +69,6 @@ As software developers, we've all resigned ourselves to the fact that some of ou
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -93,7 +87,6 @@ Here's an actual quote from my very loving parents about the Learning TypeScript
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -113,7 +106,6 @@ The problem is made worse because many developers do not excel at explaining tec
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -126,12 +118,11 @@ transition: { name: fade, duration: 350 }
 
 <!--
 In parallel, many software developers experience that same false intimidation around the subject of static analysis: tooling that analyzes your code without running it.
-Tooling that for years many people thought was just in the purview of academics or hardcore language engineers, and when they tried to look at resources about them were turned away because many resources were academic or language-theoretical rather than introductory and practical.
+Tooling that for years many people thought was just in the purview of academics or hardcore language engineers, and when they tried to look at resources about them were turned away because many resources were academic or language-theoretical rather than introductory and practical. 
 No more! The static analysis landscape today -especially for modern TypeScript codebases- is much more approachable than it’s ever been. I think you will find that the concepts I'm going to show you today are very relevant and applicable for day-to-day work and you will perhaps even enjoy using them when you get back to coding.
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -147,7 +138,6 @@ There are a bunch of fantastic things you can do with static analysis - such fro
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -167,7 +157,6 @@ And I'm going to show you a tool I wrote that can convert JavaScript to TypeScri
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -182,7 +171,6 @@ But first, before we dive into these tools, I’m going to enthuse to you about 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -198,7 +186,6 @@ Groot: https://giphy.com/gifs/galaxy-groot-guardians-cnC7I7SSn2lNK
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -215,7 +202,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -228,7 +214,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -243,7 +228,6 @@ https://astexplorer.net/
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -255,7 +239,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -277,7 +260,6 @@ https://estools.github.io/esquery/
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -295,7 +277,6 @@ This rule suggests replacing ‘he or she’ with ‘they’. Which is generally
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -306,7 +287,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -321,7 +301,6 @@ TypeScript, on the other hand, understands what your code means. It knows what t
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -354,7 +333,6 @@ Maybe we want to explicitly handle rejected Promises
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -372,7 +350,6 @@ Goku: https://giphy.com/gifs/super-saiyan-UBB6f0hKhlShy
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -391,7 +368,6 @@ If all this is new to you, then fun fact: this is how you get ESLint to run on T
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -409,7 +385,6 @@ Note that we don’t include type checked rules (rules that use the full power o
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -426,7 +401,6 @@ All right, I’m done showing you config shenanigans. Let’s look at a demo!
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -436,7 +410,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -449,7 +422,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -467,7 +439,6 @@ Pennywise the Clown: https://giphy.com/gifs/it-movie-scary-clown-pennywise-the-3
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -480,7 +451,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -495,7 +465,6 @@ I’ll also talk a bit now about being able to test your types: asserting that y
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -510,7 +479,6 @@ For example, your package might export a function from its Node SDK that is supp
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -526,7 +494,6 @@ You might change its implementation in a way that doesn’t match up with docs. 
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -543,7 +510,6 @@ Because I now maintain eslint-plugin-expect-type and it’s the only one integra
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -554,7 +520,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -568,7 +533,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -582,7 +546,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -596,7 +559,6 @@ Love it, thank you!
 -->
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -608,7 +570,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -619,7 +580,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -629,7 +589,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -641,7 +600,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -652,7 +610,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -662,7 +619,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -672,7 +628,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -682,7 +637,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -692,7 +646,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -704,7 +657,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -715,7 +667,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -726,7 +677,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -737,7 +687,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -749,7 +698,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -760,7 +708,6 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
-
 layout: none
 ---
 

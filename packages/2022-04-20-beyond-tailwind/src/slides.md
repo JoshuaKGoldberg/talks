@@ -15,7 +15,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -25,7 +24,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -35,7 +33,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -45,7 +42,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -55,7 +51,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -65,7 +60,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -76,7 +70,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -86,7 +79,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -96,7 +88,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -106,7 +97,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -116,7 +106,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -126,7 +115,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -136,7 +124,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -146,7 +133,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -156,7 +142,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -173,7 +158,6 @@ Talk length: 30-40 minutes
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -185,7 +169,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -195,7 +178,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -206,7 +188,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -216,7 +197,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -228,7 +208,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -238,7 +217,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -248,7 +226,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -264,7 +241,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -275,7 +251,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -285,7 +260,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -296,7 +270,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -308,7 +281,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -320,7 +292,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -332,7 +303,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -343,7 +313,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -353,7 +322,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -367,7 +335,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -381,7 +348,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -391,7 +357,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -402,12 +367,11 @@ transition: none
 </div>
 
 <!--
-Design systems allow us to invest once in accessible, high quality components that later remove the need for designers or developers to continuously re-implement them.
+Design systems allow us to invest once in accessible, high quality components that later remove the need for designers or developers to continuously re-implement them. 
 “Angry wow mad”: https://giphy.com/gifs/angry-wow-mad-3Fkw8DCq4eUxp31E4n
 -->
 
 ---
-
 layout: none
 transition: none
 ---
@@ -418,7 +382,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -428,7 +391,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -439,7 +401,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -450,7 +411,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -461,7 +421,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 transition: none
 ---
@@ -472,7 +431,6 @@ transition: none
 </div>
 
 ---
-
 layout: none
 ---
 
