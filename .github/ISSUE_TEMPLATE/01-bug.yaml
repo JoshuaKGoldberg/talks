@@ -3,7 +3,9 @@ body:
       description: If any of these required steps are not taken, we may not be able to review your issue. Help us to help you!
       label: Bug Report Checklist
       options:
-        - label: I have looked at the latest `main` branch of the repository.
+        - label: I have pulled in the newest version of the project.
+          required: true
+        - label: I have tried restarting my IDE and the issue persists.
           required: true
         - label: I have [searched for related issues](https://github.com/JoshuaKGoldberg/talks/issues?q=is%3Aissue) and found none that matched my issue.
           required: true
@@ -25,7 +27,7 @@ body:
       label: Additional Info
     type: textarea
 
-description: Report a problem with a talk's info, links, or deck, or with building or presenting one
+description: Report a bug trying to run the code
 
 labels:
   - "type: bug"

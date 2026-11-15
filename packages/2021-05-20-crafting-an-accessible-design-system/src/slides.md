@@ -18,6 +18,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -31,6 +32,7 @@ You can follow along at home with the slide notes linked on my site, joshuakgold
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -41,6 +43,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -51,6 +54,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -73,6 +77,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -86,6 +91,7 @@ This slide’s background image is a screenshot of codecademy.com/learn for a si
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -110,6 +116,7 @@ More unusual or niche ones: a ProgressBar and a HexCharacter
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -124,6 +131,7 @@ It can also refer to bigger shared components: your site’s global header heade
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -139,6 +147,7 @@ Design systems allow us to invest once in accessible, high quality components th
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -153,6 +162,7 @@ All those things you spent so much time learning about and perfecting for the sa
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -163,6 +173,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -178,6 +189,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -193,6 +205,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -206,6 +219,7 @@ Gamut, for example, is Codecademy’s design system. You can see it on gamut.Cod
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -219,6 +233,7 @@ Each component or group of components, in our design system, such as buttons, ha
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -234,6 +249,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -249,6 +265,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -259,6 +276,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -269,6 +287,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -280,6 +299,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -291,6 +311,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -301,6 +322,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -314,6 +336,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -327,6 +350,7 @@ Storybook has a nifty aXe integration that lets you run an aXe scan against the 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -337,6 +361,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -347,6 +372,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 ---
 

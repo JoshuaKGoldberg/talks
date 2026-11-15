@@ -18,6 +18,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -27,6 +28,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -38,6 +40,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -51,6 +54,7 @@ transition: { name: fade, duration: 700 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -61,6 +65,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -71,6 +76,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -85,6 +91,7 @@ https://manoa.hawaii.edu/exploringourfluidearth/physical/world-ocean/map-distort
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -95,6 +102,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -105,6 +113,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -115,6 +124,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -147,6 +157,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -160,6 +171,7 @@ transition: { name: fade, duration: 700 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -170,6 +182,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -180,6 +193,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -190,6 +204,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -206,6 +221,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -216,6 +232,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -226,6 +243,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -236,6 +254,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -249,6 +268,7 @@ transition: { name: fade, duration: 700 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -259,6 +279,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -268,6 +289,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -278,6 +300,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -288,6 +311,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -298,6 +322,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -308,6 +333,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -318,6 +344,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -328,6 +355,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -338,6 +366,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -351,6 +380,7 @@ transition: { name: fade, duration: 700 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -361,6 +391,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -371,6 +402,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -384,6 +416,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -394,6 +427,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -404,6 +438,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -413,6 +448,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -422,6 +458,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -431,6 +468,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -441,6 +479,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -451,6 +490,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -483,6 +523,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -493,6 +534,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -503,6 +545,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -515,6 +558,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 ---
 

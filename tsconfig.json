@@ -1,13 +1,23 @@
 {
 	"compilerOptions": {
+		"declaration": true,
 		"esModuleInterop": true,
 		"module": "nodenext",
 		"moduleResolution": "nodenext",
 		"noEmit": true,
 		"resolveJsonModule": true,
+		"rewriteRelativeImportExtensions": true,
 		"skipLibCheck": true,
 		"strict": true,
 		"target": "ES2023"
 	},
-	"include": ["*.config.ts", "scripts"]
+	"include": [
+		"*.config.ts",
+		"packages/*/*.config.ts",
+		"packages/2026-11-17-make-ai-write-better-code/src/setup",
+		"packages/2026-11-17-make-ai-write-better-code/src/styles",
+		"packages/2026-11-17-make-ai-write-better-code/test",
+		"scripts",
+		"src"
+	]
 }

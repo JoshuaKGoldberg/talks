@@ -19,6 +19,7 @@ Hello everyone. Let’s go on a JavaScript journey together.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -40,6 +41,7 @@ It can feel like Prisma is this lovely shelter from the chaos of code complexity
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -49,6 +51,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -61,6 +64,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -72,6 +76,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -81,6 +86,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -91,6 +97,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -101,6 +108,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -119,6 +127,7 @@ Even if those assumptions are correct, though, later changes to the code may inv
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -133,7 +142,7 @@ transition: { name: fade, duration: 250 }
 
 <!--
 Many developers have adopted a loose communally-organized standard called JSDoc to describe functions and variables using block comments. The JSDoc standard describes how you might write documentation comments placed directly above constructs such as functions and variables, formatted in a somewhat standard way.
-But! JSDoc has key issues that often make it unpleasant to use in a large codebase: 
+But! JSDoc has key issues that often make it unpleasant to use in a large codebase:
 • Nothing stops JSDoc descriptions from being wrong about code.
 • Even if your JSDoc descriptions were previously correct, during code refactors it can be difficult to find all the now-invalid JSDoc comments related to your changes.
 • Describing complex objects is unwieldy and verbose, requiring multiple stand‐ alone comments to define types and their relationships.
@@ -141,6 +150,7 @@ In this example, what is Painter referring to? How do we know that painter and p
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -159,6 +169,7 @@ Yay, TypeScript! Fun fact, Prisma agrees with me on the glory of TypeScript: Pri
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -174,6 +185,7 @@ This myId variable can be either a number or a string. Assigning it a value know
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -189,6 +201,7 @@ One of my favorite cute TypeScript demos is declaring a Bit type that can be eit
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -198,6 +211,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -212,6 +226,7 @@ Ok! Now that we’ve got a primer on TypeScript, let’s talk about Prisma uses 
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -229,6 +244,7 @@ Note that this User type doesn’t include the Post[] reference type – we’ll
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -243,6 +259,7 @@ Prisma’s generated client classes would include TypeScript type definitions de
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -258,6 +275,7 @@ Those UserFind types for the method arguments might look something like this. Ex
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -273,6 +291,7 @@ Because the user delegate’s generated methods are well-typed, TypeScript can f
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -291,6 +310,7 @@ So that’s a new thing we have to account for in our TypeScript types!
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -301,6 +321,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -316,6 +337,7 @@ I’m now going to give you a brief overview of generic types in TypeScript. If 
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -331,6 +353,7 @@ We need a way to say the function’s return type is the same as whatever was pa
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -346,6 +369,7 @@ Here’s how you’d represent that argument-to-return-type relationship. This <
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -356,6 +380,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -376,6 +401,7 @@ Protip for any new caretakers out there, it’s is a great way to pass time with
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -396,6 +422,7 @@ If the opponent is anything else (so, Scissors), the player’s Rock wins.
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -421,6 +448,7 @@ Lastly, we use an ‘as’ cast to tell TypeScript that the result of our code i
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -435,6 +463,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -445,6 +474,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -457,6 +487,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -469,6 +500,7 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -484,6 +516,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -496,6 +529,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -506,6 +540,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -519,6 +554,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -534,6 +570,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -555,6 +592,7 @@ But, fear not: we all learn from our mistakes. That’s what it means to be a de
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -566,6 +604,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -575,6 +614,7 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -585,6 +625,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -595,6 +636,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -605,6 +647,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -615,6 +658,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -625,6 +669,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -635,6 +680,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -646,6 +692,7 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -658,6 +705,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 ---
 

@@ -18,6 +18,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -28,6 +29,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -41,6 +43,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -51,6 +54,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -61,6 +65,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -74,6 +79,7 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -84,6 +90,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -94,6 +101,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -108,6 +116,7 @@ This is the technical, precise term for TypeScript: that it’s a “superset”
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -117,6 +126,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -147,6 +157,7 @@ Without TypeScript, it can be exceedingly difficult to know whether we’re usin
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -160,6 +171,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -173,6 +185,7 @@ Asdf
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -186,6 +199,7 @@ Asdf
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -196,6 +210,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -209,6 +224,7 @@ Asdf
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -226,6 +242,7 @@ But, what if we have a variable whose type can’t be inferred rom the initial v
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -243,6 +260,7 @@ Keep in mind that type annotations are purely a development-time construct. They
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -259,6 +277,7 @@ But, whenever we assign a value to the variable, TypeScript will narrow the vari
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -269,6 +288,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -280,6 +300,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -290,6 +311,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -300,6 +322,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -312,6 +335,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -327,6 +351,7 @@ https://github.com/Microsoft/TypeScript/issues/9998
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -338,6 +363,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -350,6 +376,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -362,6 +389,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -373,6 +401,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -383,6 +412,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -394,6 +424,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -406,6 +437,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -418,6 +450,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -428,6 +461,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -439,6 +473,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -454,6 +489,7 @@ Given 35 minutes average per topic, times 6.5 topics, is just under 230 minutes,
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -464,6 +500,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -474,6 +511,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -485,6 +523,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 ---
 

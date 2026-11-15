@@ -18,6 +18,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -31,6 +32,7 @@ Everything we go over in this talk is also available on my website, in the blog.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -44,6 +46,7 @@ Here’s a photo of a cute cat I sometimes code with to start the presentation o
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -55,11 +58,12 @@ transition: none
 </div>
 
 <!--
-Today, our immediate agenda to explore some advanced features of the TypeScript type system together. 
+Today, our immediate agenda to explore some advanced features of the TypeScript type system together.
 First, we’ll establish a shared understanding and terminology for TypeScript’s type system through which we can communicate. We’ll the introduce a set of logical type system constructs that let us play around in the type system as if it was a traditional language. We’ll keep going with expanding those type system constructs until our brains too exploded to continue. It’s going to be a ton of fun.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -76,6 +80,7 @@ At the end of it, we’ll have figured out how to take a template string literal
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -90,6 +95,7 @@ For each concept introduced in this talk, we’ll start off with a real world ex
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -105,6 +111,7 @@ If you’re already familiar with the type system, treat this as establishing th
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -127,6 +134,7 @@ If you’ve experienced neither of those things, Instagram is an acceptable para
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -146,6 +154,7 @@ A core promise of TypeScript is that your TypeScript source code will be transpi
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -167,6 +176,7 @@ For our example so far, the type system will understand that we’ve declared a 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -176,11 +186,12 @@ transition: none
 </div>
 
 <!--
-So buckle down, folks, and hold your pinkies up. We’re going to explore some fancy types. 
+So buckle down, folks, and hold your pinkies up. We’re going to explore some fancy types.
 Let’s dig in.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -194,6 +205,7 @@ Our first type system exploration will be “conditional generics”, which are 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -209,6 +221,7 @@ TypeScript needs a way of understanding that if trimmedLength receives something
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -234,6 +247,7 @@ Lastly, we use an ‘as’ cast to tell TypeScript that the result of our code i
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -247,6 +261,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -264,6 +279,7 @@ However, we should note that if T could only possibly be undefined, our type giv
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -282,6 +298,7 @@ If the opponent is anything else (so, Scissors), the player’s Rock wins.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -298,6 +315,7 @@ In the middle example RockVsPaper, Player is ‘Rock’ and Opponent is ‘Paper
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -311,6 +329,7 @@ We’ve talked about establishing logic in the type system. Now let’s expand a
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -332,6 +351,7 @@ Lo and behold, the ‘keyof’ operator in the type system exists for just this 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -351,6 +371,7 @@ Otherwise, we assume it’s a Draw.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -364,6 +385,7 @@ Ok. We’ve explored logical types and members thereof. Let’s dig into arrays 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -387,6 +409,7 @@ This brings us to the topic of tuple types, referring to these arrays of fixed s
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -402,6 +425,7 @@ We can declare a TicTacToeBoard type as a tuple of tuples, representing a grid o
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -418,6 +442,7 @@ Thus, we can create a conditional Victory type in the type system that takes in 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -436,6 +461,7 @@ Similarly, the horizontal victory check is satisfied only when one of the three 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -453,6 +479,7 @@ If we add a few pieces and include a diagonal victory for the checked piece, how
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -470,6 +497,7 @@ The blank starting board doesn’t satisfy the win conditions for either player,
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -484,6 +512,7 @@ In this section, we’ll introduce ways to transform all members of types in our
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -502,6 +531,7 @@ That doesn’t take care of the output type, though. What should we say ‘picke
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -519,6 +549,7 @@ In other words, we’ve picked a selection of members from the original Containe
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -533,6 +564,7 @@ Now, using our new Picked type, we can cast the picked variable to be a pick of 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -545,12 +577,13 @@ transition: none
 </div>
 
 <!--
-As a side note, the Picked type we just implemented is already available in TypeScript as ‘Pick’, along a dozen other useful built-in type system utilities. 
+As a side note, the Picked type we just implemented is already available in TypeScript as ‘Pick’, along a dozen other useful built-in type system utilities.
 The Partial type, which adds the ? (optional) modifier to all members, is one of my favorites. It’s great for setting up default arguments in unit tests for functions or React components.
 The Readonly type, which adds the readonly modifier to all members, is great too. It’s useful for functional-style codebases where you don’t want to let code modify certain objects.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -564,6 +597,7 @@ You can find the full list of these by typing the name of any one of them in an 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -579,6 +613,7 @@ Under this description, any object that has arrays under 0, 1, and 2 which thems
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -596,6 +631,7 @@ Now that we know how to map all members of a type into a new type, we should be 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -612,6 +648,7 @@ ReplaceInBoard is a little hairy so let’s go through it step by step.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -627,6 +664,7 @@ I’ll also note here that although our ReplaceInBoard type works, it’s pushin
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -642,6 +680,7 @@ At any rate, we’re leveling up! We can play games with ourselves now in the ty
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -655,6 +694,7 @@ By now, we’ve done all sorts of things with type transormations. We’ve intro
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -671,6 +711,7 @@ Clarifying: if the other type takes in a single argument of type string, your re
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -687,6 +728,7 @@ In ‘FirstParamOf’, we set up a generic type, then check whether it extends f
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -704,6 +746,7 @@ Parameters does as well, by inferring the array type of the spread arguments of 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -723,6 +766,7 @@ TypeScript’s type system is closer to a functional language (or even a logical
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -740,6 +784,7 @@ If there’s at least one move to apply, we apply it, then recurse on the new bo
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -761,6 +806,7 @@ By the way, if you’re following along at home, this might not work on your ver
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -778,6 +824,7 @@ If we run our ApplyMoves type on our blank StartingBoard and an array type conta
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -793,6 +840,7 @@ Amazing! Yes! Hooray! By harnessing the power of inferred types and joining them
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -806,6 +854,7 @@ The last major type system feature I’d like to show off today is also a new on
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -826,6 +875,7 @@ At a basic level, we know all three parameters are technically strings… but wo
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -851,6 +901,7 @@ If our template doesn’t match the suggested format, such as with our second in
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -868,6 +919,7 @@ Our input is going to be a string literal describing a move on each line, and th
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -886,6 +938,7 @@ Finally, we’ll pass that end-state board to our already-written Winner type to
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -905,6 +958,7 @@ The innermost call of ParseRawMoves to take in the moves and return a list of mo
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -921,6 +975,7 @@ Let’s hone in on the code section we need to write: taking in that raw moves s
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -940,6 +995,7 @@ Then, we take the result of that and pass it to a CollectParsedRawMoves type, wh
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -958,6 +1014,7 @@ Otherwise, it checks for an instance of the Splitter string inside the Text. If 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -978,6 +1035,7 @@ The column to place, also as 0, 1, or 2
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -995,6 +1053,7 @@ The IntToString type takes in a string description of a row or column and gives 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -1014,6 +1073,7 @@ If our raw move doesn’t match the template, such as with that blank line we sa
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -1033,6 +1093,7 @@ There’s a good amount of code! If you’re feeling lost in the sea of new comp
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -1046,6 +1107,7 @@ All concepts are new until you’ve had the time to play with them for a bit. Ev
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -1055,11 +1117,12 @@ transition: none
 </div>
 
 <!--
-Don’t worry, that’s all for new syntax I’ll throw at you for now. 
+Don’t worry, that’s all for new syntax I’ll throw at you for now.
 You’ve got a great series of talks coming next on the agenda. Go enjoy those and please don’t think about what we talked about here.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -1073,6 +1136,7 @@ If you’d like a more self-guided introduction to general type principles, the 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -1093,6 +1157,7 @@ Beyond tic tac toe, I’d love to see more games implemented. Connect Four is pr
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -1106,6 +1171,7 @@ Much more usefully than anything before, I’d definitely recommend you check ou
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -1121,6 +1187,7 @@ This month is even Hacktoberfest, a promotion wherein you get a free shirt for s
 -->
 
 ---
+
 layout: none
 ---
 

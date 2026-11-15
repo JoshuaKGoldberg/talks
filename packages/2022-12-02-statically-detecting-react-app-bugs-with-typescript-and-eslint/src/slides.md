@@ -17,11 +17,12 @@ transition: { name: fade, duration: 350 }
 </div>
 
 <!--
-Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, TypeScript-ESLint, the tooling that allows you to run ESLint on TypeScript code. 
+Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, TypeScript-ESLint, the tooling that allows you to run ESLint on TypeScript code.
 I’m also the author of the recent Learning TypeScript book, published by O’Reilly.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -36,6 +37,7 @@ As software developers, we've all resigned ourselves to the fact that some of ou
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -54,6 +56,7 @@ Here's an actual quote from my very loving parents about the Learning TypeScript
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -73,6 +76,7 @@ The problem is made worse because many developers do not excel at explaining tec
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -84,11 +88,12 @@ transition: { name: fade, duration: 350 }
 
 <!--
 In parallel, many software developers experience that same false intimidation around the subject of static analysis: tooling that analyzes your code without running it.
-Tooling that for years many people thought was just in the purview of academics or hardcore language engineers, and when they tried to look at resources about them were turned away because many resources were academic or language-theoretical rather than introductory and practical. 
+Tooling that for years many people thought was just in the purview of academics or hardcore language engineers, and when they tried to look at resources about them were turned away because many resources were academic or language-theoretical rather than introductory and practical.
 No more! The static analysis landscape today -especially for modern TypeScript codebases- is much more approachable than it’s ever been. I think you will find that the concepts I'm going to show you today are very relevant and applicable for day-to-day work and you will perhaps even enjoy using them when you get back to coding.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -103,6 +108,7 @@ There are a bunch of fantastic things you can do with static analysis - such fro
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -120,6 +126,7 @@ I’m going to show you how combining ESLint and TypeScript allows for detecting
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -134,6 +141,7 @@ Let’s establish some context. Why do we want to level up ESLint rules with Typ
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -148,6 +156,7 @@ TypeScript, on the other hand, understands what your code means. It knows what t
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -180,6 +189,7 @@ Maybe we want to explicitly handle rejected Promises
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -197,6 +207,7 @@ Goku: https://giphy.com/gifs/super-saiyan-UBB6f0hKhlShy
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -214,6 +225,7 @@ If all this is new to you, then fun fact: this is how you get ESLint to run on T
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -230,6 +242,7 @@ Note that we don’t include type checked rules (rules that use the full power o
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -245,6 +258,7 @@ All right, I’m done showing you config shenanigans. Let’s look at a demo!
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -254,6 +268,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -266,6 +281,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -283,6 +299,7 @@ Pennywise the Clown: https://giphy.com/gifs/it-movie-scary-clown-pennywise-the-3
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -295,6 +312,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -304,6 +322,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -314,6 +333,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -324,6 +344,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -334,6 +355,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 ---
 

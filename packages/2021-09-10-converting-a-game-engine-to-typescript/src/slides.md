@@ -18,6 +18,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -29,6 +30,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -43,6 +45,7 @@ Enjoy the rest of the conference!
 -->
 
 ---
+
 layout: none
 hide: true
 transition: none
@@ -65,6 +68,7 @@ I’ve been to every TSConf so far and given talks at all but the first one. My 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -81,6 +85,7 @@ Lastly, we’ll get to see some cool application tricks used in the game engine,
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -91,6 +96,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -104,6 +110,7 @@ The whole ”game engine” shebang started for me with a project called FullScr
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -117,6 +124,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -126,6 +134,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -141,6 +150,7 @@ The hidden context there is that I’d wanted to set up scaling so you could pro
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -150,11 +160,12 @@ transition: none
 </div>
 
 <!--
-We can look back at FullScreenMario today with the benefit of hindsight and understand the systems at play. But at the time of creation they weren’t very clear. This brings us to a truism for virtually all projects: in order to function reasonably well, there must be some underlying structure. 
+We can look back at FullScreenMario today with the benefit of hindsight and understand the systems at play. But at the time of creation they weren’t very clear. This brings us to a truism for virtually all projects: in order to function reasonably well, there must be some underlying structure.
 That structure might not be good (as per the original FullScreenMario code). That structure might not be followed at all times (also per the original FullScreenMario code). But there generally is at least some structure that defines how data flows and state gets updated in the application.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -175,6 +186,7 @@ FullScreenMario, like most games, generally runs an update “tick” several ti
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -198,6 +210,7 @@ Lastly, any ad-hoc events are fired. Those are often gameplay triggers such as a
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -217,6 +230,7 @@ The graphics portion is a little simpler. First we redraw the background canvas,
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -237,7 +251,7 @@ transition: none
 <!--
 Today, the code from FullScreenMario has been split and evolved out into an engine called “EightBittr”. Specific game logic in implementers such as FullScreenMario and, later, FullScreenPokemon use that engine. Game interactions are hooked up to the DOM using a separate module called UserWrappr.
 EightBittr is modular, meaning that each logical section is its own standalone component with zero or more dependencies on other components. By convention, each component’s name is exactly ten characters long and consists of two words, where the second word is a verb ending with ‘r’. There is no good reason for that naming convention. I’m just weird.
-Let’s have a brief overview of how those components work together. The first area of them is map spawning: storing map descriptions, tracking which areas should be added to gameplay, and creating the objects within. 
+Let’s have a brief overview of how those components work together. The first area of them is map spawning: storing map descriptions, tracking which areas should be added to gameplay, and creating the objects within.
 Those then are placed into groups to allow for efficient collision detection.
 Events can be run on the objects, or actors, in those groups, including cycling between CSS-like classes.
 Actors are drawn onto the screen based on their classes using the graphics modules, with separate storing sprites, rendering them ontosmall classes, and full screen drawing.
@@ -248,6 +262,7 @@ Anyway, splitting up a nontrivial project into components and creating well-defi
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -258,6 +273,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -272,6 +288,7 @@ Screenshot from Amazon's The Boys
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -289,6 +306,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -298,6 +316,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -320,6 +339,7 @@ Remember that big old dependency chart from before? TypeScript can help us make 
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -331,6 +351,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -340,6 +361,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -349,6 +371,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -362,6 +385,7 @@ I remember some key frustrations setting up custom mods in the original FullScre
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -371,6 +395,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -380,6 +405,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -395,6 +421,7 @@ How do we get that crusty old JavaScript project of yours switched over to TypeS
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -407,6 +434,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -423,6 +451,7 @@ The "All At Once" project can be fun but also quite difficult to coordinate, spe
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -459,6 +488,7 @@ Once the foundational components were converted it was much more straightforward
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -469,6 +499,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -479,6 +510,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -492,6 +524,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -508,6 +541,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -525,6 +559,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -535,6 +570,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -544,6 +580,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -555,6 +592,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -566,6 +604,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -577,6 +616,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -588,6 +628,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -598,6 +639,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -621,6 +663,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -631,6 +674,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -640,6 +684,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -654,6 +699,7 @@ https://medium.com/@joshuakgoldberg/how-lazily-instantiated-classes-reduced-my-g
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -668,6 +714,7 @@ https://medium.com/@joshuakgoldberg/how-lazily-instantiated-classes-reduced-my-g
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -679,6 +726,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -690,6 +738,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -701,6 +750,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -714,6 +764,7 @@ I want to repeat that none of the patterns I’ve shown you today are specific t
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -724,6 +775,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -734,6 +786,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 ---
 

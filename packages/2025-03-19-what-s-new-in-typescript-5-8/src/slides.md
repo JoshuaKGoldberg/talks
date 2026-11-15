@@ -20,6 +20,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -33,6 +34,7 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -49,11 +51,12 @@ transition: { name: fade, duration: 350 }
 </div>
 
 <!--
-Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code. 
+Hi everyone! I’m Josh – I’m a full time independent open source maintainer. I focus on static analysis tooling around JavaScript & TypeScript – most notably, typescript-eslint, the tooling that allows you to run ESLint and Prettier on TypeScript code.
 I’m also the author of the recent Learning TypeScript book, published by O’Reilly.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -64,6 +67,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -81,6 +85,7 @@ There were some other developments in the TypeScript world, but if I tell you ab
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -91,6 +96,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -110,6 +116,7 @@ https://www.typescriptlang.org/play/?#code/CYUwxgNghgTiAEYD2A7AzgF3gVxRgngA4jADC
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -120,6 +127,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -132,6 +140,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -154,6 +163,7 @@ https://joyeecheung.github.io/blog/2024/03/18/require-esm-in-node-js/
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -172,6 +182,7 @@ https://www.typescriptlang.org/play/?#code/CYUwxgNghgTiAEYD2A7AzgF3gVxRgngA4jADC
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -189,6 +200,7 @@ https://www.typescriptlang.org/play/?#code/CYUwxgNghgTiAEYD2A7AzgF3gVxRgngA4jADC
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -199,6 +211,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -211,6 +224,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -225,6 +239,7 @@ https://www.typescriptlang.org/docs/handbook/modules/reference.html#node16-node1
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -235,6 +250,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -249,6 +265,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -262,6 +279,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -272,6 +290,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -282,6 +301,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -295,6 +315,7 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -305,6 +326,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -315,6 +337,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -325,6 +348,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -335,6 +359,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -351,6 +376,7 @@ https://www.youtube.com/watch?v=0mCsluv5FXA&ab_channel=MichiganTypeScript
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -360,6 +386,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -369,6 +396,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -378,6 +406,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -387,6 +416,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -396,6 +426,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -405,6 +436,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -414,6 +446,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -423,6 +456,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -432,6 +466,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -441,6 +476,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -454,6 +490,7 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -466,11 +503,12 @@ transition: { name: fade, duration: 350 }
 <!--
 “I never gave up because I always thought I was right around the corner from succeeding...
 My definition of success was never to actually run the game. All I wanted was the specific reason DOOM can’t run in the type system.
-But every time I hit a roadblock, I always came up with a ridiculous workaround. 
+But every time I hit a roadblock, I always came up with a ridiculous workaround.
 I clung to the belief that it couldn’t work, and that doubt fueled me the entire time.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -480,6 +518,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -490,6 +529,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -499,6 +539,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -508,6 +549,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -517,6 +559,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -526,6 +569,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -540,6 +584,7 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -549,6 +594,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -558,6 +604,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -567,6 +614,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 ---
 

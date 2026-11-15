@@ -18,6 +18,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -30,6 +31,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -62,6 +64,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -75,6 +78,7 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -88,6 +92,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -97,6 +102,7 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -107,6 +113,7 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -118,6 +125,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -150,6 +158,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -166,6 +175,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -177,6 +187,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -187,6 +198,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -198,6 +210,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -209,6 +222,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -223,6 +237,7 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -233,6 +248,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -248,6 +264,7 @@ Groot: https://giphy.com/gifs/galaxy-groot-guardians-cnC7I7SSn2lNK
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -265,6 +282,7 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -277,6 +295,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -291,6 +310,7 @@ https://astexplorer.net/
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -303,6 +323,7 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -318,6 +339,7 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -330,6 +352,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -339,6 +362,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -355,6 +379,7 @@ This code is simplified from Stryker’s source. See https://github.com/stryker-
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -372,6 +397,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -386,6 +412,7 @@ Todo cleaner transition between sections
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -401,6 +428,7 @@ transition: { name: fade, duration: 350 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -411,6 +439,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -421,6 +450,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -431,6 +461,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -441,6 +472,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -450,6 +482,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -460,6 +493,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -469,6 +503,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -482,6 +517,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -491,6 +527,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -500,6 +537,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -510,6 +548,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -520,6 +559,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -530,6 +570,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -541,6 +582,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -553,6 +595,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -563,6 +606,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 ---
 

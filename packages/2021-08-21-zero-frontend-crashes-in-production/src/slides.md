@@ -1,6 +1,6 @@
 ---
 theme: none
-title: "\"Zero\" Frontend Crashes in Production"
+title: '"Zero" Frontend Crashes in Production'
 aspectRatio: 16/9
 canvasWidth: 960
 colorSchema: light
@@ -18,6 +18,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -27,6 +28,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -38,6 +40,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -48,6 +51,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -58,6 +62,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -69,6 +74,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -79,6 +85,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -88,6 +95,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -108,6 +116,7 @@ Some necessary caveats: this funnel diagram is certainly not to scale with any p
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -118,6 +127,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -130,6 +140,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -143,6 +154,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -153,6 +165,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -171,6 +184,7 @@ Batman: https://giphy.com/gifs/hoppip-batman-television-animation-B4jfJqiIxvU08
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -189,6 +203,7 @@ Such is the core foundation of ESLint! It has a list of rules you can configure,
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -210,6 +225,7 @@ Wonder Woman: https://giphy.com/gifs/trailer-wonder-woman-gal-gadot-l0HlGreOkzgb
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -230,6 +246,7 @@ Black Panther: https://giphy.com/gifs/forums-superherohype-panther-o6FWop1Gbuyly
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -251,6 +268,7 @@ Super Friends: https://giphy.com/gifs/animation-television-cartoons-kblOkSl6ZWwo
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -260,6 +278,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -273,6 +292,7 @@ Let’s play a game: “is this safe?” – meaning, does this code probably wo
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -300,6 +320,7 @@ We don’t know! From ESLint’s pure untyped syntax perspective, there’s very
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -313,6 +334,7 @@ However, because TypeScript has a “type system” understanding of the objects
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -322,6 +344,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -341,6 +364,7 @@ Pennywise the Clown: https://giphy.com/gifs/it-movie-scary-clown-pennywise-the-3
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -351,6 +375,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -366,6 +391,7 @@ Within our Bug Acquisition Funnel, let’s talk about the Telemetry aspect: rece
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -386,6 +412,7 @@ No! Absolutely not acceptable!
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -400,6 +427,7 @@ The browser is not a toy. It hasn’t been for decades. It is a complex constant
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -410,6 +438,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -423,6 +452,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -436,6 +466,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -449,6 +480,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -462,6 +494,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -475,6 +508,7 @@ The Collector: https://tenor.com/view/beautiful-amazing-guardians-of-the-galaxy-
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -492,6 +526,7 @@ At Codecademy, we used NewRelic on most of our stack for many years and Sentry f
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -502,6 +537,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -512,6 +548,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -525,6 +562,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -535,6 +573,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -550,6 +589,7 @@ Within our Bug Acquisition Funnel, the concept of a post-mortem in many ways fal
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -560,6 +600,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -592,6 +633,7 @@ We could go on, but I’ve run out of space in the slide.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -601,11 +643,12 @@ transition: none
 </div>
 
 <!--
-It may feel to you like you’re behaving strange, even childish constantly asking “why? why? why?“ in these scenarios. Don’t feel that way; you’re being very mature! 
+It may feel to you like you’re behaving strange, even childish constantly asking “why? why? why?“ in these scenarios. Don’t feel that way; you’re being very mature!
 “Gotham Why”: https://giphy.com/gifs/gotham-fox-l0K42kaBfvnu2O8MM
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -621,6 +664,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -631,6 +675,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 ---
 

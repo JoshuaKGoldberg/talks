@@ -18,6 +18,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -31,6 +32,7 @@ You can follow along at home with the slide notes linked on my site, joshuakgold
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -48,6 +50,7 @@ At the end, we’ll see how to knowledge share about accessibility and a design 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -58,6 +61,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -67,6 +71,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -79,6 +84,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -93,6 +99,7 @@ We’ve roughly defined accessibility at a high-level. Good for us. But… why?
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -102,6 +109,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -118,6 +126,7 @@ https://www.census.gov/newsroom/releases/archives/facts_for_features_special_edi
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -136,6 +145,7 @@ Being able to use a keyboard to tab through and use a website sans-mouse is an a
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -147,6 +157,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -162,6 +173,7 @@ https://www.adasoutheast.org/ada/publications/legal/Robles_v_Dominos-Pizza.php
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -175,6 +187,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -185,6 +198,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -195,6 +209,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -212,6 +227,7 @@ One common accessibility
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -225,6 +241,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -238,6 +255,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -251,6 +269,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -261,6 +280,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -271,6 +291,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -293,6 +314,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -305,6 +327,7 @@ Let’s take a look at the Codecademy learner dashboard page, which showcases a 
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -324,6 +347,7 @@ For many, “design system” means the low-level “atoms” that form the basi
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -338,6 +362,7 @@ It can also refer to bigger shared components: your site’s global header heade
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -348,11 +373,12 @@ transition: none
 </div>
 
 <!--
-Design systems allow us to invest once in accessible, high quality components that later remove the need for designers or developers to continuously re-implement them. 
+Design systems allow us to invest once in accessible, high quality components that later remove the need for designers or developers to continuously re-implement them.
 “Angry wow mad”: https://giphy.com/gifs/angry-wow-mad-3Fkw8DCq4eUxp31E4n
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -363,6 +389,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -374,6 +401,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -383,6 +411,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -393,6 +422,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -408,6 +438,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -423,6 +454,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -432,6 +464,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -441,6 +474,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -456,6 +490,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -471,6 +506,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -481,6 +517,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -491,6 +528,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -502,6 +540,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -513,6 +552,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -523,6 +563,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -536,6 +577,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -545,6 +587,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -555,6 +598,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -565,6 +609,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 ---
 

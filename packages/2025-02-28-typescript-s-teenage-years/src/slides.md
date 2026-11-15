@@ -26,6 +26,7 @@ Adult: 7
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -45,11 +46,12 @@ transition: { name: fade, duration: 500 }
 
 <!--
 I’m a full time independent open source maintainer. I work on dev tooling around JavaScript and TypeScript – most notably, typescript-eslint, which I hope all of you are using to prevent bugs and bad practices in your TypeScript code.
-I’m also the author of the O’Reilly Learning TypeScript book. 
+I’m also the author of the O’Reilly Learning TypeScript book.
 https://learningtypescript.com
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -68,6 +70,7 @@ Throughout these eras, I’m going to highlight some high-level learnings releva
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -81,6 +84,7 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -90,13 +94,14 @@ transition: { name: fade, duration: 500 }
 </div>
 
 <!--
-Let’s talk a bit about how TypeScript got its start. 
+Let’s talk a bit about how TypeScript got its start.
 Start time: minute 1
 End time: minute 8
 Duration: 7 minutes
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -113,6 +118,7 @@ TypeScript's birth was a little more like...
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -126,6 +132,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -140,6 +147,7 @@ Where did that dislike come from?
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -157,6 +165,7 @@ TypeScript is made by Microsoft. Microsoft in 2012 was a kind of hostile player 
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -175,6 +184,7 @@ The early 2010s were a pivotal turning point for the web in general. JavaScript 
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -194,6 +204,7 @@ Silverlight: https://en.wikipedia.org/wiki/File:Microsoft_Silverlight_logo.png
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -207,6 +218,7 @@ Meanwhile, the web! Apps like Google Docs were showing a strong user preference 
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -222,6 +234,7 @@ A harsh viewpoint could be to blame and name-call JavaScript. But I don't think 
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -234,11 +247,12 @@ transition: { name: fade, duration: 500 }
 </div>
 
 <!--
-JavaScript was not originally built for huge applications the way we use it today. But I do think it's actually a pretty lovely language - especially with the last decade of ECMAScript versions. It's flexible, fun, and comes with lots of syntactic sugar. 
+JavaScript was not originally built for huge applications the way we use it today. But I do think it's actually a pretty lovely language - especially with the last decade of ECMAScript versions. It's flexible, fun, and comes with lots of syntactic sugar.
 Any untyped dynamic language gets much harder to work with at scale - whether that's JavaScript, Python, Ruby, or others.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -253,6 +267,7 @@ If you were writing JavaScript in the early 2010s, it might have looked a little
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -270,6 +285,7 @@ Microsoft needed a way to write its own web applications. And most of Microsoft�
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -283,6 +299,7 @@ Many of Microsoft’s teams took a bet on a tool called ScriptSharp that allowed
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: view-transition, duration: 1000 }
@@ -297,6 +314,7 @@ ScriptSharp was honestly pretty cool. It would read in C# code like this...
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -313,6 +331,7 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -328,6 +347,7 @@ The problem with ScriptSharp is that the web represents completely different par
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -345,6 +365,7 @@ TypeScript pared down its goals from ScriptSharp's and posited only two primary 
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -360,6 +381,7 @@ Learn the requirements of where you’re deploying code, factor in what you’re
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -378,6 +400,7 @@ To help you understand and work with JavaScript, TypeScript added types: in the 
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -394,6 +417,7 @@ TypeScript also added a small set of features that were then still pending for t
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -415,6 +439,7 @@ https://web.archive.org/web/20121002110941/https://www.typescriptlang.org/
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -431,6 +456,7 @@ But they didn’t. They leaned into the web, keeping TypeScript open and workabl
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -453,6 +479,7 @@ https://github.com/Microsoft/TypeScript/issues?q=is%3Aissue%20state%3Aclosed%20s
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -466,6 +493,7 @@ TypeScript’s design goals are resolutely stated in this wiki page. I’d encou
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -479,6 +507,7 @@ My favorite of them is the first non-goal: TypeScript doesn’t try to mimic exi
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -495,6 +524,7 @@ Right?
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -508,6 +538,7 @@ Well. We can't really say TypeScript has no runtime syntax.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -529,6 +560,7 @@ It’s easy to look back and criticize bending-the-rules features as being too e
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -542,6 +574,7 @@ And decorators brought a lot of users to the language. Notably, Google had been 
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -556,6 +589,7 @@ I think the lesson here is that overreaching, or pushing past your design goals,
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -571,6 +605,7 @@ Start minute target: ~5
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -582,6 +617,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -593,6 +629,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -607,6 +644,7 @@ Wow. What a ridiculous year.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -623,6 +661,7 @@ Carefully laying groundwork during TypeScript's 0.x years allowed that ridiculou
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -639,6 +678,7 @@ My favorite example of this is Lodash’s get function: a utility that, in its s
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -657,6 +697,7 @@ Well, in order to fully describe this three-line function, a programming languag
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -673,6 +714,7 @@ You can mostly model this in TypeScript today. It requires an accursed horde of 
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -690,6 +732,7 @@ But Anders Hejlsberg isn’t the only important, influential developer working o
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -707,6 +750,7 @@ In fact, plenty of TypeScript’s features and fixes have come outside of the fo
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -723,6 +767,7 @@ Protip: DefinitelyTyped is also a great repository to get your first open source
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -734,12 +779,13 @@ transition: { name: fade, duration: 500 }
 
 <!--
 Much of TypeScript's important community work is done with integrating tools. My favorite example was the Babel integration released in Babel 7.
-Prior to Babel 7, there wasn’t a single good, recommended way to compile TypeScript code with Babel – which at the time was the dominant transpiler for JavaScript. 
+Prior to Babel 7, there wasn’t a single good, recommended way to compile TypeScript code with Babel – which at the time was the dominant transpiler for JavaScript.
 Nowadays we use babel/preset-typescript to get TS code running in Babel. That came out of a collaboration between the Babel and TypeScript teams.
 https://devblogs.microsoft.com/typescript/typescript-and-babel-7/
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -755,6 +801,7 @@ All that type system strength in the world is nothing to a developer if their fa
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -771,6 +818,7 @@ Starting minute target: ~10
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -787,6 +835,7 @@ The problem is that our web apps are getting ever more complicated, and the tool
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -800,6 +849,7 @@ That type checking, as wonderful and powerful as it is, is slow today – oftent
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -824,6 +874,7 @@ https://kaleidawave.github.io/posts/introducing-ezno
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -838,6 +889,7 @@ Many would say the type system is too complex for its own good.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -851,6 +903,7 @@ Others would say the type system also isn’t complex enough. Users are continuo
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -866,6 +919,7 @@ Clearly, the community has conflicting needs, and even conflicting understanding
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -876,7 +930,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 <!--
-Such conflict is natural in a tool's lifetime. This is getting into the area of devrel, developer relations. These problems are as much around community engagement as they are TypeScript features. 
+Such conflict is natural in a tool's lifetime. This is getting into the area of devrel, developer relations. These problems are as much around community engagement as they are TypeScript features.
 Even when users are being rude and swearing at you online, it behooves any project to respect the three core steps of user research:
 Aggregate: determine the general trends of user rage
 Distill: Find the real pains causing the rage
@@ -885,6 +939,7 @@ Good devrel isn't a substitute for product development, but it helps immensely w
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -899,6 +954,7 @@ The first improvements many devrel initiatives take are around first-party docum
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -917,6 +973,7 @@ Anger leads to uninformed hot takes on Twitter.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -932,6 +989,7 @@ https://typescriptlang.org
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -946,6 +1004,7 @@ First-party docs are more than a handbook on your features. They’re how you in
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -962,6 +1021,7 @@ https://github.com/microsoft/TypeScript/wiki/Performance
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -973,11 +1033,12 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 <!--
-First off, project references, added in 3.0, allow splitting up large repositories with per-section caching. 
+First off, project references, added in 3.0, allow splitting up large repositories with per-section caching.
 “Project structure”: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-5.html#isolated-declarations
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -993,6 +1054,7 @@ They allow you to declare projects as depending on others, then run a TypeScript
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1012,6 +1074,7 @@ The isolatedDeclarations compiler option, added in TypeScript 5.5 in conjunction
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1030,6 +1093,7 @@ The isolatedDeclarations compiler option, added in TypeScript 5.5 in conjunction
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1044,11 +1108,12 @@ transition: { name: fade, duration: 500 }
 </div>
 
 <!--
-I’m personally also excited about TypeScript and other tools making use of the new Node.js module compile cache. 
+I’m personally also excited about TypeScript and other tools making use of the new Node.js module compile cache.
 Quick JavaScript engine primer: Node.js runs on V8, whichs operate in a Just in Time, or “JIT” model. When you ask it to run some JavaScript it will first quickly compile it into optimized bytecode, then later swap to a more optimized version based on runtime behavior.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1067,6 +1132,7 @@ Node recently added a Module.enableCompileCache() API that modules can use to op
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1081,6 +1147,7 @@ Startup time isn’t the bottleneck for most TypeScript performance pains, but i
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1094,6 +1161,7 @@ Let's talk about another common TypeScript pain: running the code with Node.js i
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1108,6 +1176,7 @@ At first, we had tsc –watch. Start that in one terminal window, then run your 
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1122,6 +1191,7 @@ Note that these projects only transpile, not type-check. Transpiling is fast; ty
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1135,6 +1205,7 @@ Also available are Node.js ESM loaders , formerly the –register hook with Comm
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1154,6 +1225,7 @@ Wouldn’t it be nice if Node.js had this too?
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1177,6 +1249,7 @@ Web development is truly streets ahead.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1195,6 +1268,7 @@ By the way, the reason it’s called type stripping is because that’s what hap
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1205,11 +1279,12 @@ transition: { name: fade, duration: 500 }
 </div>
 
 <!--
-I’m not sure if the learning here is to embrace the platform, or to ask the platform to embrace you. Either way, the core TypeScript principles of avoiding runtime syntax and just working with JavaScript are what made type stripping feasible. 
+I’m not sure if the learning here is to embrace the platform, or to ask the platform to embrace you. Either way, the core TypeScript principles of avoiding runtime syntax and just working with JavaScript are what made type stripping feasible.
 Working as a standard Node.js package, not some bizarre Microsoft-specific creature, allows tsc to benefit from optimizations like Node.js compile caching.
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1230,6 +1305,7 @@ TypeScript isn’t doesn't only interact with the platform: we’ve also seen an
 -->
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -1246,6 +1322,7 @@ Speaking of which, ESLint! I'm biased here as a member of the ESLint team and a 
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1266,6 +1343,7 @@ Typed linting is surprisingly powerful and useful, and even though I know half o
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -1286,6 +1364,7 @@ https://typescript-eslint.io/rules/no-empty-object-type
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1307,6 +1386,7 @@ https://typescript-eslint.io/rules/no-empty-object-type
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -1321,6 +1401,7 @@ For another great tool that builds on TypeScript, let’s look at Knip. Knip det
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -1335,6 +1416,7 @@ I personally have a project called TypeStat that uses TypeScript's APIs to conve
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1349,6 +1431,7 @@ No matter whether you’re a language, a platform, or any other kind of dev tool
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1367,6 +1450,7 @@ https://www.youtube.com/watch?v=0mCsluv5FXA&ab_channel=MichiganTypeScript
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1381,6 +1465,7 @@ Starting minute target: 20
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1394,6 +1479,7 @@ Today's TypeScript focuses almost entirely on types, not runtime syntax.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1407,6 +1493,7 @@ https://tc39.es/proposal-type-annotations
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1422,6 +1509,7 @@ I don’t mean AI like what I used to generate this self-portrait, I mean AI lik
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1431,6 +1519,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1440,6 +1529,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -1457,6 +1547,7 @@ Just imagine the implications of a linter that’s built for TypeScript. Your ed
 -->
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -1473,6 +1564,7 @@ transition: { name: fade, duration: 500 }
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1486,6 +1578,7 @@ https://jsr.io
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1496,6 +1589,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1509,6 +1603,7 @@ Time: 33 minutes
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1518,6 +1613,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 hide: true
 transition: { name: fade, duration: 500 }
@@ -1528,6 +1624,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 500 }
 ---
@@ -1549,6 +1646,7 @@ transition: { name: fade, duration: 500 }
 </div>
 
 ---
+
 layout: none
 ---
 

@@ -22,6 +22,7 @@ Talk summary: “Static analysis, or judging code automatically without running 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -35,6 +36,7 @@ You can follow along at home with the slide notes linked on my site, joshuakgold
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -52,6 +54,7 @@ It’s going to be great!
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -65,6 +68,7 @@ Getting started! What is ESLint and why are we here?
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -82,6 +86,7 @@ Batman: https://giphy.com/gifs/hoppip-batman-television-animation-B4jfJqiIxvU08
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -101,6 +106,7 @@ Some necessary caveats: this funnel diagram is certainly not to scale with any p
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -110,13 +116,14 @@ transition: none
 </div>
 
 <!--
-You can get started with ESLint in a JavaScript project by running these two commands: 
+You can get started with ESLint in a JavaScript project by running these two commands:
 The first adds it as a dev dependency
 The second creates a basic configuration file in the root of your project
 The --init command will ask a few questions about your project type to customize about around that configuration, such as adding in settings to recognize a browser verses Node environment, or adding recommended rules for React.
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -135,6 +142,7 @@ That’s pretty much the majority of what you need to know about ESLint on its o
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -148,6 +156,7 @@ If there’s one other thing I desperately wish for you to take from this talk, 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -166,6 +175,7 @@ Prettier: https://prettier.io
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -181,6 +191,7 @@ ESLint rules policy changes blog post: https://eslint.org/blog/2020/05/changes-t
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -198,6 +209,7 @@ Tslint-to-eslint-config FAQs: https://github.com/typescript-eslint/tslint-to-esl
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -215,6 +227,7 @@ Deadpool: https://giphy.com/gifs/deadpool-applause-clapping-l0MYDGA3Du1hBR4xG
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -228,6 +241,7 @@ Back to the fun stuff: ESLint! Let’s look at some MVP rules that can help your
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -248,6 +262,7 @@ Wonder Woman: https://giphy.com/gifs/trailer-wonder-woman-gal-gadot-l0HlGreOkzgb
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -267,6 +282,7 @@ Black Panther: https://giphy.com/gifs/forums-superherohype-panther-o6FWop1Gbuyly
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -287,6 +303,7 @@ Frank Reynolds: https://gifs.com/gif/q7zx30
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -299,12 +316,13 @@ transition: none
 </div>
 
 <!--
-I mentioned ESLint can be augmented with custom rules: one example of this is the pattern of framework and library authors releasing companion “plugins” to enforce best practices with 
+I mentioned ESLint can be augmented with custom rules: one example of this is the pattern of framework and library authors releasing companion “plugins” to enforce best practices with
 https://www.npmjs.com/package/eslint-plugin-react-hooks
 Super Friends: https://giphy.com/gifs/animation-television-cartoons-kblOkSl6ZWwoM
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -314,6 +332,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -329,6 +348,7 @@ Cyborg: https://www.pinterest.com/pin/853221091881404075/
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -342,6 +362,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -351,6 +372,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -360,6 +382,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -375,6 +398,7 @@ Groot: https://giphy.com/gifs/galaxy-groot-guardians-cnC7I7SSn2lNK
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -391,6 +415,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -406,6 +431,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -421,6 +447,7 @@ The Collector: https://tenor.com/view/beautiful-amazing-guardians-of-the-galaxy-
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -444,6 +471,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -457,6 +485,7 @@ https://astexplorer.net/
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -477,6 +506,7 @@ https://estools.github.io/esquery/
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -491,6 +521,7 @@ Rule reports may also provide a ‘fix’ function
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -500,6 +531,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -509,6 +541,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -522,6 +555,7 @@ Let’s play a game: “is this safe?” – meaning, does this code probably wo
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -549,6 +583,7 @@ We don’t know! From ESLint’s pure untyped syntax perspective, there’s very
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -563,6 +598,7 @@ TypeScript’s type system is an incredibly powerful tool for static analysis, a
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -578,6 +614,7 @@ Goku: https://giphy.com/gifs/super-saiyan-UBB6f0hKhlShy
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -588,6 +625,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -607,6 +645,7 @@ Pennywise the Clown: https://giphy.com/gifs/it-movie-scary-clown-pennywise-the-3
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -625,6 +664,7 @@ Flash: https://tenor.com/view/dc-snyder-cut-zsjl-hassantaker-justice-league-gif-
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -641,6 +681,7 @@ https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/esli
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -658,6 +699,7 @@ Given what we now know about TypeScript-powered lint rules, let’s look at writ
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -673,6 +715,7 @@ For those calls, if their first argument is a literal type (so, a string litera
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -690,6 +733,7 @@ Peter Parker: https://giphy.com/gifs/walking-episode-within-DUu5TWUWVZBkI
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -705,6 +749,7 @@ TypeScript provides us with a 'program', which is an object coordinating the API
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -721,6 +766,7 @@ Lastly, we ask if the node's types somewhat look like a string using a little bi
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -735,6 +781,7 @@ Burt Reynolds: https://giphy.com/gifs/fire-explosion-1S6xghiGMc6Hu
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -751,6 +798,7 @@ Last up, we augmented our shallow ESLint rules with a deeper code understandin
 -->
 
 ---
+
 layout: none
 ---
 

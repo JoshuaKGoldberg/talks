@@ -18,6 +18,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -31,6 +32,7 @@ You can follow along at home with the slide notes linked on my site, joshuakgold
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -46,6 +48,7 @@ After that, we’ll cover two groups of concepts that flesh out our understandin
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -56,6 +59,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -71,6 +75,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -84,6 +89,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -99,6 +105,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -118,6 +125,7 @@ When you have a giant monolith application for your whole frontend, your code ch
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -129,6 +137,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -140,6 +149,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -150,6 +160,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -161,6 +172,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -181,6 +193,7 @@ Microfrontends allow us to improve on the existing “monolith” model of havin
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -203,6 +216,7 @@ Instead, unique applications may be switched between for individual portions of 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -225,6 +239,7 @@ Each of those applications may handle requests with their own architectures and 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -240,6 +255,7 @@ One of the key recent innovations in modern application architectures recently t
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -255,6 +271,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -284,6 +301,7 @@ Edge workers can do a lot of things. At Codecademy we use Cloudflare Workers as 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -299,6 +317,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -309,6 +328,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -319,6 +339,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -337,6 +358,7 @@ In the “client on demand page”, you can visualize it as having only a little
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -356,6 +378,7 @@ We can optimize that a little bit by having the server compute the initial layou
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -375,6 +398,7 @@ One more optimization! If the page is the same for all users always, we can comp
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -390,6 +414,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -401,6 +426,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -411,6 +437,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -433,6 +460,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -448,6 +476,7 @@ Developers love deduplicating code, and hate being told to reinvent the same thi
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -459,6 +488,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -484,6 +514,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -499,6 +530,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -524,6 +556,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -538,6 +571,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -565,6 +599,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -575,6 +610,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -598,6 +634,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -621,6 +658,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -636,6 +674,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -651,6 +690,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -660,6 +700,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -669,6 +710,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -679,6 +721,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 ---
 

@@ -18,6 +18,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -31,6 +32,7 @@ I want to start this talk today with an emotion: nostalgia. The yearning for a b
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -43,7 +45,7 @@ transition: none
 </div>
 
 <!--
-I grew up playing old video games, like super Mario bros and pokemon. When I'm going through a sad time I fall back to them. 
+I grew up playing old video games, like super Mario bros and pokemon. When I'm going through a sad time I fall back to them.
 I love this quote from Don Draper in Mad Men about the feeling: “Nostalgia - its delicate, but potent. … in Greek nostalgia literally means “the pain from an old wound.” It’s a twinge in your heart far more powerful than memory alone... It lets us travel the way a child travels - around and around, and back home again, to a place where we know are loved.”
 “Super Mario Bros. Deluxe”: https://www.nintendo.es/Juegos/Game-Boy-Color/Super-Mario-Bros-Deluxe-266219.html
 “GameBoy Color, Grape”: https://www.amazon.com/Game-Boy-Color-Grape/dp/B00002ST5L
@@ -51,6 +53,7 @@ I love this quote from Don Draper in Mad Men about the feeling: “Nostalgia - i
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -64,6 +67,7 @@ Back in 2012 I was struggling with computer science in university. It felt like 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -78,6 +82,7 @@ So what platform should I write this game on?Of course, the web!
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -91,6 +96,7 @@ The web exposes a ton of wonderful APIs that we can use to craft incredible expe
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -100,11 +106,12 @@ transition: { name: fade, duration: 250 }
 </div>
 
 <!--
-That’s awesome. The web is great. 
+That’s awesome. The web is great.
 FullScreenMario took advantage of two fantastic properties of browser web apps. These properties allow us to create rich interactive experiences like never before in human technology.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -118,6 +125,7 @@ First: web apps allow a rich experience by just clicking a link or typing in a U
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -132,6 +140,7 @@ Know that if you keep visiting that webpage and clicking Enter, your browser wil
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -146,6 +155,7 @@ FullScreenMario was a pinnacle for me, personally and professionally. I went fro
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -159,6 +169,7 @@ That iterative learn-the-hard-way approach is the second amazing property of the
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -178,6 +189,7 @@ Think of all the ridiculous apps folks have put in the browser: 3d game engines,
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -188,6 +200,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -197,6 +210,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -206,6 +220,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -216,6 +231,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -237,6 +253,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -247,6 +264,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -268,6 +286,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: view-transition, duration: 500 }
 ---
@@ -277,6 +296,7 @@ transition: { name: view-transition, duration: 500 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -288,6 +308,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -323,6 +344,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -337,6 +359,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -351,6 +374,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -365,6 +389,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -381,6 +406,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -391,6 +417,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -413,6 +440,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -424,6 +452,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -434,6 +463,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -444,6 +474,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -454,6 +485,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -465,6 +497,7 @@ transition: { name: fade, duration: 350 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -476,6 +509,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -487,6 +521,7 @@ transition: { name: fade, duration: 250 }
 </div>
 
 ---
+
 layout: none
 ---
 

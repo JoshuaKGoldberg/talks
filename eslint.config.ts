@@ -1,6 +1,7 @@
 import comments from "@eslint-community/eslint-plugin-eslint-comments/configs";
 import eslint from "@eslint/js";
 import markdown from "@eslint/markdown";
+import vitest from "@vitest/eslint-plugin";
 import jsdoc from "eslint-plugin-jsdoc";
 import jsonc from "eslint-plugin-jsonc";
 import markdownLinks from "eslint-plugin-markdown-links";
@@ -14,13 +15,7 @@ import tseslint from "typescript-eslint";
 
 export default defineConfig(
 	globalIgnores(
-		[
-			"**/*.snap",
-			"node_modules",
-			"packages/*/lib",
-			"packages/*/src",
-			"pnpm-lock.yaml",
-		],
+		["**/*.snap", "coverage", "dist", "node_modules", "pnpm-lock.yaml"],
 		"Global Ignores",
 	),
 	{ linterOptions: { reportUnusedDisableDirectives: "error" } },
@@ -40,7 +35,7 @@ export default defineConfig(
 		files: ["**/*.{js,ts}"],
 		languageOptions: {
 			parserOptions: {
-				projectService: true,
+				projectService: { allowDefaultProject: ["*.config.*s"] },
 			},
 		},
 		rules: {
@@ -74,7 +69,16 @@ export default defineConfig(
 		rules: { "n/no-missing-import": "off" },
 	},
 	{
-		files: ["eslint.config.*"],
+		extends: [vitest.configs.recommended],
+		files: ["**/*.test.*"],
+		rules: {
+			"@typescript-eslint/no-unsafe-assignment": "off",
+			"vitest/prefer-describe-function-title": "error",
+		},
+		settings: { vitest: { typecheck: true } },
+	},
+	{
+		files: ["**/*.test.*", "eslint.config.*"],
 		rules: { "n/no-unsupported-features/node-builtins": "off" },
 	},
 	{
@@ -94,6 +98,6 @@ export default defineConfig(
 	},
 	{
 		extends: [packageJson.configs.recommended, packageJson.configs.stylistic],
-		files: ["**/package.json"],
+		files: ["package.json"],
 	},
 );

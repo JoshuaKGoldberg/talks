@@ -18,6 +18,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -28,6 +29,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -38,6 +40,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -49,6 +52,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -58,6 +62,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -68,6 +73,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -77,6 +83,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -86,6 +93,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -95,6 +103,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -106,6 +115,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -116,6 +126,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -126,6 +137,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -135,6 +147,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -148,6 +161,7 @@ Personally, when I hear someone start off a list of “you should be accessible�
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -162,6 +176,7 @@ transition: none
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -171,6 +186,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -180,6 +196,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -190,6 +207,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -200,6 +218,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -209,6 +228,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -229,6 +249,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -239,6 +260,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -249,6 +271,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -262,11 +285,12 @@ Accessibility Notion document 🌎
 Further Resources
 Our Accessibility Brown Bag slides and recording
 Slack channel: #accessibility
-Accessibility Definitions, Standards, Processes, Tools, and more! 
+Accessibility Definitions, Standards, Processes, Tools, and more!
 What is Accessibility?
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -288,6 +312,7 @@ Pinned item two, by Josh Ghoulberg:
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -298,6 +323,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -308,6 +334,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -322,6 +349,7 @@ A lot of people make the mistake of thinking they need to know everything about 
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -332,6 +360,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -342,6 +371,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -357,12 +387,13 @@ Before releasing to any users:
  Run an accessibility audit through test.io
 Test.io tests begin within hours of submitting the test and run for 24 hours. It is recommended that your team run your new feature through the audit as soon as all functionality has been implemented as to not disrupt the feature release timeline.
 [ ] Ensure all pages which include your feature run axe in an end-to-end test:
-it('has no accessibility complaints when loaded', () => { // setup, visit page checkAxe(); }); 
+it('has no accessibility complaints when loaded', () => { // setup, visit page checkAxe(); });
 Before releasing to any fixed percentage > 0 of users:
 [ ] All fixes for [A] level accessibility bugs from the audit must be complete
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -373,6 +404,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -383,6 +415,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: { name: fade, duration: 700 }
 ---
@@ -392,6 +425,7 @@ transition: { name: fade, duration: 700 }
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -401,6 +435,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -414,6 +449,7 @@ https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/alt-
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -424,6 +460,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -433,13 +470,14 @@ transition: none
 </div>
 
 <!--
-Issues: 
+Issues:
 Elements must have sufficient color contrast: 192
 Links must have discernable text 3
 ARIA role should be appropriate for the element: 40
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -454,6 +492,7 @@ https://overlayfactsheet.com/
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -464,6 +503,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -474,6 +514,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -483,6 +524,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -492,6 +534,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -502,6 +545,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -511,6 +555,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -521,6 +566,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -531,6 +577,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -540,6 +587,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -550,6 +598,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -570,6 +619,7 @@ For many, “design system” means the low-level “atoms” that form the basi
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -579,6 +629,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -599,6 +650,7 @@ Atoms: Atoms are our basic building block components. They are the most granular
 -->
 
 ---
+
 layout: none
 transition: none
 ---
@@ -608,6 +660,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -617,6 +670,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -627,6 +681,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -637,6 +692,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -647,6 +703,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -657,6 +714,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -667,6 +725,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 transition: none
 ---
@@ -676,6 +735,7 @@ transition: none
 </div>
 
 ---
+
 layout: none
 ---
 

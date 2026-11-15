@@ -22,6 +22,7 @@ Hi everyone. Today, we’re going to talk about how to complain positively: guid
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -46,6 +47,7 @@ Oof! This was an act of “Complaining Negatively”. I had voiced negativity in
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -61,6 +63,7 @@ People respect what we staff developers have to say. If we say something is bad,
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -76,6 +79,7 @@ To my credit, I did somewhat follow the first of these steps in my email – I m
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -89,6 +93,7 @@ First, specifying a problem!
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -104,6 +109,7 @@ Most or all of us in the room have probably given some variation of this feedbac
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -119,6 +125,7 @@ In my email, I could have instead listed the problems (complicated UX, low infor
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -132,6 +139,7 @@ An essential piece of specifying your problem is understanding the context behin
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -145,6 +153,7 @@ Context can often be technical – as small in scope as feedback left in a pull 
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -158,6 +167,7 @@ Context is just as often interpersonal: the pressures and personal preferences p
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -174,6 +184,7 @@ For these cases, I have two main tips you’ll want to hear.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -191,6 +202,7 @@ Second, it’s easy to misinterpret the book as suggesting you turn into a manip
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -206,6 +218,7 @@ But - be careful when presenting feedback sandwiches. I’ve had too many people
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -215,11 +228,12 @@ transition: { name: fade, duration: 350 }
 </div>
 
 <!--
-Different people prefer different sandwiches. Some of us want that bread to soften the blow of the contents. Others find it annoying and want to skip straight to the good stuff. 
+Different people prefer different sandwiches. Some of us want that bread to soften the blow of the contents. Others find it annoying and want to skip straight to the good stuff.
 I recommend starting off any round of complaining positively by scheduling 1:1s with the people you want to complain to. Tailor the presentation of your complaints to each 1:1. Serve your peers the sandwiches they actually want.
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 350 }
 ---
@@ -243,6 +257,7 @@ An example:
 -->
 
 ---
+
 layout: none
 transition: { name: fade, duration: 250 }
 ---
@@ -259,6 +274,7 @@ Remember, everybody has their own sandwich preferences, so complain and present 
 -->
 
 ---
+
 layout: none
 ---
 
