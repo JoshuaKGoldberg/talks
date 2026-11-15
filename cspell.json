@@ -3,10 +3,26 @@
 	"ignorePaths": [
 		".all-contributorsrc",
 		"CHANGELOG.md",
-		"coverage",
-		"dist",
 		"node_modules",
+		"packages/*/lib",
+		"packages/*/src",
 		"pnpm-lock.yaml"
 	],
-	"words": ["apexskier", "octoguide"]
+	"words": [
+		"apexskier",
+		"Cascadia",
+		"Codecademy",
+		"JavaScripties",
+		"KCDC",
+		"microfrontends",
+		"Napoca",
+		"Newquay",
+		"octoguide",
+		"rearchitectures",
+		"Scripties",
+		"slidev",
+		"Timișoara",
+		"WebXR",
+		"Wrocław"
+	]
 }

@@ -1,6 +1,7 @@
 {
 	"name": "talks",
 	"version": "0.0.0",
+	"private": true,
 	"description": "Josh Goldberg's conference and meetup talks, as Slidev decks that build to PowerPoint.",
 	"repository": {
 		"type": "git",
@@ -11,22 +12,15 @@
 		"name": "Josh Goldberg",
 		"email": "git@joshuakgoldberg.com"
 	},
-	"sideEffects": false,
 	"type": "module",
-	"exports": {
-		".": "./dist/index.mjs"
-	},
-	"files": [
-		"dist/"
-	],
 	"scripts": {
-		"build": "tsdown",
+		"build": "pnpm --recursive --workspace-concurrency 2 build",
 		"format": "prettier .",
 		"lint": "eslint . --max-warnings 0",
 		"lint:knip": "knip",
+		"lint:packages": "pnpm dedupe --check",
 		"lint:spelling": "cspell \"**\" \".github/**/*\"",
-		"prepare": "husky",
-		"test": "vitest"
+		"prepare": "husky"
 	},
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
@@ -35,11 +29,11 @@
 		"@eslint-community/eslint-plugin-eslint-comments": "4.8.1",
 		"@eslint/js": "10.0.1",
 		"@eslint/markdown": "8.0.3",
-		"@release-it/conventional-changelog": "12.0.0",
+		"@slidev/cli": "53.1.0",
+		"@slidev/client": "53.1.0",
+		"@slidev/parser": "53.1.0",
+		"@slidev/types": "53.1.0",
 		"@types/node": "26.6.2",
-		"@vitest/coverage-v8": "5.1.0",
-		"@vitest/eslint-plugin": "1.6.27",
-		"console-fail-test": "0.10.0",
 		"cspell": "10.4.0",
 		"eslint": "10.14.0",
 		"eslint-plugin-jsdoc": "65.4.0",
@@ -59,14 +53,13 @@
 		"prettier-plugin-padding-lines": "0.1.0",
 		"prettier-plugin-sentences-per-line": "0.2.4",
 		"prettier-plugin-sh": "0.20.0",
-		"release-it": "21.1.0",
-		"tsdown": "0.23.0",
+		"slidev2pptx": "file:../slidev2pptx",
 		"typescript": "5.9.3",
 		"typescript-eslint": "8.71.0",
-		"vitest": "5.1.0"
+		"vue": "3.5.45"
 	},
 	"packageManager": "pnpm@11.22.0",
 	"engines": {
-		"node": "^22.13.0 || ^24.11.0 || >=26.0.0"
+		"node": "^22.22.0 || >=24.0.0"
 	}
 }
