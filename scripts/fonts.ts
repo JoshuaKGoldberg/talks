@@ -1,5 +1,5 @@
 /**
- * Copies a talk's fonts into its src/fonts/ from wherever this machine has them installed.
+ * Copies a talk's fonts into its src/fonts/ from where macOS and Microsoft PowerPoint for Mac install them.
  * Only openly licensed fonts are committed: the rest, like Microsoft's, can't be redistributed,
  * so each deck's style.css names them and this finds them locally, including inside PowerPoint.
  * @example

@@ -15,8 +15,9 @@ pnpm install
 
 Each talk in `packages/` is a [Slidev](https://sli.dev) deck in its `src/`.
 slidev2pptx builds each deck into a PowerPoint file in its package's `lib/` directory.
-It isn't published yet, so this repository installs it from a checkout next to it, in `../slidev2pptx`.
-Build that checkout before installing:
+It isn't published yet, so this repository installs it as an optional dependency from a local checkout next to it, in `../slidev2pptx`.
+Without that checkout, `pnpm install` still works, and you can present and lint talks, but not build them.
+If you have the checkout, build it before installing:
 
 ```shell
 cd ../slidev2pptx
@@ -45,7 +46,8 @@ pnpm --filter 2026-05-21-what-s-new-in-typescript-6-0 dev
 
 Each talk's `src/style.css` declares the fonts its slides use.
 Only openly licensed fonts are committed in its `src/fonts/`; the rest, like Microsoft's, can't be redistributed.
-Each talk's `build` and `dev` scripts first run [`scripts/fonts.ts`](../scripts/fonts.ts), which copies those fonts in from wherever they're installed on your machine, including inside Microsoft PowerPoint.
+Each talk's `build` and `dev` scripts first run [`scripts/fonts.ts`](../scripts/fonts.ts), which copies those fonts in from macOS's font folders (`~/Library/Fonts`, `/Library/Fonts`, and `/System/Library/Fonts`) and from inside Microsoft PowerPoint for Mac.
+Other operating systems aren't searched yet.
 Fonts it can't find are listed, and the deck draws with fallbacks for them.
 
 ## Formatting

@@ -16,7 +16,6 @@ export default defineConfig(
 	globalIgnores(
 		[
 			"**/*.snap",
-			"coverage",
 			"node_modules",
 			"packages/*/lib",
 			"packages/*/src",

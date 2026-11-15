@@ -3,13 +3,13 @@
 	"ignorePaths": [
 		".all-contributorsrc",
 		"CHANGELOG.md",
+		"fonts-licenses",
 		"node_modules",
 		"packages/*/lib",
 		"packages/*/src",
 		"pnpm-lock.yaml"
 	],
 	"words": [
-		"apexskier",
 		"Cascadia",
 		"Codecademy",
 		"Consolas",

@@ -1,5 +1,7 @@
 # MIT License
 
+Copyright (c) 2019-2026 Josh Goldberg
+
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
 'Software'), to deal in the Software without restriction, including
@@ -18,3 +20,9 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Third-party content
+
+This license covers Josh Goldberg's own work in this repository.
+It doesn't cover third-party material in the talks' slides, such as screenshots, photos, GIFs, logos, and comics, which belong to their respective owners.
+The fonts committed in `packages/*/src/fonts/` are licensed under the SIL Open Font License 1.1; see [`fonts-licenses/`](./fonts-licenses).
