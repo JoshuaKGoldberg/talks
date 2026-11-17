@@ -185,13 +185,11 @@ layout: default
 </style>
 
 <!--
-I'm a senior frontend developer at Sentry, which provides best-in-class application monitoring software. I'm also an open source maintainer on dev tooling around JavaScript and TypeScript.
-
-Who here uses typescript-eslint? ESLint? Who here has sworn at either of them?
+I'm a senior frontend developer at Sentry, which provides best-in-class application monitoring software. I also sometimes moonlight as an open source maintainer on dev tooling around JavaScript and TypeScript.
 
 [click] I'm also the author of the O'Reilly Learning TypeScript book
 
-[click] and a co-organizer of SquiggleConf, a conference for excellent dev tooling. I love dev tooling.
+[click] and a co-organizer of SquiggleConf, a conference for excellent dev tooling.
 
 [click] And, most importantly, I have cats.
 
@@ -220,7 +218,8 @@ clicks: 2
 ]" />
 
 <!--
-Is traditional software verification still needed with AI?
+As a maintainer on tools like linters, I get asked often: is traditional software verification still needed with AI?
+Do we need to still learn this stuff, or can we just let Claude take the wheel?
 
 [click] Yes, traditional software verification is still needed with AI.
 
@@ -236,15 +235,7 @@ layout: center
 <BugFunnel bottom="Some (never none)" top="Many bugs" />
 
 <!--
-I first drew this when I was convincing a team to adopt TypeScript, back in 2019.
-
-Think of all the possible strategies you can take to reduce bugs in your end product as parts of a long process that starts from your application existing in the first place, stretches through the development process, and ends with it in your users' hands. In product terms, we'd call this an acquisition funnel. I like to call it the "bug acquisition funnel".
-
-Each stage catches some of the bugs the stages before it missed. And it's not drawn to scale.
-
-A coworker put it nicely: nobody sets out to write a bug. Bugs are just out there, waiting to slip through. Every decision you make, and every check you automate, filters more of them out before they reach users.
-
-It is incredibly rare for a software application to completely catch and fix all its bugs, so this funnel assumes some are left over even with all the steps.
+I like to think of all the common strategies for reducing bugs in product code as parts of a long process that starts from your application existing in the first place, stretches through the development process, and ends with it in your users' hands. In product terms, we'd call this an acquisition funnel. I like to call it the "bug acquisition funnel".
 -->
 
 ---
@@ -257,7 +248,7 @@ clicks: 4
 <!--
 Today we're going to talk about the four parts of the funnel that happen while code is being written. These are the same four parts whether a human or an agent is writing it.
 
-[click] Design thought: what should it be? That's where the spec comes from.
+[click] Design thought: what should it be?
 
 [click] Static analysis: is it written right?
 
@@ -265,11 +256,7 @@ Today we're going to talk about the four parts of the funnel that happen while c
 
 [click] Peer review: is the spec correct?
 
-Why this order? It's the order they happen in as you write code, and the earlier a stage catches a bug, the cheaper it usually is to fix. Design thought catches a bad idea while it's still a plan. Static analysis catches mistakes seconds after a change. Tests take minutes. Review takes hours or days. And anything that gets past all four reaches production, where hopefully your telemetry catches it before your users do. We'll peek at that in part three.
-
-That's doubly true with agents: the earlier a check runs, the sooner the agent can fix its own mistake, before you ever see it.
-
-Are we ready?
+Put together, I think these four phases are a great exploration of how to effectively use the tools at your disposal to write better software.
 -->
 
 ---
@@ -285,7 +272,7 @@ layout: center
 </style>
 
 <!--
-I'm ready!
+Are we ready to learn some tooling?!
 
 “I’m Ready”: https://giphy.com/gifs/spongebob-season-4-spongebob-squarepants-l1Aswx03WbLDf9kYw
 -->
@@ -313,7 +300,7 @@ layout: section
 <div class="eyebrow">1/2</div>
 
 <!--
-Step one is knowing what you're doing.
+Step one is knowing your schtuff.
 -->
 
 ---
@@ -323,7 +310,9 @@ layout: statement
 # The better you know a tool, the more effective you are with it.
 
 <!--
-The better you know a tool, the more effective you are with it. That goes for AI too, so let's take a quick look at what it's actually doing.
+The better you know a tool, the more effective you are with it. That goes for traditional dev tools as well as AI as agentic editors.
+
+I'd like to start with the latter: how does agentic coding actually work?
 -->
 
 ---
@@ -379,13 +368,16 @@ layout: statement
 There is no substitute for human discretion.
 
 [click] If you don't design it, a guesswork machine will. And its guesses lean toward whatever was most common in its training data, not what's right for your app.
+
+State-of-the-art editors like Claude Code do a lot to pull in their own vertification techniques and proactively iterate on outputs.
+But at the end of the day, they're just really good guessers.
 -->
 
 ---
 layout: default
 ---
 
-## An Incomplete List of Recent Best-In-Class Model Outputs
+## Recently Seen Best-In-Class Model Outputs
 
 <ul>
   <li v-click>Class components (like it's 2016)</li>
@@ -394,11 +386,11 @@ layout: default
   <li v-click>Blatant accessibility issues</li>
   <li v-click>Sexual innuendo</li>
   <li v-click>Six near-identical copies of a large component</li>
-  <li v-click>More emdashes, load-bearing phrases, and honest truths than you could possibly imagine</li>
+  <li v-click>More emdashes, load-bearing phrases, and honest truths (🤮) than you could possibly imagine</li>
 </ul>
 
 <!--
-Don't believe me? Here's an incomplete list of things I've gotten from AI models in the last month, best-in-class ones included.
+ Here's an incomplete list of things I've gotten from AI models in the last month, best-in-class ones included.
 
 [click] Class components, like it's 2016. There's a lot of old React in the training data.
 
@@ -515,11 +507,11 @@ layout: default
 
 ## Protip: Issue Tracker Context
 
-<p class="big">Your issue tracker already holds most of the spec.</p>
+<p class="big">Keep context in your tracking tools to feed to the agent.</p>
 
 <div class="cards context-sources" v-click>
   <div>
-    <h3>The issue</h3>
+    <h3>Issue tracking</h3>
     <p>What should change, and why</p>
   </div>
   <div>
@@ -645,9 +637,9 @@ description: Sentry and React performance ...
 ```
 
 <div>
-  <p v-click><strong>Name and description:</strong> always in context, so the agent knows the skill exists</p>
-  <p v-click><strong>Body:</strong> loaded only when the task calls for it</p>
-  <p v-click><strong>Extra files:</strong> scripts and references, read on demand</p>
+  <p v-click><strong>Name and description:</strong> always in context, so the agent knows of the skill</p>
+  <p v-click><strong>Body:</strong> loaded only when the skill is</p>
+  <p v-click><strong>Extra files:</strong> rich data with the body</p>
 </div>
 
 </div>
@@ -856,7 +848,7 @@ layout: default
   </div>
 </div>
 
-<p class="big" v-click>Read a skill before you install it. Your agent may follow anything in it.</p>
+<p class="big" v-click>Read a skill before you install it. Agents may follow anything in it.</p>
 
 <style>
 .skill-sources {
@@ -890,7 +882,7 @@ You might be wondering: where do skills come from?
 
 [click] And your own. Those research and design skills from a few slides back are about a dozen lines each: copy them. We'll talk about distilling your own past work into skills in part four.
 
-[click] One warning: read a skill before you install it. Your agent may follow any instruction in it, and run any script it bundles. Treat it like any other dependency. Sentry even has a skill-scanner skill for checking skills for prompt injection and other risks.
+[click] One warning: read a skill before you install it. Agents may follow any instruction in it, and run any script it bundles. Treat it like any other dependency. Sentry even has a skill-scanner skill for checking skills for prompt injection and other risks.
 
 All of these are linked at the end.
 
