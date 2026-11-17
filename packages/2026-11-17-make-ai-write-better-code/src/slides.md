@@ -230,9 +230,17 @@ Do we need to still learn this stuff, or can we just let Claude take the wheel?
 layout: center
 ---
 
+<WordMorph :steps="[
+  'If your code warranted traditional verification before AI, it now needs it *more than ever*.',
+]" />
+
+---
+layout: center
+---
+
 ## "The Bug Acquisition Funnel"
 
-<BugFunnel bottom="Some (never none)" top="Many bugs" />
+<BugFunnel bottom="Some" top="Many bugs" />
 
 <!--
 I like to think of all the common strategies for reducing bugs in product code as parts of a long process that starts from your application existing in the first place, stretches through the development process, and ends with it in your users' hands. In product terms, we'd call this an acquisition funnel. I like to call it the "bug acquisition funnel".
@@ -1083,7 +1091,7 @@ layout: default
 
 <p class="muted">(the default as of TypeScript 6.0)</p>
 
-<p class="big" v-click>Don't let an agent loosen it, or reach for <code>any</code>, to make an error go away.</p>
+<p class="big" v-click>Don't let an agent loosen it or use <code>any</code> to make an error go away.</p>
 
 <!--
 Both of those come with "strict": true in your tsconfig. Strict mode, best mode. As of TypeScript 6.0 it's on by default, but plenty of existing projects still turn it off. Make sure yours has it. The stricter your types, the more mistakes get caught before anyone reads the code.
@@ -1155,6 +1163,11 @@ function formatTalk(talk: any) {
 ```
 
 ```ts
+interface TalkOptions {
+  title: string;
+  speaker: string;
+}
+
 function formatTalk(talk: TalkOptions) {
 	return `${talk.title}, by ${talk.speaker}`;
 }
@@ -1581,7 +1594,7 @@ and fix the code. Don't add an `eslint-disable` comment to make
 a report go away.
 ```
 
-<p class="big" v-click>For every report: understand why, then fix the code. Don't just silence it.</p>
+<p class="big" v-click>For every report: understand why, then fix the code.</p>
 
 <!--
 Agents often skip linting unless you tell them to. They'll write the code, maybe run the tests, and call it done. And when they do run ESLint, their favorite fix is an eslint-disable comment.
@@ -2660,7 +2673,7 @@ layout: default
   </div>
 </div>
 
-<div class="cards protip" v-click="4"><div>Example for custom lint rules: github.com/JoshuaKGoldberg/lint-rule-review-skill</div></div>
+<div class="cards protip" v-click="4"><div>github.com/JoshuaKGoldberg/lint-rule-review-skill</div></div>
 
 <style>
 .distill-flow {
