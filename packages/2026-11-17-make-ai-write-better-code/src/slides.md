@@ -688,62 +688,6 @@ Links:
 layout: default
 ---
 
-## Where Should Context Go?
-
-<div class="cards context-grid">
-  <div v-click>
-    <h3><code>AGENTS.md</code></h3>
-    <p class="muted">Always true</p>
-    <p>Your stack, commands, and conventions</p>
-  </div>
-  <div v-click>
-    <h3>Skills</h3>
-    <p class="muted">Sometimes needed</p>
-    <p>How to do a specific task</p>
-  </div>
-  <div v-click>
-    <h3>CI checks</h3>
-    <p class="muted">Always enforced</p>
-    <p>Linting, type checking, tests, and more</p>
-  </div>
-</div>
-
-
-<style>
-.context-grid {
-  display: grid;
-  gap: 2.5rem;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 2rem 0;
-}
-
-.context-grid h3 code {
-  padding-inline: 0;
-}
-</style>
-
-<!--
-So where does context go?
-
-[click] AGENTS.md is for things that are always true about your project: the stack, the commands, the conventions. It's loaded at the start of every session. One gotcha: Claude Code skips it if your project also has a CLAUDE.md, so have that file import it, like Sentry's does.
-
-[click] Skills are for things that are sometimes needed: how to do a specific task.
-
-[click] And anything that has to happen every time goes in CI checks: linting, type checking, tests, and more. The agent can ignore an instruction. It can't talk its way past a failing check.
-
-Always-true facts go in AGENTS.md. Task-specific procedures go in skills. Rules go in CI.
-
-Links:
-
-- https://agents.md
-- https://code.claude.com/docs/en/memory#agents-md
-- https://github.com/getsentry/sentry/blob/master/CLAUDE.md
--->
-
----
-layout: default
----
-
 ## Example: A Skill for Research
 
 ```md
@@ -830,6 +774,16 @@ And know your framework. Models have seen a lot of old React, and plenty of patt
 A best practices skill keeps it current. Derive state during render instead of syncing it in an effect: we'll see that one again in part two, as a lint rule. Put interaction logic in event handlers, not effects. Run independent requests in parallel. And import directly instead of through barrel files.
 
 Check whether your framework, or the community around it, publishes skills like these. If not, write your own from the docs you already trust.
+-->
+
+---
+layout: center
+---
+
+<img alt="Screenshot of the install guide from the Modern Web Guidance website installer" src="/images/modern-web-guidance.png" />
+
+<!--
+Also, bonus shoutout to Rick Viscomi's talk from yesterday at JSNation.
 -->
 
 ---
@@ -1728,8 +1682,6 @@ export default {
 	},
 };
 ```
-
-<p class="source">Simplified from Sentry's no-manual-table rule</p>
 
 <!--
 Here's roughly what you get back, simplified from a real rule we have at Sentry. Any raw table element in JSX gets flagged, with a message pointing to the right component.
@@ -2730,27 +2682,23 @@ Links:
 -->
 
 ---
-layout: default
+layout: center
 ---
 
-## Instructions Are Guidance
+<WordMorph :steps="[
+  '“Hey Claude, find all my past PR comments in *(insert area)*, group by feedback type, and distill all of them into a *reusable review skill*”.',
+]" />
 
-<div class="evidence">
-<div>
+---
+layout: center
+---
 
-<p class="muted">My agent instructions</p>
-
-```md
-Never add the trailing "🤖 Generated with Claude Code".
-```
-
-</div>
-</div>
+<img alt="Spongebob happily slapping his hands together as if a job is done" class="reaction" src="/images/spongebob-done.gif" />
 
 <!--
-One more lesson about skills and instructions in general. Remember when I said the agent can ignore an instruction?
+We've added a lot of tips to our agents!
 
-My personal agent instructions say never to add a "Generated with Claude Code" line to pull requests.
+I sure hope they're going to follow our instructions, right?
 -->
 
 ---
@@ -2804,7 +2752,7 @@ Turns on `typescript/no-unnecessary-type-arguments` ...
 <!--
 Here are my instructions again.
 
-[click] Here's one of my pull requests from last week. It has the line. Rude.
+[click] Here's one of my pull requests from last week. It has the line! It's like Claude is intentionally trying to work around what I'm asking!
 
 Links:
 
@@ -2827,14 +2775,13 @@ Are you kidding me.
 layout: statement
 ---
 
-# Instructions are suggestions.
-
-<p v-click>Anything that has to happen every time belongs in a lint rule, a type, a test, or CI.</p>
-
+<WordMorph :steps="[
+  'Agent instructions are just optional suggestions, *not requirements*.',
+]" />
 <!--
 Instructions are suggestions. The agent might follow them. It might not.
 
-[click] Anything that has to happen every time belongs in a lint rule, a type, a test, or CI. Not just in a prompt. For this one, fix it at the source: set Claude Code's attribution.pr setting to an empty string, and Claude Code stops asking the model for that line at all. And if it really has to hold every time, a CI check on PR descriptions can fail the PR.
+Anything that has to happen every time belongs in a lint rule, a type, a test, or CI. Not just in a prompt. For this one, fix it at the source: set Claude Code's attribution.pr setting to an empty string, and Claude Code stops asking the model for that line at all. And if it really has to hold every time, a CI check on PR descriptions can fail the PR.
 
 Links:
 
