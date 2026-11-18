@@ -8,7 +8,7 @@ Slides for Understanding TypeScript: Fixing the Billion Dollar Mistake and Other
 
 ## Usage
 
-To build the deck into a PowerPoint file in `lib/`:
+To build the deck into a PowerPoint file in `lib/` with slidev2pptx:
 
 ```shell
 pnpm build

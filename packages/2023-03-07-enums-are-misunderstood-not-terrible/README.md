@@ -8,7 +8,7 @@ Slides for Enums are MISUNDERSTOOD (Not Terrible), a talk given at:
 
 ## Usage
 
-To build the deck into a PowerPoint file in `lib/`:
+To build the deck into a PowerPoint file in `lib/` with slidev2pptx:
 
 ```shell
 pnpm build

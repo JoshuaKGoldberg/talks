@@ -27,8 +27,8 @@ pnpm install
 
 Rerun `pnpm install` here after rebuilding slidev2pptx to pick up its changes.
 
-> Without the checkout, `pnpm install` still works, and you can present talks, format, lint, and type check.
-> Only building talks and running `pnpm lint:packages` need it.
+> Without the checkout, you can still install, present talks, format, lint, and type check.
+> Only building talks and `pnpm lint:packages` need it.
 
 To build every talk:
 
@@ -48,7 +48,8 @@ pnpm --filter 2026-05-21-what-s-new-in-typescript-6-0 dev
 Talks written in Slidev load their fonts from npm packages.
 Talks converted from PowerPoint declare their fonts in their package's `src/style.css`.
 Only openly licensed fonts are committed in their `src/fonts/`, since others, like Microsoft's, can't be redistributed.
-Each talk's `build` and `dev` scripts first run [`scripts/fonts.ts`](../scripts/fonts.ts) to copy the rest in from macOS's font folders, such as `~/Library/Fonts`, and from inside Microsoft PowerPoint for Mac.
+Each talk's `build` and `dev` scripts first run [`scripts/fonts.ts`](../scripts/fonts.ts) to copy in the rest.
+It looks in macOS's font folders, such as `~/Library/Fonts`, and inside Microsoft PowerPoint for Mac.
 Other operating systems aren't searched yet.
 Fonts it can't find are listed, and the deck draws with fallbacks for them.
 
@@ -82,7 +83,7 @@ pnpm run lint --fix
 ```
 
 > Linting, formatting, and spell checking skip the `src/` of talks converted from PowerPoint, since those decks are generated.
-> Talks written in Slidev are checked too, though ESLint and Prettier skip their `slides.md`.
+> ESLint and Prettier also skip the `slides.md` of talks written in Slidev.
 
 ## Testing
 
@@ -97,7 +98,7 @@ pnpm run test
 
 You should be able to see suggestions from [TypeScript](https://typescriptlang.org) in your editor for all open files.
 
-However, it can be useful to run the TypeScript command-line (`tsc`) to type check the repository's config files, scripts, and the TypeScript in talks written in Slidev:
+However, it can be useful to run the TypeScript command-line (`tsc`) to type check all `.ts` files:
 
 ```shell
 pnpm tsc

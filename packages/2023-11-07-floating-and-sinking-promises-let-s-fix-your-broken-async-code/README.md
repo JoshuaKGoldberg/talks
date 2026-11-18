@@ -8,7 +8,7 @@ Slides for Floating and Sinking Promises: Let’s Fix Your Broken Async Code, a 
 
 ## Usage
 
-To build the deck into a PowerPoint file in `lib/`:
+To build the deck into a PowerPoint file in `lib/` with slidev2pptx:
 
 ```shell
 pnpm build

@@ -8,7 +8,7 @@ Slides for Accessibility, Design Systems, and YOU!, a talk given at:
 
 ## Usage
 
-To build the deck into a PowerPoint file in `lib/`:
+To build the deck into a PowerPoint file in `lib/` with slidev2pptx:
 
 ```shell
 pnpm build

@@ -8,7 +8,7 @@ Slides for The Life and Times of an Open Source Maintainer, a talk given at:
 
 ## Usage
 
-To build the deck into a PowerPoint file in `lib/`:
+To build the deck into a PowerPoint file in `lib/` with slidev2pptx:
 
 ```shell
 pnpm build

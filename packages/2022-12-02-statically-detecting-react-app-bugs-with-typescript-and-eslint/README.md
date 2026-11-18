@@ -8,7 +8,7 @@ Slides for Statically Detecting React App Bugs with TypeScript and ESLint, a tal
 
 ## Usage
 
-To build the deck into a PowerPoint file in `lib/`:
+To build the deck into a PowerPoint file in `lib/` with slidev2pptx:
 
 ```shell
 pnpm build

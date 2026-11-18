@@ -8,7 +8,7 @@ Slides for What's New in TypeScript 5.4, a talk given at:
 
 ## Usage
 
-To build the deck into a PowerPoint file in `lib/`:
+To build the deck into a PowerPoint file in `lib/` with slidev2pptx:
 
 ```shell
 pnpm build
