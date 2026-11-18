@@ -15,8 +15,8 @@
 
 ## Talks
 
-Each talk is a package in [`packages/`](./packages) whose source is a [Slidev](https://sli.dev) deck in its `src/`.
-Most decks were converted from their original PowerPoint files, so they may look a little different from how they were presented.
+Each talk is a package in [`packages/`](./packages) with a [Slidev](https://sli.dev) deck in its `src/`.
+Most were converted from their original PowerPoint files, so they may look a little different from how they were presented.
 
 | Talk                                                                                                                                                                                  | Given at                                             |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -101,8 +101,8 @@ Most decks were converted from their original PowerPoint files, so they may look
 
 ## Usage
 
-Building needs slidev2pptx, which isn't published yet, checked out and built next to this repository in `../slidev2pptx`; see [`.github/DEVELOPMENT.md`](./.github/DEVELOPMENT.md).
-Presenting a talk with Slidev doesn't.
+Building talks needs a local checkout of slidev2pptx, which isn't published yet.
+See [`.github/DEVELOPMENT.md`](./.github/DEVELOPMENT.md) for setting it up.
 
 ```shell
 pnpm build

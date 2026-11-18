@@ -4,19 +4,18 @@ Slides for TypeScript for JavaScripties, a talk given at:
 
 - [DevReach 2023](https://www.telerik.com/devreach-2023), Sofia, Bulgaria: October 26, 2023 ([video](https://www.youtube.com/watch?v=H2344JwPbZ0&ab_channel=ProgressTelerik))
 
+> These slides were converted from [their original PowerPoint file](https://1drv.ms/p/s!AvUc1cvPrJnWvuNesE6QkYRgJixZ9w), so they may look a little different.
+
 ## Usage
 
-This deck's source is the [Slidev](https://sli.dev) deck in `src/`.
-It was converted from [its original PowerPoint file](https://1drv.ms/p/s!AvUc1cvPrJnWvuNesE6QkYRgJixZ9w), so it may look a little different.
+To build the deck into `lib/2023-10-26-typescript-for-javascripties.pptx`:
 
 ```shell
 pnpm build
 ```
 
-...writes `lib/2023-10-26-typescript-for-javascripties.pptx` with slidev2pptx.
+To present it with [Slidev](https://sli.dev):
 
 ```shell
 pnpm dev
 ```
-
-...presents the deck with Slidev.

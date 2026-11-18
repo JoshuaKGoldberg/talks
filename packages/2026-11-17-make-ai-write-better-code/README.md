@@ -6,17 +6,14 @@ Slides for Make AI Write Better Code, a talk given at:
 
 ## Usage
 
-This deck's source is the [Slidev](https://sli.dev) deck in `src/`.
-It was written in Slidev, rather than converted from PowerPoint.
+To build the deck into `lib/2026-11-17-make-ai-write-better-code.pptx`:
 
 ```shell
 pnpm build
 ```
 
-...writes `lib/2026-11-17-make-ai-write-better-code.pptx` with slidev2pptx.
+To present it with [Slidev](https://sli.dev):
 
 ```shell
 pnpm dev
 ```
-
-...presents the deck with Slidev.
