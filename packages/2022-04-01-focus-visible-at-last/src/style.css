@@ -1,0 +1,150 @@
+@font-face {
+	font-family: "Regular Bold";
+	src: url("./fonts/0-Regular-Bold.otf");
+	font-weight: 590;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: url("./fonts/1-Consola.ttf");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: url("./fonts/2-Consolab.ttf");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: url("./fonts/3-Consolai.ttf");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: url("./fonts/4-Consolaz.ttf");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Calibri";
+	src: url("./fonts/5-Calibri.ttf");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Calibri";
+	src: url("./fonts/6-Calibrib.ttf");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Calibri";
+	src: url("./fonts/7-Calibrii.ttf");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Calibri";
+	src: url("./fonts/8-Calibriz.ttf");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Calibri";
+	src: url("./fonts/9-calibril.ttf");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Calibri";
+	src: url("./fonts/10-calibrili.ttf");
+	font-weight: 300;
+	font-style: italic;
+}
+
+.pptx {
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+	font-family: Calibri, sans-serif;
+	color: black;
+	text-align: left;
+}
+
+.pptx-group {
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+}
+
+.pptx-shape {
+	position: absolute;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.pptx-crop {
+	overflow: hidden;
+}
+
+/* UnoCSS's preflight shrinks images to their container, which would undo crops. */
+.pptx img {
+	max-width: none;
+	max-height: none;
+}
+
+.pptx-text {
+	display: flex;
+	flex-direction: column;
+	overflow-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+/* PowerPoint draws a table's borders centered on its grid, as collapsed borders are. */
+.pptx-table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+.pptx-table td {
+	overflow-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+.pptx-text p,
+.pptx-text ul,
+.pptx-text ol,
+.pptx-text li,
+.pptx-table p,
+.pptx-table ul,
+.pptx-table ol,
+.pptx-table li {
+	margin: 0;
+	padding: 0;
+}
+
+.pptx-text ul,
+.pptx-text ol,
+.pptx-table ul,
+.pptx-table ol {
+	list-style-position: outside;
+}
+
+.pptx-text a,
+.pptx-table a {
+	color: inherit;
+}
