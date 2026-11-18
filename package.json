@@ -39,7 +39,7 @@
 		"@types/node": "26.6.2",
 		"@vitest/eslint-plugin": "1.6.27",
 		"console-fail-test": "0.10.0",
-		"cspell": "10.4.0",
+		"cspell": "10.5.1",
 		"eslint": "10.14.0",
 		"eslint-config-prettier": "10.1.8",
 		"eslint-plugin-jsdoc": "65.4.0",
