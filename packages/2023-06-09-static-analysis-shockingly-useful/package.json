@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2023-06-09-static-analysis-shockingly-useful.pptx",
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2023-06-09-static-analysis-shockingly-useful.pptx && node ../../scripts/talk-files.ts record",
 		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

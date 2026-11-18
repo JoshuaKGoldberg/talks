@@ -112,7 +112,7 @@ Talks are built with [slidev2pptx](https://github.com/JoshuaKGoldberg/slidev2ppt
 pnpm build
 ```
 
-...builds every talk into a PowerPoint file in its package's `lib/` directory.
+...builds every talk into a PowerPoint file in its package's `lib/` directory, which [`pnpm upload`](./.github/DEVELOPMENT.md#built-powerpoint-files) publishes to [talk-files](https://github.com/JoshuaKGoldberg/talk-files).
 To build or present one talk, run its package's `build` or `dev` script:
 
 ```shell

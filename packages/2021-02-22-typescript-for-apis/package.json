@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2021-02-22-typescript-for-apis.pptx",
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2021-02-22-typescript-for-apis.pptx && node ../../scripts/talk-files.ts record",
 		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

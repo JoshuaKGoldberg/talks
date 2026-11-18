@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2021-05-20-crafting-an-accessible-design-system.pptx",
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2021-05-20-crafting-an-accessible-design-system.pptx && node ../../scripts/talk-files.ts record",
 		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

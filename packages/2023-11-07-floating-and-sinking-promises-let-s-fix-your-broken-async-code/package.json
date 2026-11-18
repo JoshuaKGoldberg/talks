@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2023-11-07-floating-and-sinking-promises-let-s-fix-your-broken-async-code.pptx",
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2023-11-07-floating-and-sinking-promises-let-s-fix-your-broken-async-code.pptx && node ../../scripts/talk-files.ts record",
 		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

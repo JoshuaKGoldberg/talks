@@ -43,6 +43,16 @@ jobs:
       - uses: ./.github/actions/prepare
       - run: pnpm lint:spelling
 
+  lint_talk_files:
+    name: Lint Talk Files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/prepare
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm lint:talk-files
+
   test:
     name: Test
     runs-on: ubuntu-latest
