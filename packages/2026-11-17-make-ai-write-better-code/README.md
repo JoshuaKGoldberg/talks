@@ -4,19 +4,24 @@ Slides for Make AI Write Better Code, a talk given at:
 
 - [React Summit US 2026](https://reactsummit.us), New York, USA: November 17, 2026
 
+> These slides were written directly in Slidev.
+
 ## Usage
 
-This deck's source is the [Slidev](https://sli.dev) deck in `src/`.
-It was written in Slidev, rather than converted from PowerPoint.
+To build the deck into a PowerPoint file in `lib/` with slidev2pptx:
 
 ```shell
 pnpm build
 ```
 
-...writes `lib/2026-11-17-make-ai-write-better-code.pptx` with slidev2pptx.
+To present it with [Slidev](https://sli.dev):
 
 ```shell
 pnpm dev
 ```
 
-...presents the deck with Slidev.
+To run its tests:
+
+```shell
+pnpm test
+```

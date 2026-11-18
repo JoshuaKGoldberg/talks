@@ -13,11 +13,9 @@ pnpm install
 
 ## Building
 
-Each talk in `packages/` is a [Slidev](https://sli.dev) deck in its `src/`.
-slidev2pptx builds each deck into a PowerPoint file in its package's `lib/` directory.
-It isn't published yet, so this repository installs it as an optional dependency from a local checkout next to it, in `../slidev2pptx`.
-Without that checkout, `pnpm install` still works, and you can present talks and run the format, lint, and type checks, but not build talks or run `pnpm lint:packages`, whose `pnpm dedupe --check` would drop slidev2pptx from the lockfile.
-If you have the checkout, build it before installing:
+slidev2pptx builds each talk's [Slidev](https://sli.dev) deck into a PowerPoint file in its package's `lib/` directory.
+It isn't published yet, so this repository installs it as an optional dependency from a local checkout in `../slidev2pptx`.
+If you have that checkout, build it before installing here:
 
 ```shell
 cd ../slidev2pptx
@@ -29,13 +27,16 @@ pnpm install
 
 Rerun `pnpm install` here after rebuilding slidev2pptx to pick up its changes.
 
-Then build every talk:
+> Without the checkout, you can still install, present talks, format, lint, and type check.
+> Only building talks and `pnpm lint:packages` need it.
+
+To build every talk:
 
 ```shell
 pnpm build
 ```
 
-...or build or present one talk by its package name:
+To build or present one talk, filter by its package name:
 
 ```shell
 pnpm --filter 2026-05-21-what-s-new-in-typescript-6-0 build
@@ -44,10 +45,11 @@ pnpm --filter 2026-05-21-what-s-new-in-typescript-6-0 dev
 
 ### Fonts
 
-Each talk converted from PowerPoint declares the fonts its slides use in its `src/style.css`.
-Talks written in Slidev load their fonts from npm packages instead.
-Only openly licensed fonts are committed in its `src/fonts/`; the rest, like Microsoft's, can't be redistributed.
-Each talk's `build` and `dev` scripts first run [`scripts/fonts.ts`](../scripts/fonts.ts), which copies those fonts in from macOS's font folders (`~/Library/Fonts`, `/Library/Fonts`, and `/System/Library/Fonts`) and from inside Microsoft PowerPoint for Mac.
+Talks written in Slidev load their fonts from npm packages.
+Talks converted from PowerPoint declare their fonts in their package's `src/style.css`.
+Only openly licensed fonts are committed in their `src/fonts/`, since others, like Microsoft's, can't be redistributed.
+Each talk's `build` and `dev` scripts first run [`scripts/fonts.ts`](../scripts/fonts.ts) to copy in the rest.
+It looks in macOS's font folders, such as `~/Library/Fonts`, and inside Microsoft PowerPoint for Mac.
 Other operating systems aren't searched yet.
 Fonts it can't find are listed, and the deck draws with fallbacks for them.
 
@@ -80,12 +82,12 @@ For example, ESLint can be run with `--fix` to auto-fix some lint rule complaint
 pnpm run lint --fix
 ```
 
-Lint rules, formatting, and spell checking skip the `src/` of each talk converted from PowerPoint, since those Slidev decks are generated rather than written by hand.
-Talks written in Slidev are checked like the rest of the repository, other than formatting their `slides.md`.
+> ESLint, Prettier, and cspell skip the `src/` of talks converted from PowerPoint, since those decks are generated.
+> ESLint and Prettier also skip the `slides.md` of talks written in Slidev.
 
 ## Testing
 
-Talks written in Slidev may have [Vitest](https://vitest.dev) tests in their `test/`, such as for color contrast and slide content.
+Talks written in Slidev can have [Vitest](https://vitest.dev) tests in their `test/` directory.
 To run them all:
 
 ```shell
@@ -96,7 +98,7 @@ pnpm run test
 
 You should be able to see suggestions from [TypeScript](https://typescriptlang.org) in your editor for all open files.
 
-However, it can be useful to run the TypeScript command-line (`tsc`) to type check the repository's config files, scripts, and the TypeScript in talks written in Slidev:
+However, it can be useful to run the TypeScript command-line (`tsc`) to type check all `.ts` files:
 
 ```shell
 pnpm tsc

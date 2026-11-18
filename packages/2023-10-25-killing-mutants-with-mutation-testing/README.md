@@ -4,19 +4,18 @@ Slides for Killing Mutants with Mutation Testing, a talk given at:
 
 - [DevReach 2023](https://www.telerik.com/devreach-2023), Sofia, Bulgaria: October 25, 2023 ([repo](https://github.com/JoshuaKGoldberg/robocafe-example), [video](https://www.youtube.com/watch?v=OcjaMjQTSTo&ab_channel=ProgressTelerik))
 
+> These slides were converted from [their original PowerPoint file](https://1drv.ms/p/s!AvUc1cvPrJnWvuNccskQSRCBg1M1Hw), so they may look a little different.
+
 ## Usage
 
-This deck's source is the [Slidev](https://sli.dev) deck in `src/`.
-It was converted from [its original PowerPoint file](https://1drv.ms/p/s!AvUc1cvPrJnWvuNccskQSRCBg1M1Hw), so it may look a little different.
+To build the deck into a PowerPoint file in `lib/` with slidev2pptx:
 
 ```shell
 pnpm build
 ```
 
-...writes `lib/2023-10-25-killing-mutants-with-mutation-testing.pptx` with slidev2pptx.
+To present it with [Slidev](https://sli.dev):
 
 ```shell
 pnpm dev
 ```
-
-...presents the deck with Slidev.
