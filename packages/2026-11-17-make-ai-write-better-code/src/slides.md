@@ -234,6 +234,10 @@ layout: center
   'If your code warranted traditional verification before AI, it now needs it *more than ever*.',
 ]" />
 
+<!--
+If your code warranted traditional verification before AI, it now needs it more than ever.
+-->
+
 ---
 layout: center
 ---
@@ -377,7 +381,7 @@ There is no substitute for human discretion.
 
 [click] If you don't design it, a guesswork machine will. And its guesses lean toward whatever was most common in its training data, not what's right for your app.
 
-State-of-the-art editors like Claude Code do a lot to pull in their own vertification techniques and proactively iterate on outputs.
+State-of-the-art editors like Claude Code do a lot to pull in their own verification techniques and proactively iterate on outputs.
 But at the end of the day, they're just really good guessers.
 -->
 
@@ -2688,6 +2692,10 @@ layout: center
 <WordMorph :steps="[
   '“Hey Claude, find all my past PR comments in *(insert area)*, group by feedback type, and distill all of them into a *reusable review skill*”.',
 ]" />
+
+<!--
+So: "Hey Claude, find all my past PR comments in whatever area you work in, group them by feedback type, and distill all of them into a reusable review skill."
+-->
 
 ---
 layout: center
