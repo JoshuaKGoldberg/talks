@@ -8,7 +8,7 @@ Slides for Accessible Accessibility, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2021-11-09-accessible-accessibility.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

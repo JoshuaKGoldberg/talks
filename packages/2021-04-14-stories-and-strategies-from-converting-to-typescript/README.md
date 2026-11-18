@@ -8,7 +8,7 @@ Slides for Stories and Strategies from Converting to TypeScript, a talk given at
 
 ## Usage
 
-To build the deck into `lib/2021-04-14-stories-and-strategies-from-converting-to-typescript.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

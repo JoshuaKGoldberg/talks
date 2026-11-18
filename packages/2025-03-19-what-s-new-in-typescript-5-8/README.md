@@ -8,7 +8,7 @@ Slides for What's New in TypeScript 5.8, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2025-03-19-what-s-new-in-typescript-5-8.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

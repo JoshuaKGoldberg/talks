@@ -8,7 +8,7 @@ Slides for "Zero" Frontend Crashes in Production, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2021-08-21-zero-frontend-crashes-in-production.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

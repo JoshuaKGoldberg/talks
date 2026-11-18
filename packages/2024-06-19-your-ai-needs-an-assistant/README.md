@@ -8,7 +8,7 @@ Slides for Your AI Needs an Assistant, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2024-06-19-your-ai-needs-an-assistant.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

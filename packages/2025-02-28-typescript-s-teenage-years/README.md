@@ -8,7 +8,7 @@ Slides for TypeScript's Teenage Years, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2025-02-28-typescript-s-teenage-years.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

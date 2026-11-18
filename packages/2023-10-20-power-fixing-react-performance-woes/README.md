@@ -8,7 +8,7 @@ Slides for Power Fixing React Performance Woes, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-10-20-power-fixing-react-performance-woes.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

@@ -8,7 +8,7 @@ Slides for Statically Detecting React App Bugs with TypeScript and ESLint, a tal
 
 ## Usage
 
-To build the deck into `lib/2022-12-02-statically-detecting-react-app-bugs-with-typescript-and-eslint.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

@@ -8,7 +8,7 @@ Slides for Microfrontends at Scale, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2021-06-28-microfrontends-at-scale.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

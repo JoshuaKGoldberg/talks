@@ -8,7 +8,7 @@ Slides for Types Beyond TypeScript, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2025-05-27-types-beyond-typescript.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

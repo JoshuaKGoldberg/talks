@@ -8,7 +8,7 @@ Slides for Type-Safe Style Systems: The Future of CSS, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-10-05-type-safe-style-systems-the-future-of-css.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

@@ -15,7 +15,7 @@ pnpm install
 
 slidev2pptx builds each talk's [Slidev](https://sli.dev) deck into a PowerPoint file in its package's `lib/` directory.
 It isn't published yet, so this repository installs it as an optional dependency from a local checkout in `../slidev2pptx`.
-Build that checkout before installing here:
+If you have that checkout, build it before installing here:
 
 ```shell
 cd ../slidev2pptx
@@ -27,8 +27,8 @@ pnpm install
 
 Rerun `pnpm install` here after rebuilding slidev2pptx to pick up its changes.
 
-> Without the checkout, you can still present talks and run formatting, linting, and type checking.
-> You just can't build talks or run `pnpm lint:packages`, since `pnpm dedupe --check` would drop slidev2pptx from the lockfile.
+> Without the checkout, `pnpm install` still works, and you can present talks, format, lint, and type check.
+> Only building talks and running `pnpm lint:packages` need it.
 
 To build every talk:
 
@@ -45,9 +45,10 @@ pnpm --filter 2026-05-21-what-s-new-in-typescript-6-0 dev
 
 ### Fonts
 
-Talks converted from PowerPoint declare their fonts in `src/style.css`, while talks written in Slidev load fonts from npm packages.
-Only openly licensed fonts are committed in `src/fonts/`, since others, like Microsoft's, can't be redistributed.
-Each talk's `build` and `dev` scripts first run [`scripts/fonts.ts`](../scripts/fonts.ts) to copy the rest in from your macOS font folders and Microsoft PowerPoint for Mac.
+Talks written in Slidev load their fonts from npm packages.
+Talks converted from PowerPoint declare their fonts in their package's `src/style.css`.
+Only openly licensed fonts are committed in their `src/fonts/`, since others, like Microsoft's, can't be redistributed.
+Each talk's `build` and `dev` scripts first run [`scripts/fonts.ts`](../scripts/fonts.ts) to copy the rest in from macOS's font folders, such as `~/Library/Fonts`, and from inside Microsoft PowerPoint for Mac.
 Other operating systems aren't searched yet.
 Fonts it can't find are listed, and the deck draws with fallbacks for them.
 
@@ -81,11 +82,11 @@ pnpm run lint --fix
 ```
 
 > Linting, formatting, and spell checking skip the `src/` of talks converted from PowerPoint, since those decks are generated.
-> Talks written in Slidev are checked too, except that Prettier doesn't format their `slides.md`.
+> Talks written in Slidev are checked too, though ESLint and Prettier skip their `slides.md`.
 
 ## Testing
 
-Talks written in Slidev may have [Vitest](https://vitest.dev) tests in their `test/`, such as for color contrast and slide content.
+Talks written in Slidev can have [Vitest](https://vitest.dev) tests in their `test/` directory.
 To run them all:
 
 ```shell

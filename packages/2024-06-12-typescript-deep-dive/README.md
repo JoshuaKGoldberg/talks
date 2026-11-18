@@ -8,7 +8,7 @@ Slides for TypeScript Deep Dive, a workshop given at:
 
 ## Usage
 
-To build the deck into `lib/2024-06-12-typescript-deep-dive.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

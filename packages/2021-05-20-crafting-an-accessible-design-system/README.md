@@ -8,7 +8,7 @@ Slides for Crafting an Accessible Design System, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2021-05-20-crafting-an-accessible-design-system.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

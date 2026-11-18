@@ -8,7 +8,7 @@ Slides for Tooling Like It's 2025, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2025-05-29-tooling-like-it-s-2025.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

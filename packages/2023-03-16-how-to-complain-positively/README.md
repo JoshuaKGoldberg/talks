@@ -8,7 +8,7 @@ Slides for How to Complain Positively, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-03-16-how-to-complain-positively.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

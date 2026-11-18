@@ -8,7 +8,7 @@ Slides for TypeScript for APIs, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2021-02-22-typescript-for-apis.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

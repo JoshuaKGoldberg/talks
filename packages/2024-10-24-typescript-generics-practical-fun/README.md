@@ -8,7 +8,7 @@ Slides for TypeScript Generics: Practical Fun, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2024-10-24-typescript-generics-practical-fun.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

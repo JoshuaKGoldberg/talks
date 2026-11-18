@@ -8,7 +8,7 @@ Slides for TypeScript and Aspire, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2026-03-23-typescript-and-aspire.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

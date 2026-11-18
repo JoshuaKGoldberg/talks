@@ -8,7 +8,7 @@ Slides for WebXR Karaoke, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2022-07-01-webxr-karaoke.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

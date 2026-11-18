@@ -8,7 +8,7 @@ Slides for Breaking the Codecademy Course Catalog, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2021-04-27-breaking-the-codecademy-course-catalog.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

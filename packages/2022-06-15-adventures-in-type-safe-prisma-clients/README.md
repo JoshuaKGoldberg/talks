@@ -8,7 +8,7 @@ Slides for Adventures in Type Safe Prisma Clients, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2022-06-15-adventures-in-type-safe-prisma-clients.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

@@ -8,7 +8,7 @@ Slides for Lessons Learned from Refactors and Rearchitectures, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2022-11-03-lessons-learned-from-refactors-and-rearchitectures.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

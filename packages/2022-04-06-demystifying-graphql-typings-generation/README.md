@@ -8,7 +8,7 @@ Slides for Demystifying GraphQL Typings Generation, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2022-04-06-demystifying-graphql-typings-generation.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

@@ -8,7 +8,7 @@ Slides for Interviewing Developers with Accuracy and Precision, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-05-18-interviewing-developers-with-accuracy-and-precision.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

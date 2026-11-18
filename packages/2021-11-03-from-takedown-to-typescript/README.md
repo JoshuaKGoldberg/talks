@@ -8,7 +8,7 @@ Slides for From Takedown to TypeScript, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2021-11-03-from-takedown-to-typescript.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

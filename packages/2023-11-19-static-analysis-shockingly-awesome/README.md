@@ -8,7 +8,7 @@ Slides for Static Analysis: Shockingly Awesome! ⚡️, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-11-19-static-analysis-shockingly-awesome.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

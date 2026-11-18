@@ -8,7 +8,7 @@ Slides for Super Strength ESLint, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2020-11-20-super-strength-eslint.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

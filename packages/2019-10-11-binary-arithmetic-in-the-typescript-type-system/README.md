@@ -8,7 +8,7 @@ Slides for Binary Arithmetic in the TypeScript Type System, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2019-10-11-binary-arithmetic-in-the-typescript-type-system.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

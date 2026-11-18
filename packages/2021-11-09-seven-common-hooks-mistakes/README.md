@@ -8,7 +8,7 @@ Slides for Seven Common Hooks Mistakes, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2021-11-09-seven-common-hooks-mistakes.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

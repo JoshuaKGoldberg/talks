@@ -8,7 +8,7 @@ Slides for Accessibility, Design Systems, and YOU!, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2021-07-14-accessibility-design-systems-and-you.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

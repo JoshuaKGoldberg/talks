@@ -8,7 +8,7 @@ Slides for The Best TypeScript Features You Might Not Be Using, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2024-04-09-the-best-typescript-features-you-might-not-be-using.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

@@ -8,7 +8,7 @@ Slides for TypeScript Static Analysis Hidden Gems, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-09-26-typescript-static-analysis-hidden-gems.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

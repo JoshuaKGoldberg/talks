@@ -8,7 +8,7 @@ Slides for Real Time Nostalgia with Web Sockets, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-11-23-real-time-nostalgia-with-web-sockets.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

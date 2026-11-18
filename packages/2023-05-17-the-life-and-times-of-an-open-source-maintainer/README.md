@@ -8,7 +8,7 @@ Slides for The Life and Times of an Open Source Maintainer, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-05-17-the-life-and-times-of-an-open-source-maintainer.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

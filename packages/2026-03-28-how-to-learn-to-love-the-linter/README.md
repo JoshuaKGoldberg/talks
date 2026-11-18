@@ -8,7 +8,7 @@ Slides for How to Learn to Love the Linter, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2026-03-28-how-to-learn-to-love-the-linter.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

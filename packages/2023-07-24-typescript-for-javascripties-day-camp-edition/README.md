@@ -8,7 +8,7 @@ Slides for TypeScript for Javascripties: Day Camp Edition, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-07-24-typescript-for-javascripties-day-camp-edition.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

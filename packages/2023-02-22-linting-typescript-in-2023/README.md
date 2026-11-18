@@ -8,7 +8,7 @@ Slides for Linting TypeScript in 2023, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-02-22-linting-typescript-in-2023.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

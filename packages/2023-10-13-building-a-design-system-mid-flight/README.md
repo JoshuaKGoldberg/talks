@@ -8,7 +8,7 @@ Slides for Building a Design System Mid-Flight, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-10-13-building-a-design-system-mid-flight.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

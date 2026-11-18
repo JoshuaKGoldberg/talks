@@ -8,7 +8,7 @@ Slides for GraphQL + Apollo + Next.js: A Lovely Trio, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2021-12-09-graphql-apollo-next-js-a-lovely-trio.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

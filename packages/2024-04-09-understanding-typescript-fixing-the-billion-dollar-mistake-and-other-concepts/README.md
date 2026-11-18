@@ -8,7 +8,7 @@ Slides for Understanding TypeScript: Fixing the Billion Dollar Mistake and Other
 
 ## Usage
 
-To build the deck into `lib/2024-04-09-understanding-typescript-fixing-the-billion-dollar-mistake-and-other-concepts.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

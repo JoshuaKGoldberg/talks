@@ -8,7 +8,7 @@ Slides for Deep TypeScript Tips and Tricks, a workshop given at:
 
 ## Usage
 
-To build the deck into `lib/2024-04-08-deep-typescript-tips-and-tricks.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

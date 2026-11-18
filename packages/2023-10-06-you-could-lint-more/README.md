@@ -8,7 +8,7 @@ Slides for You Could Lint More, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-10-06-you-could-lint-more.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

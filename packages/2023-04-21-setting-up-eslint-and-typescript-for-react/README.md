@@ -8,7 +8,7 @@ Slides for Setting Up ESLint and TypeScript for React, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-04-21-setting-up-eslint-and-typescript-for-react.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

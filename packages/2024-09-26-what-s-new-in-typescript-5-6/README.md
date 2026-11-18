@@ -8,7 +8,7 @@ Slides for What's New in TypeScript 5.6, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2024-09-26-what-s-new-in-typescript-5-6.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

@@ -8,7 +8,7 @@ Slides for Type System Game Engines, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2020-10-09-type-system-game-engines.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

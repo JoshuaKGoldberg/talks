@@ -8,7 +8,7 @@ Slides for TypeScript for JavaScripties, a workshop given at:
 
 ## Usage
 
-To build the deck into `lib/2023-01-16-typescript-for-javascripties.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

@@ -8,7 +8,7 @@ Slides for Static Analysis: Don't Fear the Linter, a talk given at:
 
 ## Usage
 
-To build the deck into `lib/2023-06-22-static-analysis-don-t-fear-the-linter.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build

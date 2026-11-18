@@ -8,7 +8,7 @@ Slides for Floating and Sinking Promises: Understanding Broken Async Code, a tal
 
 ## Usage
 
-To build the deck into `lib/2023-06-23-floating-and-sinking-promises-understanding-broken-async-code.pptx`:
+To build the deck into a PowerPoint file in `lib/`:
 
 ```shell
 pnpm build
