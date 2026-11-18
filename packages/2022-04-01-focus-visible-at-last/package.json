@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2022-04-01-focus-visible-at-last.pptx",
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2022-04-01-focus-visible-at-last.pptx && node ../../scripts/talk-files.ts record",
 		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }
