@@ -82,7 +82,7 @@ For example, ESLint can be run with `--fix` to auto-fix some lint rule complaint
 pnpm run lint --fix
 ```
 
-> Linting, formatting, and spell checking skip the `src/` of talks converted from PowerPoint, since those decks are generated.
+> ESLint, Prettier, and cspell skip the `src/` of talks converted from PowerPoint, since those decks are generated.
 > ESLint and Prettier also skip the `slides.md` of talks written in Slidev.
 
 ## Testing
