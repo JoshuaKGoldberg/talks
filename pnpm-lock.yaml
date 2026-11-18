@@ -101,6 +101,9 @@ importers:
       prettier-plugin-sh:
         specifier: 0.20.0
         version: 0.20.0(prettier@3.10.1)
+      slidev2pptx:
+        specifier: 0.1.0
+        version: 0.1.0(9b323c46b0e188076df83f11d5d6de3c)
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -116,10 +119,6 @@ importers:
       vue-eslint-parser:
         specifier: 10.4.2
         version: 10.4.2(eslint@10.14.0(jiti@2.7.0))
-    optionalDependencies:
-      slidev2pptx:
-        specifier: file:../slidev2pptx
-        version: file:../slidev2pptx(9b323c46b0e188076df83f11d5d6de3c)
 
   packages/2019-10-11-binary-arithmetic-in-the-typescript-type-system: {}
 
@@ -4362,8 +4361,8 @@ packages:
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
-  slidev2pptx@file:../slidev2pptx:
-    resolution: {directory: ../slidev2pptx, type: directory}
+  slidev2pptx@0.1.0:
+    resolution: {integrity: sha512-Hj14DL+rWmfxX3ka9i0K8kd5e0aX1Ndcnodt4GNPSuHc7u0J1k5qDIu1Ivwk6e6U1rJ/ATVPqNCbxhNRCwM8tA==}
     engines: {node: ^22.22.0 || >=24.0.0}
     hasBin: true
     peerDependencies:
@@ -6596,10 +6595,8 @@ snapshots:
     transitivePeerDependencies:
       - preact
       - react
-    optional: true
 
-  '@takumi-rs/helpers@2.20.0':
-    optional: true
+  '@takumi-rs/helpers@2.20.0': {}
 
   '@tybys/wasm-util@0.10.4':
     dependencies:
@@ -7445,8 +7442,7 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  base64-js@1.5.1:
-    optional: true
+  base64-js@1.5.1: {}
 
   baseline-browser-mapping@2.11.37: {}
 
@@ -7456,8 +7452,7 @@ snapshots:
 
   boolbase@1.0.0: {}
 
-  boolbase@2.0.0:
-    optional: true
+  boolbase@2.0.0: {}
 
   brace-expansion@5.0.13:
     dependencies:
@@ -7470,7 +7465,6 @@ snapshots:
   brotli@2.1.0:
     dependencies:
       base64-js: 1.5.1
-    optional: true
 
   browserslist@4.29.5:
     dependencies:
@@ -7740,18 +7734,15 @@ snapshots:
       domhandler: 6.0.1
       domutils: 4.0.2
       nth-check: 3.0.1
-    optional: true
 
   css-tree@3.2.1:
     dependencies:
       mdn-data: 2.27.1
       source-map-js: 1.2.2
 
-  css-what@8.0.0:
-    optional: true
+  css-what@8.0.0: {}
 
-  cssomnom@0.1.12:
-    optional: true
+  cssomnom@0.1.12: {}
 
   csstype@3.2.3: {}
 
@@ -7997,8 +7988,7 @@ snapshots:
     dependencies:
       dequal: 2.0.3
 
-  dfa@2.0.0:
-    optional: true
+  dfa@2.0.0: {}
 
   diff-match-patch-es@2.0.1: {}
 
@@ -8017,30 +8007,24 @@ snapshots:
       domelementtype: 2.3.0
       domhandler: 5.0.3
       entities: 4.5.0
-    optional: true
 
   dom-serializer@3.1.1:
     dependencies:
       domelementtype: 3.0.0
       domhandler: 6.0.1
       entities: 8.1.0
-    optional: true
 
-  domelementtype@2.3.0:
-    optional: true
+  domelementtype@2.3.0: {}
 
-  domelementtype@3.0.0:
-    optional: true
+  domelementtype@3.0.0: {}
 
   domhandler@5.0.3:
     dependencies:
       domelementtype: 2.3.0
-    optional: true
 
   domhandler@6.0.1:
     dependencies:
       domelementtype: 3.0.0
-    optional: true
 
   dompurify@3.4.15:
     optionalDependencies:
@@ -8055,14 +8039,12 @@ snapshots:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
       domhandler: 5.0.3
-    optional: true
 
   domutils@4.0.2:
     dependencies:
       dom-serializer: 3.1.1
       domelementtype: 3.0.0
       domhandler: 6.0.1
-    optional: true
 
   dotenv@17.4.2:
     optional: true
@@ -8387,8 +8369,7 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.7
 
-  fflate@0.8.3:
-    optional: true
+  fflate@0.8.3: {}
 
   file-entry-cache@11.1.5:
     dependencies:
@@ -8440,7 +8421,6 @@ snapshots:
       restructure: 3.0.2
       unicode-properties: 2.0.2
       unicode-trie: 3.0.0
-    optional: true
 
   format@0.2.2: {}
 
@@ -8561,8 +8541,7 @@ snapshots:
 
   html-entities@2.6.0: {}
 
-  html-escaper@3.0.3:
-    optional: true
+  html-escaper@3.0.3: {}
 
   html-void-elements@3.0.0: {}
 
@@ -8572,7 +8551,6 @@ snapshots:
       domhandler: 5.0.3
       domutils: 3.2.2
       entities: 7.0.1
-    optional: true
 
   https@1.0.0: {}
 
@@ -8590,8 +8568,7 @@ snapshots:
     dependencies:
       queue: 6.0.2
 
-  image-size@2.1.0:
-    optional: true
+  image-size@2.1.0: {}
 
   immediate@3.0.6: {}
 
@@ -8665,8 +8642,7 @@ snapshots:
 
   jiti@2.7.0: {}
 
-  jpeg-js@0.4.4:
-    optional: true
+  jpeg-js@0.4.4: {}
 
   js-tokens@4.0.0: {}
 
@@ -8825,7 +8801,6 @@ snapshots:
       html-escaper: 3.0.3
       htmlparser2: 10.1.0
       uhyphen: 0.2.0
-    optional: true
 
   linkify-it@5.0.2:
     dependencies:
@@ -9395,7 +9370,6 @@ snapshots:
   nth-check@3.0.1:
     dependencies:
       boolbase: 2.0.0
-    optional: true
 
   object-deep-merge@2.0.1: {}
 
@@ -9585,8 +9559,7 @@ snapshots:
 
   plantuml-encoder@1.4.0: {}
 
-  pngjs@7.0.0:
-    optional: true
+  pngjs@7.0.0: {}
 
   points-on-curve@0.2.0: {}
 
@@ -9742,8 +9715,7 @@ snapshots:
 
   resolve-pkg-maps@1.0.0: {}
 
-  restructure@3.0.2:
-    optional: true
+  restructure@3.0.2: {}
 
   reusify@1.1.0: {}
 
@@ -9842,7 +9814,7 @@ snapshots:
 
   sisteransi@1.0.5: {}
 
-  slidev2pptx@file:../slidev2pptx(9b323c46b0e188076df83f11d5d6de3c):
+  slidev2pptx@0.1.0(9b323c46b0e188076df83f11d5d6de3c):
     dependencies:
       '@slidev/cli': 53.1.0(@oxc-project/types@0.156.0)(@types/markdown-it@14.2.0)(@types/node@26.6.2)(@vitejs/devtools-kit@0.7.6(cac@7.1.0)(crossws@0.4.17(srvx@1.0.8))(srvx@1.0.8)(vite@8.3.8(@types/node@26.6.2)(jiti@2.7.0)(yaml@2.9.1)))(@vue/compiler-sfc@3.5.45)(cac@7.1.0)(crossws@0.4.17(srvx@1.0.8))(lightningcss@1.33.0)(magicast@0.5.5)(markdown-it@14.3.3)(oxc-parser@0.153.0)(postcss@8.5.33)(rolldown@1.2.19)(srvx@1.0.8)
       '@slidev/client': 53.1.0(@oxc-project/types@0.156.0)(@vitejs/devtools-kit@0.7.6(cac@7.1.0)(crossws@0.4.17(srvx@1.0.8))(srvx@1.0.8)(vite@8.3.8(@types/node@26.6.2)(jiti@2.7.0)(yaml@2.9.1)))(@vue/compiler-sfc@3.5.45)(cac@7.1.0)(crossws@0.4.17(srvx@1.0.8))(lightningcss@1.33.0)(magicast@0.5.5)(markdown-it@14.3.3)(oxc-parser@0.153.0)(rolldown@1.2.19)(srvx@1.0.8)(vite@8.3.8(@types/node@26.6.2)(jiti@2.7.0)(yaml@2.9.1))
@@ -9867,7 +9839,6 @@ snapshots:
       - csstype
       - preact
       - react
-    optional: true
 
   smol-toml@1.9.1: {}
 
@@ -10058,8 +10029,7 @@ snapshots:
 
   ufo@1.6.4: {}
 
-  uhyphen@0.2.0:
-    optional: true
+  uhyphen@0.2.0: {}
 
   unbash@6.0.4: {}
 
@@ -10110,12 +10080,10 @@ snapshots:
   unicode-properties@2.0.2:
     dependencies:
       unicode-trie: 3.0.0
-    optional: true
 
   unicode-trie@3.0.0:
     dependencies:
       fflate: 0.8.3
-    optional: true
 
   unist-util-is@6.0.1:
     dependencies:
