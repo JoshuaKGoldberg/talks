@@ -13,23 +13,7 @@ pnpm install
 
 ## Building
 
-slidev2pptx builds each talk's [Slidev](https://sli.dev) deck into a PowerPoint file in its package's `lib/` directory.
-It isn't published yet, so this repository installs it as an optional dependency from a local checkout in `../slidev2pptx`.
-If you have that checkout, build it before installing here:
-
-```shell
-cd ../slidev2pptx
-pnpm install
-pnpm build
-cd ../talks
-pnpm install
-```
-
-Rerun `pnpm install` here after rebuilding slidev2pptx to pick up its changes.
-
-> Without the checkout, you can still install, present talks, format, lint, and type check.
-> Only building talks and `pnpm lint:packages` need it.
-
+[slidev2pptx](https://github.com/JoshuaKGoldberg/slidev2pptx) builds each talk's [Slidev](https://sli.dev) deck into a PowerPoint file in its package's `lib/` directory.
 To build every talk:
 
 ```shell

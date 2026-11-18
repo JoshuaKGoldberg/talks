@@ -101,9 +101,7 @@ Most were converted from their original PowerPoint files, so they may look a lit
 
 ## Usage
 
-Building talks needs a local checkout of slidev2pptx, which isn't published yet.
-Presenting them with Slidev doesn't.
-See [`.github/DEVELOPMENT.md`](./.github/DEVELOPMENT.md) for setting up slidev2pptx.
+Talks are built with [slidev2pptx](https://github.com/JoshuaKGoldberg/slidev2pptx) and presented with [Slidev](https://sli.dev).
 
 ```shell
 pnpm build
