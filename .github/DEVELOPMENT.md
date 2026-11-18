@@ -40,7 +40,7 @@ Fonts it can't find are listed, and the deck draws with fallbacks for them.
 ### Built PowerPoint Files
 
 Built PowerPoint files are too large to commit here, so they're kept in the [talk-files](https://github.com/JoshuaKGoldberg/talk-files) repository instead, which needs to be checked out next to this one in `../talk-files`.
-Each talk's `build` script records a hash of its `src/` and `package.json`, and the Git hash of its built file, in its `talk-files.json`.
+Each talk's `build` script writes a `talk-files.json` recording the Git hash of its built file and a hash of its inputs: its `src/`, its `package.json`, and the slidev2pptx version.
 After building, commit the changed `talk-files.json` files, and upload the built files to talk-files:
 
 ```shell

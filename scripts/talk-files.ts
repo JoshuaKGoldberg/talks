@@ -18,7 +18,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 interface Manifest {
-	/** SHA-256 of the talk's src/ files and package.json. */
+	/** SHA-256 of the talk's src/ files, its package.json, and the slidev2pptx version. */
 	inputs: string;
 	/** Git blob hash of the built file, as the talk-files repository stores it. */
 	pptx: string;
@@ -119,7 +119,16 @@ async function inputsHash(directory: string) {
 		.filter(Boolean)
 		.sort();
 
+	// Upgrading slidev2pptx can change any built file, so its installed version counts too.
+	const { version } = JSON.parse(
+		await fs.readFile(
+			path.join(root, "node_modules/slidev2pptx/package.json"),
+			"utf8",
+		),
+	) as { version: string };
+
 	const hash = crypto.createHash("sha256");
+	hash.update(`slidev2pptx@${version}\0`);
 	for (const file of files) {
 		hash.update(`${file}\0`);
 		hash.update(await fs.readFile(path.join(directory, file)));
@@ -173,7 +182,8 @@ async function upload() {
 
 	git("pull", "--ff-only");
 
-	const updated: string[] = [];
+	// Each talk is pushed on its own, as one push of every talk can be too large to finish.
+	let uploaded = 0;
 	for (const talk of await talks()) {
 		const manifest = await readManifest(talk);
 		const target = path.join(checkout, `${talk}.pptx`);
@@ -191,24 +201,15 @@ async function upload() {
 		}
 
 		await fs.copyFile(pptxPath(talk), target);
-		updated.push(talk);
+		git("add", `${talk}.pptx`);
+		git("commit", "--message", `Update ${talk}`);
+		git("push");
+		uploaded += 1;
 	}
 
-	if (!updated.length) {
-		console.log(`${remote} is already up to date.`);
-		return;
-	}
-
-	git("add", ...updated.map((talk) => `${talk}.pptx`));
-	git(
-		"commit",
-		"--message",
-		updated.length === 1
-			? `Update ${updated[0]}`
-			: `Update ${updated.length.toString()} talks`,
-		"--message",
-		updated.join("\n"),
+	console.log(
+		uploaded
+			? `Uploaded ${uploaded.toString()} talks to ${remote}.`
+			: `${remote} is already up to date.`,
 	);
-	git("push");
-	console.log(`Uploaded ${updated.length.toString()} talks to ${remote}.`);
 }
