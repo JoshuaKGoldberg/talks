@@ -1,5 +1,7 @@
 # Accessible Accessibility
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-11-09-accessible-accessibility.pptx)**
+
 Slides for Accessible Accessibility, a talk given at:
 
 - [A11y Camp 2021](https://a11ycamp.com.au): November 9, 2021 ([video](https://youtu.be/N3s53aYT_mM))

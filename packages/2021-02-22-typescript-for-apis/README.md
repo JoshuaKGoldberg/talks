@@ -1,5 +1,7 @@
 # TypeScript for APIs
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-02-22-typescript-for-apis.pptx)**
+
 Slides for TypeScript for APIs, a talk given at:
 
 - [JSWorld 2021](https://2021.frontenddeveloperlove.com): February 22, 2021 ([video](https://www.youtube.com/watch?v=b40w2H5kKEk))

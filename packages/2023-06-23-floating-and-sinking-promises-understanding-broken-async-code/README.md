@@ -1,5 +1,7 @@
 # Floating and Sinking Promises: Understanding Broken Async Code
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-06-23-floating-and-sinking-promises-understanding-broken-async-code.pptx)**
+
 Slides for Floating and Sinking Promises: Understanding Broken Async Code, a talk given at:
 
 - [KCDC 2023](https://www.kcdc.info), Kansas City, USA: June 23, 2023 ([repo](https://github.com/JoshuaKGoldberg/understanding-floating-and-sinking-promises))

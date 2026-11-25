@@ -1,5 +1,7 @@
 # TypeScript Deep Dive
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2024-06-12-typescript-deep-dive.pptx)**
+
 Slides for TypeScript Deep Dive, a workshop given at:
 
 - [React Summit 2024](https://reactsummit.com), Amsterdam, NL: June 12, 2024

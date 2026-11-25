@@ -1,5 +1,7 @@
 # Design Systems: Maximum Consistency, Minimum Effort
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-01-17-design-systems-maximum-consistency-minimum-effort.pptx)**
+
 Slides for Design Systems: Maximum Consistency, Minimum Effort, a talk given at:
 
 - [THAT Conf Texas 2023](https://that.us/activities/tNRz6cMoBc0pqJsIFzkC), Round Rock, USA: January 17, 2023 ([repo](https://github.com/JoshuaKGoldberg/design-system-sketch))

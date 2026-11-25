@@ -1,5 +1,7 @@
 # Demystifying GraphQL Typings Generation
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2022-04-06-demystifying-graphql-typings-generation.pptx)**
+
 Slides for Demystifying GraphQL Typings Generation, a talk given at:
 
 - Untangling GraphQL 2022: April 6, 2022 ([repo 1](https://github.com/JoshuaKGoldberg/graphql-typings-generation), [repo 2](https://github.com/JoshuaKGoldberg/a-lovely-graphql-server), [video](https://www.youtube.com/watch?v=1yxFeXXqEDY&ab_channel=NearForm))

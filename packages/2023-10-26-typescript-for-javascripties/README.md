@@ -1,5 +1,7 @@
 # TypeScript for JavaScripties
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-10-26-typescript-for-javascripties.pptx)**
+
 Slides for TypeScript for JavaScripties, a talk given at:
 
 - [DevReach 2023](https://www.telerik.com/devreach-2023), Sofia, Bulgaria: October 26, 2023 ([video](https://www.youtube.com/watch?v=H2344JwPbZ0&ab_channel=ProgressTelerik))

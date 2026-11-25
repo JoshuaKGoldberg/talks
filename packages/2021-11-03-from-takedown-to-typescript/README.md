@@ -1,5 +1,7 @@
 # From Takedown to TypeScript
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-11-03-from-takedown-to-typescript.pptx)**
+
 Slides for From Takedown to TypeScript, a talk given at:
 
 - CascadiaJS 2021: November 3, 2021 ([video](https://www.youtube.com/watch?v=UhUFW-sYJwk))

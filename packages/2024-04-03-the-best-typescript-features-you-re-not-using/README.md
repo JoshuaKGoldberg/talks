@@ -1,5 +1,7 @@
 # The Best TypeScript Features You're Not Using
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2024-04-03-the-best-typescript-features-you-re-not-using.pptx)**
+
 Slides for The Best TypeScript Features You're Not Using, a talk given at:
 
 - CityJS London 2024, London, UK: April 3, 2024 ([video](https://www.youtube.com/watch?v=0PqDDYSaz2Y))

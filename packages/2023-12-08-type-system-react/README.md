@@ -1,5 +1,7 @@
 # Type System React
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-12-08-type-system-react.pptx)**
+
 Slides for Type System React, a talk given at:
 
 - [React Day Berlin 2023](https://reactday.berlin), Online: December 8, 2023 ([repo](https://github.com/JoshuaKGoldberg/type-system-react), [video](https://portal.gitnation.org/contents/type-system-react))

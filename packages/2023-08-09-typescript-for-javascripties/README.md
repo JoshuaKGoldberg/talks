@@ -1,5 +1,7 @@
 # TypeScript for JavaScripties
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-08-09-typescript-for-javascripties.pptx)**
+
 Slides for TypeScript for JavaScripties, a workshop given at:
 
 - [SeattleJS Conf 2023](https://seattlejs.com/conf), Seattle, WA: August 9, 2023

@@ -1,5 +1,7 @@
 # TypeScript for JavaScripties
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-05-30-typescript-for-javascripties.pptx)**
+
 Slides for TypeScript for JavaScripties, a talk given at:
 
 - [CityJS Athens 2023](https://greece.cityjsconf.org), Athens, Greece: May 30, 2023 ([video](https://www.youtube.com/watch?v=Bxozlpc1hH8))

@@ -1,5 +1,7 @@
 # Crafting an Accessible Design System
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-05-20-crafting-an-accessible-design-system.pptx)**
+
 Slides for Crafting an Accessible Design System, a talk given at:
 
 - [A11y Bytes 2021](https://a11ybytes.org): May 20, 2021 ([video](https://www.youtube.com/watch?v=r4EHdAXXqpg))

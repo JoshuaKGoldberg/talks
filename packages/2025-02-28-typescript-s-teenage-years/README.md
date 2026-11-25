@@ -1,5 +1,7 @@
 # TypeScript's Teenage Years
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2025-02-28-typescript-s-teenage-years.pptx)**
+
 Slides for TypeScript's Teenage Years, a talk given at:
 
 - [Paris TypeScript la Conf'](https://la-conf.typescript.paris), Paris, France: February 28, 2025

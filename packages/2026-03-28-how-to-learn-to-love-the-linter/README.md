@@ -1,5 +1,7 @@
 # How to Learn to Love the Linter
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2026-03-28-how-to-learn-to-love-the-linter.pptx)**
+
 Slides for How to Learn to Love the Linter, a talk given at:
 
 - [Boston Code Camp 40](https://www.bostoncodecamp.com/CC40/Sessions), Boston, USA: March 28, 2026

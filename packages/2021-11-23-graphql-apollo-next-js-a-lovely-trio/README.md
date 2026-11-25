@@ -1,5 +1,7 @@
 # GraphQL + Apollo + Next.js: A Lovely Trio
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-11-23-graphql-apollo-next-js-a-lovely-trio.pptx)**
+
 Slides for GraphQL + Apollo + Next.js: A Lovely Trio, a talk given at:
 
 - [WeAreDevelopers JS Congress 2021](https://www.wearedevelopers.com): November 23, 2021 ([client](https://github.com/JoshuaKGoldberg/a-lovely-trio), [server](https://github.com/JoshuaKGoldberg/a-lovely-graphql-server))

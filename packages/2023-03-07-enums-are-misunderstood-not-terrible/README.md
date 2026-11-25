@@ -1,5 +1,7 @@
 # Enums are MISUNDERSTOOD (Not Terrible)
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-03-07-enums-are-misunderstood-not-terrible.pptx)**
+
 Slides for Enums are MISUNDERSTOOD (Not Terrible), a talk given at:
 
 - [Michigan TypeScript](https://www.meetup.com/michigan-typescript-developers/events/291207877), Ann Arbor, Michigan, USA: March 7, 2023 ([video](https://www.youtube.com/watch?v=XTXPKbPcvl4&ab_channel=MichiganTypeScript))

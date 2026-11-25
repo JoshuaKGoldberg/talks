@@ -1,5 +1,7 @@
 # Your AI Needs an Assistant
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2024-06-19-your-ai-needs-an-assistant.pptx)**
+
 Slides for Your AI Needs an Assistant, a talk given at:
 
 - [CascadiaJS 2024](https://cascadiajs.com/2024), Seattle, USA: June 19, 2024 ([video](https://www.youtube.com/watch?v=Qlbef5hzDYQ))

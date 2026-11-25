@@ -1,5 +1,7 @@
 # Tooling Like It's 2025
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2025-12-16-tooling-like-it-s-2025.pptx)**
+
 Slides for Tooling Like It's 2025, a talk given at:
 
 - [NodeTLV 2025](https://www.nodetlv.com), Tel Aviv, Israel: December 16, 2025

@@ -1,5 +1,7 @@
 # Setting Up ESLint and TypeScript for React
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-04-21-setting-up-eslint-and-typescript-for-react.pptx)**
+
 Slides for Setting Up ESLint and TypeScript for React, a talk given at:
 
 - [React Miami 2023](https://www.reactmiami.com/speakers/joshuagoldberg), Miami, USA: April 21, 2023 ([video](https://www.youtube.com/live/mPPZ-NUnR-4?feature=share&t=25743))

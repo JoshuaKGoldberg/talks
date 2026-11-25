@@ -1,5 +1,7 @@
 # TypeScript Static Analysis Hidden Gems
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2022-10-30-typescript-static-analysis-hidden-gems.pptx)**
+
 Slides for TypeScript Static Analysis Hidden Gems, a talk given at:
 
 - [All Things Open 2022](https://2022.allthingsopen.org/sessions/typescript-static-analysis-hidden-gems), Raleigh, USA: October 30, 2022 ([repo](https://github.com/JoshuaKGoldberg/typescript-static-analysis-hidden-gems))

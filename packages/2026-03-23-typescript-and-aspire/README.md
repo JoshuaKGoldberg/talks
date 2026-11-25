@@ -1,5 +1,7 @@
 # TypeScript and Aspire
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2026-03-23-typescript-and-aspire.pptx)**
+
 Slides for TypeScript and Aspire, a talk given at:
 
 - [AspireConf 2026](https://aspire.dev/aspireconf), Online: March 23, 2026

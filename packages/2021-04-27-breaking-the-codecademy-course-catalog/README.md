@@ -1,5 +1,7 @@
 # Breaking the Codecademy Course Catalog
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-04-27-breaking-the-codecademy-course-catalog.pptx)**
+
 Slides for Breaking the Codecademy Course Catalog, a talk given at:
 
 - React JS Case Study Festival 2021: April 27, 2021 ([video](https://youtu.be/HVoPNeLqM8I?t=33274))

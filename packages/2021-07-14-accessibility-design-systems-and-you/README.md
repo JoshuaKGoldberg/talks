@@ -1,5 +1,7 @@
 # Accessibility, Design Systems, and YOU!
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-07-14-accessibility-design-systems-and-you.pptx)**
+
 Slides for Accessibility, Design Systems, and YOU!, a talk given at:
 
 - [CSSCamp 2021](https://csscamp.tech/speakers/2021/josh-goldberg): July 14, 2021 ([video](https://www.youtube.com/watch?v=gbNPXvfDAik))

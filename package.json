@@ -22,7 +22,7 @@
 		"lint:spelling": "cspell \"**\" \".github/**/*\"",
 		"lint:talk-files": "node scripts/talk-files.ts check",
 		"prepare": "husky",
-		"test": "pnpm --recursive test",
+		"test": "vitest run && pnpm --recursive test",
 		"upload": "node scripts/talk-files.ts upload"
 	},
 	"lint-staged": {

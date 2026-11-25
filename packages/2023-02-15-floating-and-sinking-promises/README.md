@@ -1,5 +1,7 @@
 # Floating and Sinking Promises
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-02-15-floating-and-sinking-promises.pptx)**
+
 Slides for Floating and Sinking Promises, a talk given at:
 
 - [DeveloperWeek 2023](https://developerweek2023.sched.com/event/1G10W/virtualonly-pro-workshop-floating-and-sinking-promises-lets-fix-your-broken-async-code), Online: February 15, 2023 ([repo](https://github.com/JoshuaKGoldberg/floating-and-sinking-promises))

@@ -1,5 +1,7 @@
 # Seven Common Hooks Mistakes
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-11-09-seven-common-hooks-mistakes.pptx)**
+
 Slides for Seven Common Hooks Mistakes, a talk given at:
 
 - [React Global Online Summit 2021](https://geekle.us/schedule/react3): November 9, 2021 ([repository](https://github.com/JoshuaKGoldberg/seven-common-hooks-mistakes), [video](https://youtu.be/0HhWIvPhbu0?t=21880))

@@ -1,5 +1,7 @@
 # Super Strength ESLint
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2020-11-20-super-strength-eslint.pptx)**
+
 Slides for Super Strength ESLint, a talk given at:
 
 - [JS Poland 2020](https://js-poland.pl): November 20, 2020 ([video](https://www.youtube.com/watch?v=H4FL1hZj2S8))

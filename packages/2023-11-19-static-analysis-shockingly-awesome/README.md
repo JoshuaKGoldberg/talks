@@ -1,5 +1,7 @@
 # Static Analysis: Shockingly Awesome! ⚡️
 
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-11-19-static-analysis-shockingly-awesome.pptx)**
+
 Slides for Static Analysis: Shockingly Awesome! ⚡️, a talk given at:
 
 - [JSConf JP 2023](https://jsconf.jp/2023/talk/josh-goldberg-1), Online: November 19, 2023 ([video](https://www.youtube.com/watch?v=9ZBkN1ciLrU&ab_channel=jsconfjp))
