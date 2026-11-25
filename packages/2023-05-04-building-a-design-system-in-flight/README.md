@@ -1,5 +1,7 @@
 # Building a Design System In-Flight
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-05-04-building-a-design-system-in-flight.pptx)**
+
 Slides for Building a Design System In-Flight, a talk given at:
 
 - [Stir Trek 2023](https://stirtrek.com/speakers/2023/Josh-Goldberg.html), Columbus, Ohio, USA: May 4, 2023 ([video](https://www.youtube.com/watch?v=rN6kOPUEicE))

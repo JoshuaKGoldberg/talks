@@ -1,5 +1,7 @@
 # Props, Mocks, and Context
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2022-04-20-props-mocks-and-context.pptx)**
+
 Slides for Props, Mocks, and Context, a talk given at:
 
 - [React Global Online Summit 2022](https://geekle.us/schedule/react2): April 20, 2022 ([repo](https://github.com/JoshuaKGoldberg/props-mocks-and-context-talk), [video](https://youtu.be/u4QTr56t7iM?t=21124))

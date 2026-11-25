@@ -1,5 +1,7 @@
 # What's New in TypeScript 5.5
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-07-27-what-s-new-in-typescript-5-5.pptx)**
+
 Slides for What's New in TypeScript 5.5, a talk given at:
 
 - [Boston TS Club](https://www.eventbrite.com/e/boston-ts-club-iii-this-time-its-personal-tickets-925200448447), Boston, USA: July 27, 2024

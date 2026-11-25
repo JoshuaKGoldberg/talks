@@ -1,5 +1,7 @@
 # "Zero" Frontend Crashes in Production
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-08-21-zero-frontend-crashes-in-production.pptx)**
+
 Slides for "Zero" Frontend Crashes in Production, a talk given at:
 
 - Reliable Web Summit 2021: August 21, 2021 ([video](https://www.youtube.com/watch?v=dfLa5DWZdbY&t=41s&ab_channel=ng-conf))

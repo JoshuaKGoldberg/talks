@@ -1,5 +1,7 @@
 # How to Complain Positively
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-03-16-how-to-complain-positively.pptx)**
+
 Slides for How to Complain Positively, a talk given at:
 
 - [StaffPlus NYC 2023](https://leaddev.com/staffplus-new-york23/agenda), New York City, USA: March 16, 2023 ([video](https://leaddev.com/new-york/staffplus/video/2023/how-complain-positively))

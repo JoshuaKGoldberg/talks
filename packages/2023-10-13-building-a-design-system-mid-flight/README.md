@@ -1,5 +1,7 @@
 # Building a Design System Mid-Flight
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-10-13-building-a-design-system-mid-flight.pptx)**
+
 Slides for Building a Design System Mid-Flight, a talk given at:
 
 - LibertyJS 2023, Philadelphia, Pennsylvania: October 13, 2023

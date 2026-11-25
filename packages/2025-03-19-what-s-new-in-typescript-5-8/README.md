@@ -1,5 +1,7 @@
 # What's New in TypeScript 5.8
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2025-03-19-what-s-new-in-typescript-5-8.pptx)**
+
 Slides for What's New in TypeScript 5.8, a talk given at:
 
 - [Boston TS Club](https://www.eventbrite.com/e/boston-ts-club-spring-typing-tickets-1249401757289), Boston, USA: March 19, 2025

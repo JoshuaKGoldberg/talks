@@ -1,5 +1,7 @@
 # Power Fixing React Performance Woes
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-10-20-power-fixing-react-performance-woes.pptx)**
+
 Slides for Power Fixing React Performance Woes, a talk given at:
 
 - [React Advanced 2023](https://reactadvanced.com), Online: October 20, 2023 ([video](https://portal.gitnation.org/contents/power-fixing-react-performance-woes))

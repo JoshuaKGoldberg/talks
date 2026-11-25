@@ -1,5 +1,7 @@
 # TypeScript for JavaScripties
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-11-23-typescript-for-javascripties.pptx)**
+
 Slides for TypeScript for JavaScripties, a workshop given at:
 
 - [Wey Wey Web 2023](https://www.weyweyweb.com), Malaga, Spain: November 23, 2023

@@ -1,5 +1,7 @@
 # WebXR Karaoke
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2022-07-01-webxr-karaoke.pptx)**
+
 Slides for WebXR Karaoke, a talk given at:
 
 - [HalfStack Newquay 2022](https://halfstackconf.com/newquay/2022), Newquay, England: July 1, 2022 ([repo](https://github.com/karaokenite/karaokenite-react))

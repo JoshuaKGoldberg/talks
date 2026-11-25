@@ -1,5 +1,7 @@
 # You Could Lint More
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-10-06-you-could-lint-more.pptx)**
+
 Slides for You Could Lint More, a talk given at:
 
 - [revo.js 2023](https://revojs.ro/2023), Timișoara, Romania: October 6, 2023 ([video](https://www.youtube.com/watch?v=voYSdj3Xqvc&t=1s&ab_channel=tim.js))

@@ -1,5 +1,7 @@
 # Type-Safe Style Systems: The Future of CSS
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-05-23-type-safe-style-systems-the-future-of-css.pptx)**
+
 Slides for Type-Safe Style Systems: The Future of CSS, a talk given at:
 
 - [JSHeroes](https://jsheroes.io), Cluj-Napoca, Romania: May 23, 2024 ([repo](https://github.com/JoshuaKGoldberg/type-safe-style-systems), [video](https://www.youtube.com/watch?v=8c5BIaKkHj4&ab_channel=JSHeroes))

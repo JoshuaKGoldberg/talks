@@ -1,5 +1,7 @@
 # Accessible Accessibility
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2022-02-07-accessible-accessibility.pptx)**
+
 Slides for Accessible Accessibility, a talk given at:
 
 - DeveloperWeek 2022: February 7, 2022

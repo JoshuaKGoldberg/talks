@@ -1,5 +1,7 @@
 # TypeScript Generics: Practical Fun
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-10-24-typescript-generics-practical-fun.pptx)**
+
 Slides for TypeScript Generics: Practical Fun, a talk given at:
 
 - [JetBrains JavaScript Day 2024](https://lp.jetbrains.com/javascript-day-2024), Online: October 24, 2024 ([video](https://www.youtube.com/live/Uf1B1dTLRXs))

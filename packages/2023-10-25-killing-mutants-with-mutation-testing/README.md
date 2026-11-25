@@ -1,5 +1,7 @@
 # Killing Mutants with Mutation Testing
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-10-25-killing-mutants-with-mutation-testing.pptx)**
+
 Slides for Killing Mutants with Mutation Testing, a talk given at:
 
 - [DevReach 2023](https://www.telerik.com/devreach-2023), Sofia, Bulgaria: October 25, 2023 ([repo](https://github.com/JoshuaKGoldberg/robocafe-example), [video](https://www.youtube.com/watch?v=OcjaMjQTSTo&ab_channel=ProgressTelerik))

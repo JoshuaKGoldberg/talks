@@ -1,5 +1,7 @@
 # Types Beyond TypeScript
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-06-12-types-beyond-typescript.pptx)**
+
 Slides for Types Beyond TypeScript, a talk given at:
 
 - [React Summit 2024](https://reactsummit.com), Amsterdam, NL: June 12, 2024 ([video](https://gitnation.com/contents/types-beyond-typescript))

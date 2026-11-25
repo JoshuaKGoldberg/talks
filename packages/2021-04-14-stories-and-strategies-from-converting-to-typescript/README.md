@@ -1,5 +1,7 @@
 # Stories and Strategies from Converting to TypeScript
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-04-14-stories-and-strategies-from-converting-to-typescript.pptx)**
+
 Slides for Stories and Strategies from Converting to TypeScript, a talk given at:
 
 - [React Summit 2021](https://portal.gitnation.org/events/react-summit-remote-edition-2021): April 14, 2021 ([video](https://portal.gitnation.org/contents/stories-and-strategies-from-converting-to-typescript))

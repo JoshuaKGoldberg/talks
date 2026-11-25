@@ -1,5 +1,7 @@
 # Microfrontends at Scale
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-06-28-microfrontends-at-scale.pptx)**
+
 Slides for Microfrontends at Scale, a talk given at:
 
 - [WeAreDevelopers World Congress 2021](https://app.swapcard.com/event/wearedevelopers-world-congress/planning/UGxhbm5pbmdfNTU2ODI1): June 28, 2021 ([video](https://app.swapcard.com/event/wearedevelopers-world-congress/planning/UGxhbm5pbmdfNTU2ODI1))

@@ -1,5 +1,7 @@
 # Focus Visible, At Last!
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2022-04-01-focus-visible-at-last.pptx)**
+
 Slides for Focus Visible, At Last!, a talk given at:
 
 - [Web Directions Hover 2022](https://webdirections.org/hover/speakers/josh-goldberg.php), Online: April 1, 2022 ([video](https://conffab.com/video/focus-visible-at-last))

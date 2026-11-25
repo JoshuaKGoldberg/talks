@@ -1,5 +1,7 @@
 # Detecting React Bugs Automatically
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-09-29-detecting-react-bugs-automatically.pptx)**
+
 Slides for Detecting React Bugs Automatically, a talk given at:
 
 - [React Live 2023](https://reactlive.nl), Amsterdam, NL: September 29, 2023 ([video](https://www.youtube.com/watch?v=zBN7aHDRsZw))

@@ -1,5 +1,7 @@
 # TypeScript for JavaScripties
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-01-16-typescript-for-javascripties.pptx)**
+
 Slides for TypeScript for JavaScripties, a workshop given at:
 
 - [THAT Conf Texas 2023](https://that.us/activities/tNRz6cMoBc0pqJsIFzkC), Round Rock, USA: January 16, 2023

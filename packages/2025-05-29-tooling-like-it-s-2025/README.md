@@ -1,5 +1,7 @@
 # Tooling Like It's 2025
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2025-05-29-tooling-like-it-s-2025.pptx)**
+
 Slides for Tooling Like It's 2025, a talk given at:
 
 - [JSHeroes 2025](https://jsheroes.io), Cluj-Napoca, Romania: May 29, 2025 ([video](https://youtu.be/p-J9b4oq-sY?si=SmdRiqwjLJlUG7MD))

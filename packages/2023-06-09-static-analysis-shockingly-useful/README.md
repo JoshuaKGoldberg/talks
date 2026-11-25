@@ -1,5 +1,7 @@
 # Static Analysis: Shockingly Useful! ⚡️
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-06-09-static-analysis-shockingly-useful.pptx)**
+
 Slides for Static Analysis: Shockingly Useful! ⚡️, a talk given at:
 
 - [Web Directions Code 2023](https://webdirections.org/code), Melbourne, Australia: June 9, 2023 ([video](https://conffab.com/presentation/static-analysis-shockingly-useful-%e2%9a%a1%ef%b8%8f))

@@ -1,5 +1,7 @@
 # Building a Design System as a Team
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-05-21-building-a-design-system-as-a-team.pptx)**
+
 Slides for Building a Design System as a Team, a talk given at:
 
 - [JSWorld USA 2021](https://usa.jsworldconference.com), Online: May 21, 2021 ([video](https://jsworldconference.com/video/jsworld-conference-usa))

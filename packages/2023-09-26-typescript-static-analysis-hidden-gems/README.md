@@ -1,5 +1,7 @@
 # TypeScript Static Analysis Hidden Gems
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-09-26-typescript-static-analysis-hidden-gems.pptx)**
+
 Slides for TypeScript Static Analysis Hidden Gems, a talk given at:
 
 - JSDay IE 2023, Dublin, Ireland: September 26, 2023 ([video](https://www.youtube.com/watch?v=qxAwVwgEmZU))

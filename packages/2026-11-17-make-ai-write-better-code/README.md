@@ -1,5 +1,7 @@
 # Make AI Write Better Code
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2026-11-17-make-ai-write-better-code.pptx)**
+
 Slides for Make AI Write Better Code, a talk given at:
 
 - [React Summit US 2026](https://reactsummit.us), New York, USA: November 17, 2026

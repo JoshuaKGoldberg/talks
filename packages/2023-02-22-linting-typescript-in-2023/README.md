@@ -1,5 +1,7 @@
 # Linting TypeScript in 2023
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-02-22-linting-typescript-in-2023.pptx)**
+
 Slides for Linting TypeScript in 2023, a talk given at:
 
 - [Wrocław TypeScript](https://www.meetup.com/wroctypescript/events/290894011), Online: February 22, 2023 ([repo](https://github.com/JoshuaKGoldberg/linting-typescript-in-2023), [video](https://www.youtube.com/watch?v=fjPzlywUH0M&ab_channel=Wroc%C5%82awTypeScript))

@@ -1,5 +1,7 @@
 # Adventures in Type Safe Prisma Clients
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2022-06-15-adventures-in-type-safe-prisma-clients.pptx)**
+
 Slides for Adventures in Type Safe Prisma Clients, a talk given at:
 
 - [Prisma Day 2022](https://www.prisma.io/day), Berlin, Germany: June 15, 2022 ([video](https://www.youtube.com/watch?v=uFj4qsyGvH0&ab_channel=Prisma))

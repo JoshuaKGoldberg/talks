@@ -1,5 +1,7 @@
 # Types Beyond TypeScript
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2025-05-27-types-beyond-typescript.pptx)**
+
 Slides for Types Beyond TypeScript, a talk given at:
 
 - [JNation 2025](https://jnation.pt), Coimbra, Portugal: May 27, 2025 ([video](https://www.youtube.com/watch?v=XMQwnxXyOF8&list=PLXADOFXCGUmURasW-yOfzhZ9IsDlQiFSk&index=4&ab_channel=JNation))

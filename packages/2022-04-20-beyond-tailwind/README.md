@@ -1,5 +1,7 @@
 # Beyond Tailwind
 
+> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2022-04-20-beyond-tailwind.pptx)**
+
 Slides for Beyond Tailwind, a talk given at:
 
 - [React Global Online Summit 2022](https://geekle.us/schedule/react2): April 20, 2022
