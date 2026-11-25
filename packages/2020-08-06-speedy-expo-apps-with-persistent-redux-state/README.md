@@ -1,6 +1,6 @@
 # Speedy Expo Apps with Persistent Redux State
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2020-08-06-speedy-expo-apps-with-persistent-redux-state.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2020-08-06-speedy-expo-apps-with-persistent-redux-state.pptx)**
 
 Slides for Speedy Expo Apps with Persistent Redux State, a talk given at:
 

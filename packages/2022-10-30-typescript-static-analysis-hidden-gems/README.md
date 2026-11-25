@@ -1,6 +1,6 @@
 # TypeScript Static Analysis Hidden Gems
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2022-10-30-typescript-static-analysis-hidden-gems.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2022-10-30-typescript-static-analysis-hidden-gems.pptx)**
 
 Slides for TypeScript Static Analysis Hidden Gems, a talk given at:
 

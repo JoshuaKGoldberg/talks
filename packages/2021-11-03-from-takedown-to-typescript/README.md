@@ -1,6 +1,6 @@
 # From Takedown to TypeScript
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-11-03-from-takedown-to-typescript.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-11-03-from-takedown-to-typescript.pptx)**
 
 Slides for From Takedown to TypeScript, a talk given at:
 

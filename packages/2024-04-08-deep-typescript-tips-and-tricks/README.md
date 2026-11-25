@@ -1,6 +1,6 @@
 # Deep TypeScript Tips and Tricks
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-04-08-deep-typescript-tips-and-tricks.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2024-04-08-deep-typescript-tips-and-tricks.pptx)**
 
 Slides for Deep TypeScript Tips and Tricks, a workshop given at:
 

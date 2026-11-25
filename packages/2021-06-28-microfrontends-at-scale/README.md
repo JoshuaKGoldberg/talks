@@ -1,6 +1,6 @@
 # Microfrontends at Scale
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-06-28-microfrontends-at-scale.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-06-28-microfrontends-at-scale.pptx)**
 
 Slides for Microfrontends at Scale, a talk given at:
 

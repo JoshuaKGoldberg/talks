@@ -1,6 +1,6 @@
 # What's New in TypeScript 5.4
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-04-18-what-s-new-in-typescript-5-4.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2024-04-18-what-s-new-in-typescript-5-4.pptx)**
 
 Slides for What's New in TypeScript 5.4, a talk given at:
 

@@ -1,6 +1,6 @@
 # Props, Mocks, and Context
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2022-04-20-props-mocks-and-context.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2022-04-20-props-mocks-and-context.pptx)**
 
 Slides for Props, Mocks, and Context, a talk given at:
 

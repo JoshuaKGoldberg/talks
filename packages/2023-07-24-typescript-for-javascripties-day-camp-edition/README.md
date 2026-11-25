@@ -1,6 +1,6 @@
 # TypeScript for Javascripties: Day Camp Edition
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-07-24-typescript-for-javascripties-day-camp-edition.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-07-24-typescript-for-javascripties-day-camp-edition.pptx)**
 
 Slides for TypeScript for Javascripties: Day Camp Edition, a talk given at:
 

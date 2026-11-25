@@ -1,6 +1,6 @@
 # "Zero" Frontend Crashes in Production
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-08-21-zero-frontend-crashes-in-production.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-08-21-zero-frontend-crashes-in-production.pptx)**
 
 Slides for "Zero" Frontend Crashes in Production, a talk given at:
 

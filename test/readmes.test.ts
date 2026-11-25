@@ -15,7 +15,7 @@ describe("talk READMEs", () => {
 			.split("\n");
 
 		expect(lines[2]).toBe(
-			`> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/${talk}.pptx)**`,
+			`> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/${talk}.pptx)**`,
 		);
 	});
 });

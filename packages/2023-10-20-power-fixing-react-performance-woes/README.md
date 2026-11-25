@@ -1,6 +1,6 @@
 # Power Fixing React Performance Woes
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-10-20-power-fixing-react-performance-woes.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-10-20-power-fixing-react-performance-woes.pptx)**
 
 Slides for Power Fixing React Performance Woes, a talk given at:
 

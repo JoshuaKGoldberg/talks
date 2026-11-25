@@ -1,6 +1,6 @@
 # Stories and Strategies from Converting to TypeScript
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-04-14-stories-and-strategies-from-converting-to-typescript.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-04-14-stories-and-strategies-from-converting-to-typescript.pptx)**
 
 Slides for Stories and Strategies from Converting to TypeScript, a talk given at:
 

@@ -1,6 +1,6 @@
 # Super Strength ESLint
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2020-11-20-super-strength-eslint.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2020-11-20-super-strength-eslint.pptx)**
 
 Slides for Super Strength ESLint, a talk given at:
 

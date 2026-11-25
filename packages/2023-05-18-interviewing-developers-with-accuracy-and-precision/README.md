@@ -1,6 +1,6 @@
 # Interviewing Developers with Accuracy and Precision
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-05-18-interviewing-developers-with-accuracy-and-precision.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-05-18-interviewing-developers-with-accuracy-and-precision.pptx)**
 
 Slides for Interviewing Developers with Accuracy and Precision, a talk given at:
 

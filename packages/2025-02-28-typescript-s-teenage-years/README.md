@@ -1,6 +1,6 @@
 # TypeScript's Teenage Years
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2025-02-28-typescript-s-teenage-years.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2025-02-28-typescript-s-teenage-years.pptx)**
 
 Slides for TypeScript's Teenage Years, a talk given at:
 

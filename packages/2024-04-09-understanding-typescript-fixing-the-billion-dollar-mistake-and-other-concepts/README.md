@@ -1,6 +1,6 @@
 # Understanding TypeScript: Fixing the Billion Dollar Mistake and Other Concepts
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-04-09-understanding-typescript-fixing-the-billion-dollar-mistake-and-other-concepts.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2024-04-09-understanding-typescript-fixing-the-billion-dollar-mistake-and-other-concepts.pptx)**
 
 Slides for Understanding TypeScript: Fixing the Billion Dollar Mistake and Other Concepts, a talk given at:
 

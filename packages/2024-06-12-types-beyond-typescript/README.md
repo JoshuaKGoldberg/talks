@@ -1,6 +1,6 @@
 # Types Beyond TypeScript
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-06-12-types-beyond-typescript.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2024-06-12-types-beyond-typescript.pptx)**
 
 Slides for Types Beyond TypeScript, a talk given at:
 

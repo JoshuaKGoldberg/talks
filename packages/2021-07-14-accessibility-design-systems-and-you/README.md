@@ -1,6 +1,6 @@
 # Accessibility, Design Systems, and YOU!
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-07-14-accessibility-design-systems-and-you.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-07-14-accessibility-design-systems-and-you.pptx)**
 
 Slides for Accessibility, Design Systems, and YOU!, a talk given at:
 
