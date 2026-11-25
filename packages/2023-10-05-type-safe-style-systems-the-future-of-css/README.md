@@ -1,6 +1,6 @@
 # Type-Safe Style Systems: The Future of CSS
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-10-05-type-safe-style-systems-the-future-of-css.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-10-05-type-safe-style-systems-the-future-of-css.pptx)**
 
 Slides for Type-Safe Style Systems: The Future of CSS, a talk given at:
 

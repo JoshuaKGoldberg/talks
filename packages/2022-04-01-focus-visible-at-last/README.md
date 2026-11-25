@@ -1,6 +1,6 @@
 # Focus Visible, At Last!
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2022-04-01-focus-visible-at-last.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2022-04-01-focus-visible-at-last.pptx)**
 
 Slides for Focus Visible, At Last!, a talk given at:
 

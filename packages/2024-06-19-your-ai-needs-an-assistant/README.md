@@ -1,6 +1,6 @@
 # Your AI Needs an Assistant
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-06-19-your-ai-needs-an-assistant.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-06-19-your-ai-needs-an-assistant.pptx)**
 
 Slides for Your AI Needs an Assistant, a talk given at:
 

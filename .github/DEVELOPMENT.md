@@ -85,7 +85,8 @@ pnpm run lint --fix
 
 ## Testing
 
-Talks written in Slidev can have [Vitest](https://vitest.dev) tests in their `test/` directory.
+[Vitest](https://vitest.dev) tests in the root `test/` directory check every talk, such as that each talk's README links to its slides in [talk-files](#built-powerpoint-files).
+Talks written in Slidev can also have tests in their own `test/` directory.
 To run them all:
 
 ```shell

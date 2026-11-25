@@ -1,6 +1,6 @@
 # Binary Arithmetic in the TypeScript Type System
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2019-10-11-binary-arithmetic-in-the-typescript-type-system.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2019-10-11-binary-arithmetic-in-the-typescript-type-system.pptx)**
 
 Slides for Binary Arithmetic in the TypeScript Type System, a talk given at:
 

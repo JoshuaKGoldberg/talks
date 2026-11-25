@@ -1,6 +1,6 @@
 # Enums are MISUNDERSTOOD (Not Terrible)
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-03-07-enums-are-misunderstood-not-terrible.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-03-07-enums-are-misunderstood-not-terrible.pptx)**
 
 Slides for Enums are MISUNDERSTOOD (Not Terrible), a talk given at:
 

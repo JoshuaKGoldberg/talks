@@ -13,6 +13,7 @@
 	"include": [
 		"*.config.ts",
 		"scripts",
+		"test",
 		"packages/*/*.config.ts",
 		"packages/2026-11-17-make-ai-write-better-code/src/setup",
 		"packages/2026-11-17-make-ai-write-better-code/src/styles",

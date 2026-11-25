@@ -1,6 +1,6 @@
 # Accessible Accessibility
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-11-09-accessible-accessibility.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-11-09-accessible-accessibility.pptx)**
 
 Slides for Accessible Accessibility, a talk given at:
 

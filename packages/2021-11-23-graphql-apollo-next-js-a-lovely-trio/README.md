@@ -1,6 +1,6 @@
 # GraphQL + Apollo + Next.js: A Lovely Trio
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-11-23-graphql-apollo-next-js-a-lovely-trio.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2021-11-23-graphql-apollo-next-js-a-lovely-trio.pptx)**
 
 Slides for GraphQL + Apollo + Next.js: A Lovely Trio, a talk given at:
 

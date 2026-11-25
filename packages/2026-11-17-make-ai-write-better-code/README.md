@@ -1,6 +1,6 @@
 # Make AI Write Better Code
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2026-11-17-make-ai-write-better-code.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2026-11-17-make-ai-write-better-code.pptx)**
 
 Slides for Make AI Write Better Code, a talk given at:
 

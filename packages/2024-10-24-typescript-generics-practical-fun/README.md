@@ -1,6 +1,6 @@
 # TypeScript Generics: Practical Fun
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-10-24-typescript-generics-practical-fun.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2024-10-24-typescript-generics-practical-fun.pptx)**
 
 Slides for TypeScript Generics: Practical Fun, a talk given at:
 

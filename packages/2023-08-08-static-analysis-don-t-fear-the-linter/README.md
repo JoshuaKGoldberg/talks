@@ -1,6 +1,6 @@
 # Static Analysis: Don't Fear the Linter!
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-08-08-static-analysis-don-t-fear-the-linter.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-08-08-static-analysis-don-t-fear-the-linter.pptx)**
 
 Slides for Static Analysis: Don't Fear the Linter!, a talk given at:
 

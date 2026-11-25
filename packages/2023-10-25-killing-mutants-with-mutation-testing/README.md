@@ -1,6 +1,6 @@
 # Killing Mutants with Mutation Testing
 
-> **[Download the built PowerPoint file](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-10-25-killing-mutants-with-mutation-testing.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/blob/main/2023-10-25-killing-mutants-with-mutation-testing.pptx)**
 
 Slides for Killing Mutants with Mutation Testing, a talk given at:
 
