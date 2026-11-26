@@ -1,6 +1,6 @@
 # Converting a Game Engine to TypeScript
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-09-10-converting-a-game-engine-to-typescript.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2021-09-10-converting-a-game-engine-to-typescript.pptx)**
 
 Slides for Converting a Game Engine to TypeScript, a talk given at:
 

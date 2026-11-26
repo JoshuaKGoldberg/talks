@@ -39,15 +39,15 @@ Fonts it can't find are listed, and the deck draws with fallbacks for them.
 
 ### Built PowerPoint Files
 
-Built PowerPoint files are too large to commit here, so they're kept in the [talk-files](https://github.com/JoshuaKGoldberg/talk-files) repository instead, which needs to be checked out next to this one in `../talk-files`.
-Each talk's `build` script writes a `talk-files.json` recording the Git hash of its built file and a hash of its inputs: its `src/`, its `package.json`, and the slidev2pptx version.
-After building, commit the changed `talk-files.json` files, and upload the built files to talk-files:
+Built PowerPoint files are too large to commit here, so they're kept in the [files](https://github.com/JoshuaKGoldberg/files) repository instead, which needs to be checked out next to this one in `../files`.
+Each talk's `build` script writes a `files.json` recording the Git hash of its built file and a hash of its inputs: its `src/`, its `package.json`, and the slidev2pptx version.
+After building, commit the changed `files.json` files, and upload the built files to the files repository:
 
 ```shell
 pnpm upload
 ```
 
-CI runs `pnpm lint:talk-files`, which fails if a talk's inputs changed since its `talk-files.json` was recorded, or if talk-files doesn't have its built file.
+CI runs `pnpm lint:files`, which fails if a talk's inputs changed since its `files.json` was recorded, or if the files repository doesn't have its built file.
 It doesn't build talks itself, since their fonts aren't installed in CI.
 
 ## Formatting
@@ -70,7 +70,7 @@ Each should be shown in VS Code, and can be run manually on the command-line:
 - `pnpm lint:knip` ([knip](https://github.com/webpro/knip)): Detects unused files, dependencies, and code exports
 - `pnpm lint:packages` ([pnpm dedupe](https://pnpm.io/cli/dedupe)): Checks for unnecessarily duplicated packages in the `pnpm-lock.yaml` file
 - `pnpm lint:spelling` ([cspell](https://cspell.org)): Spell checks across all source files
-- `pnpm lint:talk-files`: Checks that each talk's built PowerPoint file in [talk-files](#built-powerpoint-files) is up to date
+- `pnpm lint:files`: Checks that each talk's built PowerPoint file in the [files repository](#built-powerpoint-files) is up to date
 
 Read the individual documentation for each linter to understand how it can be configured and used best.
 
@@ -85,7 +85,7 @@ pnpm run lint --fix
 
 ## Testing
 
-[Vitest](https://vitest.dev) tests in the root `test/` directory check every talk, such as that each talk's README links to its slides in [talk-files](#built-powerpoint-files).
+[Vitest](https://vitest.dev) tests in the root `test/` directory check every talk, such as that each talk's README links to its slides in the [files repository](#built-powerpoint-files).
 Talks written in Slidev can also have tests in their own `test/` directory.
 To run them all:
 

@@ -1,6 +1,6 @@
 # Seven Common Hooks Mistakes
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-11-09-seven-common-hooks-mistakes.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2021-11-09-seven-common-hooks-mistakes.pptx)**
 
 Slides for Seven Common Hooks Mistakes, a talk given at:
 

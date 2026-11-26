@@ -1,6 +1,6 @@
 # Static Analysis: Shockingly Awesome! ⚡️
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-11-19-static-analysis-shockingly-awesome.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2023-11-19-static-analysis-shockingly-awesome.pptx)**
 
 Slides for Static Analysis: Shockingly Awesome! ⚡️, a talk given at:
 

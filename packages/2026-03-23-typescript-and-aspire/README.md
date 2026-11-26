@@ -1,6 +1,6 @@
 # TypeScript and Aspire
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2026-03-23-typescript-and-aspire.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2026-03-23-typescript-and-aspire.pptx)**
 
 Slides for TypeScript and Aspire, a talk given at:
 

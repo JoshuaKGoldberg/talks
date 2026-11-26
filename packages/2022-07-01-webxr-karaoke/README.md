@@ -1,6 +1,6 @@
 # WebXR Karaoke
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2022-07-01-webxr-karaoke.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2022-07-01-webxr-karaoke.pptx)**
 
 Slides for WebXR Karaoke, a talk given at:
 

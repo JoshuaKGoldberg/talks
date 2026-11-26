@@ -1,6 +1,6 @@
 # What's New in TypeScript 5.6
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2024-09-26-what-s-new-in-typescript-5-6.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2024-09-26-what-s-new-in-typescript-5-6.pptx)**
 
 Slides for What's New in TypeScript 5.6, a talk given at:
 

@@ -1,6 +1,6 @@
 # Building a Design System Mid-Flight
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-10-13-building-a-design-system-mid-flight.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2023-10-13-building-a-design-system-mid-flight.pptx)**
 
 Slides for Building a Design System Mid-Flight, a talk given at:
 

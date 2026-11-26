@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2023-11-13-type-safe-style-systems-the-future-of-css.pptx && node ../../scripts/talk-files.ts record",
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2023-11-13-type-safe-style-systems-the-future-of-css.pptx && node ../../scripts/files.ts record",
 		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

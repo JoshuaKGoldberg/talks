@@ -1,6 +1,6 @@
 # Static Analysis: Shockingly Useful! ⚡️
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-06-09-static-analysis-shockingly-useful.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2023-06-09-static-analysis-shockingly-useful.pptx)**
 
 Slides for Static Analysis: Shockingly Useful! ⚡️, a talk given at:
 

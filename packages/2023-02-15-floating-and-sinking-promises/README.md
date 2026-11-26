@@ -1,6 +1,6 @@
 # Floating and Sinking Promises
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-02-15-floating-and-sinking-promises.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2023-02-15-floating-and-sinking-promises.pptx)**
 
 Slides for Floating and Sinking Promises, a talk given at:
 

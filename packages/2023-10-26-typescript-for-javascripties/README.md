@@ -1,6 +1,6 @@
 # TypeScript for JavaScripties
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-10-26-typescript-for-javascripties.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2023-10-26-typescript-for-javascripties.pptx)**
 
 Slides for TypeScript for JavaScripties, a talk given at:
 

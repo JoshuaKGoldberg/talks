@@ -1,6 +1,6 @@
 # Building a Design System as a Team
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-05-21-building-a-design-system-as-a-team.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2021-05-21-building-a-design-system-as-a-team.pptx)**
 
 Slides for Building a Design System as a Team, a talk given at:
 

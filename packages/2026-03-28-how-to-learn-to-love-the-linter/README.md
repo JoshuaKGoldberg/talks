@@ -1,6 +1,6 @@
 # How to Learn to Love the Linter
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2026-03-28-how-to-learn-to-love-the-linter.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2026-03-28-how-to-learn-to-love-the-linter.pptx)**
 
 Slides for How to Learn to Love the Linter, a talk given at:
 
