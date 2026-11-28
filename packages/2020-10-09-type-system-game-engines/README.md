@@ -1,6 +1,6 @@
 # Type System Game Engines
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2020-10-09-type-system-game-engines.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2020-10-09-type-system-game-engines.pptx)**
 
 Slides for Type System Game Engines, a talk given at:
 

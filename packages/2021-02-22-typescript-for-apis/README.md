@@ -1,6 +1,6 @@
 # TypeScript for APIs
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2021-02-22-typescript-for-apis.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2021-02-22-typescript-for-apis.pptx)**
 
 Slides for TypeScript for APIs, a talk given at:
 

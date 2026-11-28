@@ -1,6 +1,6 @@
 # Adventures in Type Safe Prisma Clients
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2022-06-15-adventures-in-type-safe-prisma-clients.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2022-06-15-adventures-in-type-safe-prisma-clients.pptx)**
 
 Slides for Adventures in Type Safe Prisma Clients, a talk given at:
 

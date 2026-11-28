@@ -1,6 +1,6 @@
 # Statically Detecting React App Bugs with TypeScript and ESLint
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2022-12-02-statically-detecting-react-app-bugs-with-typescript-and-eslint.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2022-12-02-statically-detecting-react-app-bugs-with-typescript-and-eslint.pptx)**
 
 Slides for Statically Detecting React App Bugs with TypeScript and ESLint, a talk given at:
 

@@ -15,7 +15,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2024-06-12-types-beyond-typescript.pptx && node ../../scripts/talk-files.ts record",
+		"build": "node ../../scripts/fonts.ts && slidev2pptx src/slides.md --output lib/2024-06-12-types-beyond-typescript.pptx && node ../../scripts/files.ts record",
 		"dev": "node ../../scripts/fonts.ts && slidev src/slides.md"
 	}
 }

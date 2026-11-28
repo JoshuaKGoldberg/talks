@@ -1,6 +1,6 @@
 # The Best TypeScript Features You Might Not Be Using
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2024-04-09-the-best-typescript-features-you-might-not-be-using.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2024-04-09-the-best-typescript-features-you-might-not-be-using.pptx)**
 
 Slides for The Best TypeScript Features You Might Not Be Using, a talk given at:
 

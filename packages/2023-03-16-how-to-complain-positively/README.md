@@ -1,6 +1,6 @@
 # How to Complain Positively
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-03-16-how-to-complain-positively.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2023-03-16-how-to-complain-positively.pptx)**
 
 Slides for How to Complain Positively, a talk given at:
 

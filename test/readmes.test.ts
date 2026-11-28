@@ -9,13 +9,13 @@ const talks = fs
 	.sort();
 
 describe("talk READMEs", () => {
-	it.each(talks)("%s links to its slides in talk-files", (talk) => {
+	it.each(talks)("%s links to its slides in the files repository", (talk) => {
 		const lines = fs
 			.readFileSync(new URL(`${talk}/README.md`, packages), "utf8")
 			.split("\n");
 
 		expect(lines[2]).toBe(
-			`> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/${talk}.pptx)**`,
+			`> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/${talk}.pptx)**`,
 		);
 	});
 });

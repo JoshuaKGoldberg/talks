@@ -17,13 +17,13 @@
 		"build": "pnpm --recursive --workspace-concurrency 2 build",
 		"format": "prettier .",
 		"lint": "eslint . --max-warnings 0",
+		"lint:files": "node scripts/files.ts check",
 		"lint:knip": "knip",
 		"lint:packages": "pnpm dedupe --check",
 		"lint:spelling": "cspell \"**\" \".github/**/*\"",
-		"lint:talk-files": "node scripts/talk-files.ts check",
 		"prepare": "husky",
 		"test": "vitest run && pnpm --recursive test",
-		"upload": "node scripts/talk-files.ts upload"
+		"upload": "node scripts/files.ts upload"
 	},
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"

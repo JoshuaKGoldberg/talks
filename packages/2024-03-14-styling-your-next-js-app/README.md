@@ -1,6 +1,6 @@
 # Styling your Next.js App
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2024-03-14-styling-your-next-js-app.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2024-03-14-styling-your-next-js-app.pptx)**
 
 Slides for Styling your Next.js App, a talk given at:
 

@@ -1,6 +1,6 @@
 # Beyond Tailwind
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2022-04-20-beyond-tailwind.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2022-04-20-beyond-tailwind.pptx)**
 
 Slides for Beyond Tailwind, a talk given at:
 

@@ -1,6 +1,6 @@
 # Floating and Sinking Promises: Understanding Broken Async Code
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-06-23-floating-and-sinking-promises-understanding-broken-async-code.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2023-06-23-floating-and-sinking-promises-understanding-broken-async-code.pptx)**
 
 Slides for Floating and Sinking Promises: Understanding Broken Async Code, a talk given at:
 

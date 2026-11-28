@@ -1,6 +1,6 @@
 # You Could Lint More
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-10-06-you-could-lint-more.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2023-10-06-you-could-lint-more.pptx)**
 
 Slides for You Could Lint More, a talk given at:
 

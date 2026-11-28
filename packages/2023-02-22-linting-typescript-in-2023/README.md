@@ -1,6 +1,6 @@
 # Linting TypeScript in 2023
 
-> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/talk-files/raw/main/2023-02-22-linting-typescript-in-2023.pptx)**
+> **[Download the talk's PowerPoint slides here](https://github.com/JoshuaKGoldberg/files/raw/main/2023-02-22-linting-typescript-in-2023.pptx)**
 
 Slides for Linting TypeScript in 2023, a talk given at:
 
